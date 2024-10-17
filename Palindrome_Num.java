@@ -16,7 +16,7 @@
 // Output: false
 // Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
-public class Pallindrome_Num {
+public class Palindrome_Num {
     public boolean isPalindrome(int x) {
         if (x < 0) {
             return false;
