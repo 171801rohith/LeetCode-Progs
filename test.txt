@@ -1,0 +1,13 @@
+MDCXCV
+012345
+
+0 1 2  3
+M D C XC V
+
+1695
+
+arrList = M D C XC V
+
+1000 + 500 + 100 + 90 + 5
+
+III
