@@ -1,4 +1,4 @@
-public class Main {
+public class MainSolution {
     public static void main(String[] args) {
         // 1
         // Two_Sum sum = new Two_Sum();
@@ -20,10 +20,18 @@ public class Main {
         // }
 
         // 3
-        RomanToNum roman = new RomanToNum();
-        // String s = "III";
-        // String s = "MDCXCV";
-        String s = "D";
-        System.out.println(roman.romanToInt(s));
+        // RomanToNum roman = new RomanToNum();
+        // // String s = "III";
+        // // String s = "MDCXCV";
+        // String s = "D";
+        // System.out.println(roman.romanToInt(s));
+
+        // 4
+        // LongestPrefix prefix = new LongestPrefix();
+        // String[] strs = { "flower", "flow", "flight" };
+        // // String[] strs = {"flower","flow","flight", "abd"};
+        // // String[] strs = {"ab", "a"};
+        // // String[] strs = {"a"};
+        // System.out.println("Longest Prefix = " + prefix.longestCommonPrefix(strs));
     }
 }
