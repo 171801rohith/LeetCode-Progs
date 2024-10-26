@@ -33,5 +33,15 @@ public class MainSolution {
         // // String[] strs = {"ab", "a"};
         // // String[] strs = {"a"};
         // System.out.println("Longest Prefix = " + prefix.longestCommonPrefix(strs));
+
+        // 5
+        // ValidParenthesis vParenthesis = new ValidParenthesis();
+        // // String s = "()[]{}";
+        // // String s = "()";
+        // // String s = "(]";
+        // // String s = "([])";
+        // // String s = "((";
+        // String s = "([([)]])";
+        // System.out.println("IsValid = " + vParenthesis.isValid(s));
     }
 }
