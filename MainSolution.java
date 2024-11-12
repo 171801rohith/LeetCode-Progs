@@ -41,7 +41,12 @@ public class MainSolution {
         // // String s = "(]";
         // // String s = "([])";
         // // String s = "((";
-        // String s = "([([)]])";
+        // String s = "([([]]])";
         // System.out.println("IsValid = " + vParenthesis.isValid(s));
+
+        // 6
+        RemoveDuplicates removeDups = new RemoveDuplicates();
+        int[] nums = { 0,0,1,1,1,2,2,3,3,4};
+        removeDups.removeDuplicates(nums);
     }
 }
