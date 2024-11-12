@@ -45,8 +45,14 @@ public class MainSolution {
         // System.out.println("IsValid = " + vParenthesis.isValid(s));
 
         // 6
-        RemoveDuplicates removeDups = new RemoveDuplicates();
-        int[] nums = { 0,0,1,1,1,2,2,3,3,4};
-        removeDups.removeDuplicates(nums);
+        // RemoveDuplicates removeDups = new RemoveDuplicates();
+        // int[] nums = { 0,0,1,1,1,2,2,3,3,4};
+        // removeDups.removeDuplicates(nums);
+
+        // 7
+        RemoveElement removeElements = new RemoveElement();
+        int[] nums = { 3,2,2,3 };
+        int val = 3;
+        removeElements.removeElement(nums, val);
     }
 }
