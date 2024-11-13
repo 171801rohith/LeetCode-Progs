@@ -1,67 +1,8 @@
- public int setValue(char ch) {
-        switch (ch) {
-            case '(':
-                return 1;
-            case ')':
-                return 2;
-            case '[':
-                return 3;
-            case ']':
-                return 4;
-            case '{':
-                return 5;
-            case '}':
-                return 6;
-            default:
-                return -1;
-        }
-    }
+leetcode
+leeto
 
-    public boolean isValid(String s) {
-        int counter1 = 0;
-        int counter2 = 0;
-        int counter3 = 0;
-        int sum1 = 0;
-        int sum2 = 0;
-        int sum3 = 0;
-        ArrayList<Integer> values = new ArrayList<>();
-        for (int i = 0; i < s.length(); i++) {
-            values.add(setValue(s.charAt(i)));
-        }
-        System.out.println(values);
-        if (values.indexOf(2) < values.indexOf(1)
-                || values.indexOf(4) < values.indexOf(3)
-                || values.indexOf(6) < values.indexOf(5)) {
-            return false;
-        }
-
-        if (!(values.contains(1) && values.contains(2))) {
-            return false;
-        }
-        if (!(values.contains(3) && values.contains(4))) {
-            return false;
-        }
-        if (!(values.contains(5) && values.contains(6))) {
-            return false;
-        }
-        for (int i = 0; i < values.size(); i++) {
-            if (values.get(i) == 1 || values.get(i) == 2) {
-                counter1++;
-                sum1 += i;
-            } else if (values.get(i) == 3 || values.get(i) == 4) {
-                counter2++;
-                sum2 += i;
-            } else if (values.get(i) == 5 || values.get(i) == 6) {
-                counter3++;
-                sum3 += i;
-            }
-        }
-        System.out.println(values);
-        if ((sum1 % 2 == 0 && sum1 != 0) || (sum2 % 2 == 0 && sum2 != 0) || (sum3 % 2 == 0 && sum3 != 0)) {
-            return false;
-        }
-        if (counter1 % 2 == 0 && counter2 % 2 == 0 && counter3 % 2 == 0) {
-            return true;
-        }
-        return false;
-    }
+1) i = 0 < 8 true
+    l == l (m = 0 j = 0) true
+        m =1 j =1 
+        1 == 3 false
+2) 

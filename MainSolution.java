@@ -50,9 +50,15 @@ public class MainSolution {
         // removeDups.removeDuplicates(nums);
 
         // 7
-        RemoveElement removeElements = new RemoveElement();
-        int[] nums = { 3,2,2,3 };
-        int val = 3;
-        removeElements.removeElement(nums, val);
+        // RemoveElement removeElements = new RemoveElement();
+        // int[] nums = { 3,2,2,3 };
+        // int val = 3;
+        // removeElements.removeElement(nums, val);
+
+        // 8
+        FirstOccurance firstOccurance = new FirstOccurance();
+        String haystack = "leetcode";
+        String needle = "leeto";
+        System.out.println("Index : " + firstOccurance.strStr(haystack, needle));
     }
 }
