@@ -56,9 +56,14 @@ public class MainSolution {
         // removeElements.removeElement(nums, val);
 
         // 8
-        FirstOccurance firstOccurance = new FirstOccurance();
-        String haystack = "leetcode";
-        String needle = "leeto";
-        System.out.println("Index : " + firstOccurance.strStr(haystack, needle));
+        // FirstOccurance firstOccurance = new FirstOccurance();
+        // String haystack = "leetcode";
+        // String needle = "leeto";
+        // System.out.println("Index : " + firstOccurance.strStr(haystack, needle));
+
+        // 9
+        InsertPosition insertPosition = new InsertPosition();
+        int nums[] = { 1}, target = 1;
+        System.out.println("Index : " + insertPosition.searchInsert(nums, target));
     }
 }
