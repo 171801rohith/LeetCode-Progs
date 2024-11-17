@@ -62,8 +62,13 @@ public class MainSolution {
         // System.out.println("Index : " + firstOccurance.strStr(haystack, needle));
 
         // 9
-        InsertPosition insertPosition = new InsertPosition();
-        int nums[] = { 1}, target = 1;
-        System.out.println("Index : " + insertPosition.searchInsert(nums, target));
+        // InsertPosition insertPosition = new InsertPosition();
+        // int nums[] = { 1}, target = 1;
+        // System.out.println("Index : " + insertPosition.searchInsert(nums, target));
+
+        // 10
+        LengthOfWord lengthOfWord = new LengthOfWord();
+        String s = "   fly me   to   the moon  ";
+        System.out.println("Length of the last word = " + lengthOfWord.lengthOfLastWord(s));
     }
 }
