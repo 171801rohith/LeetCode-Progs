@@ -67,8 +67,18 @@ public class MainSolution {
         // System.out.println("Index : " + insertPosition.searchInsert(nums, target));
 
         // 10
-        LengthOfWord lengthOfWord = new LengthOfWord();
-        String s = "   fly me   to   the moon  ";
-        System.out.println("Length of the last word = " + lengthOfWord.lengthOfLastWord(s));
+        // LengthOfWord lengthOfWord = new LengthOfWord();
+        // String s = " fly me to the moon ";
+        // System.out.println("Length of the last word = " +
+        // lengthOfWord.lengthOfLastWord(s));
+
+        // 11
+        PlusOne plusOne = new PlusOne();
+        int[] digits = { 7, 9, 9 };
+        int[] result = plusOne.plusOne(digits);
+        for (int i = 0; i < result.length; i++) {
+            System.out.print(result[i] + " ");
+        }
+
     }
 }
