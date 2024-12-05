@@ -47,8 +47,6 @@ public class AddBinary {
         if (carry.equals(one)) {
             result = one + result;
         }
-        // System.out.println(a);
-        // System.out.println(b);
         return result;
     }
 }
