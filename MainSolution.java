@@ -73,12 +73,18 @@ public class MainSolution {
         // lengthOfWord.lengthOfLastWord(s));
 
         // 11
-        PlusOne plusOne = new PlusOne();
-        int[] digits = { 7, 9, 9 };
-        int[] result = plusOne.plusOne(digits);
-        for (int i = 0; i < result.length; i++) {
-            System.out.print(result[i] + " ");
-        }
+        // PlusOne plusOne = new PlusOne();
+        // int[] digits = { 7, 9, 9 };
+        // int[] result = plusOne.plusOne(digits);
+        // for (int i = 0; i < result.length; i++) {
+        // System.out.print(result[i] + " ");
+        // }
+
+        // 12
+        AddBinary addbinary = new AddBinary();
+        String b1 = "0";
+        String b2 = "0";
+        System.out.println("Result = " + addbinary.addBinary(b1, b2));
 
     }
 }
