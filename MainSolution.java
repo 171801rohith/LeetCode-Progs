@@ -81,10 +81,15 @@ public class MainSolution {
         // }
 
         // 12
-        AddBinary addbinary = new AddBinary();
-        String b1 = "0";
-        String b2 = "0";
-        System.out.println("Result = " + addbinary.addBinary(b1, b2));
+        // AddBinary addbinary = new AddBinary();
+        // String b1 = "0";
+        // String b2 = "0";
+        // System.out.println("Result = " + addbinary.addBinary(b1, b2));
+
+        // 13
+        ValidPalindrome valid = new ValidPalindrome();
+        String s = "A man, a plan, a canal: Panama";
+        System.out.println("is Palindrome : " + valid.isPalindrome(s));
 
     }
 }
