@@ -87,9 +87,14 @@ public class MainSolution {
         // System.out.println("Result = " + addbinary.addBinary(b1, b2));
 
         // 13
-        ValidPalindrome valid = new ValidPalindrome();
-        String s = "A man, a plan, a canal: Panama";
-        System.out.println("is Palindrome : " + valid.isPalindrome(s));
+        // ValidPalindrome valid = new ValidPalindrome();
+        // String s = "A man, a plan, a canal: Panama";
+        // System.out.println("is Palindrome : " + valid.isPalindrome(s));
+
+        // 14
+        SingleNumber single = new SingleNumber();
+        int[] nums = { 2, 2, 1 };
+        System.out.println("Single Number : " + single.singleNumber(nums));
 
     }
 }
