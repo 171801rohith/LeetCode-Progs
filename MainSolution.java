@@ -94,7 +94,6 @@ public class MainSolution {
         // 14
         SingleNumber single = new SingleNumber();
         int[] nums = { 2, 2, 1 };
-        System.out.println("Single Number : " + single.singleNumber(nums));
-
+        System.out.println("Single Number : " + single.singleNumber(nums));       
     }
 }
