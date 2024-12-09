@@ -1,9 +1,10 @@
-public class Stack {
+// Satck Array
+public class StackArr {
     private int top = -1;
     private int maxSize;
     private int[] stackArray;
 
-    public Stack(int size) {
+    public StackArr(int size) {
         maxSize = size;
         stackArray = new int[maxSize];
     }

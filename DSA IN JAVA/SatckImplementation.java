@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class SatckImplementation {
     public static void main(String[] args) {
-        Stack stack = new Stack(5);
+        StackArr stack = new StackArr(5);
         Scanner sc = new Scanner(System.in);
         try {
             while (true) {
