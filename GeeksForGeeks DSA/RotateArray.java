@@ -29,7 +29,7 @@ public class RotateArray {
     }
 
     // Function to rotate an array by d elements in counter-clockwise direction.
-    static void rotateArr(int arr[], int d) {
+        void rotateArr(int arr[], int d) {
         RotateArray rotate = new RotateArray();
         d = d % arr.length;
         rotate.reverseArr(arr, 0, d - 1);
