@@ -113,8 +113,13 @@ public class MainSolution {
         // System.out.println("Profit = " + stock.maxProfit(prices));
 
         // 17
-        ContainsDuplicate dup = new ContainsDuplicate();
-        int[] a = { 1, 2, 4, 1, 6 };
-        System.out.println("ContainsDuplicate = " + dup.containsDuplicate(a));
+        // ContainsDuplicate dup = new ContainsDuplicate();
+        // int[] a = { 1, 2, 4, 1, 6 };
+        // System.out.println("ContainsDuplicate = " + dup.containsDuplicate(a));
+
+        // 18
+        SortedAndRotated sort = new SortedAndRotated();
+        int[] nums = { 3, 4, 5, 1, 2 };
+        System.out.println("Result = " + sort.check(nums));
     }
 }
