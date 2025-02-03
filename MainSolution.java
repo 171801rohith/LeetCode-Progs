@@ -108,8 +108,13 @@ public class MainSolution {
         // System.out.println(Arrays.toString(nums1));
 
         // 16
-        StockBuySell stock = new StockBuySell();
-        int[] prices = { 7, 1, 5, 3, 6, 4 };
-        System.out.println("Profit = " + stock.maxProfit(prices));
+        // StockBuySell stock = new StockBuySell();
+        // int[] prices = { 7, 1, 5, 3, 6, 4 };
+        // System.out.println("Profit = " + stock.maxProfit(prices));
+
+        // 17
+        ContainsDuplicate dup = new ContainsDuplicate();
+        int[] a = { 1, 2, 4, 1, 6 };
+        System.out.println("ContainsDuplicate = " + dup.containsDuplicate(a));
     }
 }
