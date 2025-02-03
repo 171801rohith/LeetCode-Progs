@@ -1,4 +1,4 @@
-import java.util.Arrays;
+// import java.util.*;
 
 public class MainSolution {
     public static void main(String[] args) {
@@ -118,8 +118,15 @@ public class MainSolution {
         // System.out.println("ContainsDuplicate = " + dup.containsDuplicate(a));
 
         // 18
-        SortedAndRotated sort = new SortedAndRotated();
-        int[] nums = { 3, 4, 5, 1, 2 };
-        System.out.println("Result = " + sort.check(nums));
+        // SortedAndRotated sort = new SortedAndRotated();
+        // int[] nums = { 3, 4, 5, 1, 2 };
+        // System.out.println("Result = " + sort.check(nums));
+        
+        // 19
+        StringToNums s = new StringToNums();
+        String str = "iiii";
+        int k = 2;
+        System.out.println("Result = " + s.getLucky(str, k));
+
     }
 }
