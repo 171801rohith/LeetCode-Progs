@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MainSolution {
     public static void main(String[] args) {
         // 1
@@ -92,8 +94,17 @@ public class MainSolution {
         // System.out.println("is Palindrome : " + valid.isPalindrome(s));
 
         // 14
-        SingleNumber single = new SingleNumber();
-        int[] nums = { 2, 2, 1 };
-        System.out.println("Single Number : " + single.singleNumber(nums));       
+        // SingleNumber single = new SingleNumber();
+        // int[] nums = { 2, 2, 1 };
+        // System.out.println("Single Number : " + single.singleNumber(nums));
+
+        // 15
+        MergeSortedArray sort = new MergeSortedArray();
+        int[] nums1 = { 1, 2, 3, 0, 0, 0 };
+        int[] nums2 = { 2, 5, 6 };
+        int m = 3;
+        int n = 3;
+        sort.merge(nums1, m, nums2, n);
+        System.out.println(Arrays.toString(nums1));
     }
 }
