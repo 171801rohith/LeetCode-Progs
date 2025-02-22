@@ -133,8 +133,12 @@ public class MainSolution {
         // // check 100th leetcode easy problem
         
         // 21 
-        InorderTraversal inorder = new InorderTraversal();
+        // InorderTraversal inorder = new InorderTraversal();
         // // check 94th leetcode easy problem
+
+        // 22 
+        PreorderTraversal preorder = new PreorderTraversal();
+        // // check 144th leetcode easy problem
 
     }
 }
