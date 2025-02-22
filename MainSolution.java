@@ -123,10 +123,14 @@ public class MainSolution {
         // System.out.println("Result = " + sort.check(nums));
         
         // 19
-        StringToNums s = new StringToNums();
-        String str = "iiii";
-        int k = 2;
-        System.out.println("Result = " + s.getLucky(str, k));
+        // StringToNums s = new StringToNums();
+        // String str = "iiii";
+        // int k = 2;
+        // System.out.println("Result = " + s.getLucky(str, k));
+
+        // 20
+        SameTree same = new SameTree();
+        // check 100th leetcode easy problem
 
     }
 }
