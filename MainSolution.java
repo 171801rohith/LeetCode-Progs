@@ -129,8 +129,12 @@ public class MainSolution {
         // System.out.println("Result = " + s.getLucky(str, k));
 
         // 20
-        SameTree same = new SameTree();
-        // check 100th leetcode easy problem
+        // SameTree same = new SameTree();
+        // // check 100th leetcode easy problem
+        
+        // 21 
+        InorderTraversal inorder = new InorderTraversal();
+        // // check 94th leetcode easy problem
 
     }
 }

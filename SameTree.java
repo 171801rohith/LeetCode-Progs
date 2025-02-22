@@ -14,25 +14,6 @@
 // Input: p = [1,2,1], q = [1,1,2]
 // Output: false
 
-//   Definition for a binary tree node.
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode() {
-    }
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}
 
 public class SameTree {
     public boolean isSameTree(TreeNode p, TreeNode q) {
