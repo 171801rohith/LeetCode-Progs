@@ -137,8 +137,12 @@ public class MainSolution {
         // // check 94th leetcode easy problem
 
         // 22 
-        PreorderTraversal preorder = new PreorderTraversal();
+        // PreorderTraversal preorder = new PreorderTraversal();
         // // check 144th leetcode easy problem
+
+        // 23
+        PostorderTraversal postorder = new PostorderTraversal();
+        // // check 145th leetcode easy problem
 
     }
 }
