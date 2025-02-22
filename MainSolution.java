@@ -121,7 +121,7 @@ public class MainSolution {
         // SortedAndRotated sort = new SortedAndRotated();
         // int[] nums = { 3, 4, 5, 1, 2 };
         // System.out.println("Result = " + sort.check(nums));
-        
+
         // 19
         // StringToNums s = new StringToNums();
         // String str = "iiii";
@@ -131,12 +131,12 @@ public class MainSolution {
         // 20
         // SameTree same = new SameTree();
         // // check 100th leetcode easy problem
-        
-        // 21 
+
+        // 21
         // InorderTraversal inorder = new InorderTraversal();
         // // check 94th leetcode easy problem
 
-        // 22 
+        // 22
         // PreorderTraversal preorder = new PreorderTraversal();
         // // check 144th leetcode easy problem
 
@@ -145,7 +145,12 @@ public class MainSolution {
         // // check 145th leetcode easy problem
 
         // 24
-        AddDigits add = new AddDigits();
-        System.out.println(add.addDigits(34));
+        // AddDigits add = new AddDigits();
+        // System.out.println(add.addDigits(34));
+
+        // 25
+        BinarySearch search = new BinarySearch();
+        int[] nums = { -1, 0, 3, 5, 9, 12 };
+        System.out.println(search.search(nums, 9));
     }
 }
