@@ -146,6 +146,6 @@ public class MainSolution {
 
         // 24
         AddDigits add = new AddDigits();
-        System.out.println(add.addDigits(38));
+        System.out.println(add.addDigits(34));
     }
 }

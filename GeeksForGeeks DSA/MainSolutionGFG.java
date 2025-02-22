@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class MainSolution {
+public class MainSolutionGFG {
     public static void main(String[] args) {
         // 1
         RotateArray rotate = new RotateArray();
