@@ -141,8 +141,11 @@ public class MainSolution {
         // // check 144th leetcode easy problem
 
         // 23
-        PostorderTraversal postorder = new PostorderTraversal();
+        // PostorderTraversal postorder = new PostorderTraversal();
         // // check 145th leetcode easy problem
 
+        // 24
+        AddDigits add = new AddDigits();
+        System.out.println(add.addDigits(38));
     }
 }
