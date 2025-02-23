@@ -149,8 +149,14 @@ public class MainSolution {
         // System.out.println(add.addDigits(34));
 
         // 25
-        BinarySearch search = new BinarySearch();
-        int[] nums = { -1, 0, 3, 5, 9, 12 };
-        System.out.println(search.search(nums, 9));
+        // BinarySearch search = new BinarySearch();
+        // int[] nums = { -1, 0, 3, 5, 9, 12 };
+        // System.out.println(search.search(nums, 9));
+
+        // 26
+        HappyNumber num = new HappyNumber();
+        System.out.println(num.isHappy(19));
+
+
     }
 }
