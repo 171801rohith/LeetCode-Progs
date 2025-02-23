@@ -158,7 +158,11 @@ public class MainSolution {
         // System.out.println(num.isHappy(19));
 
         // 27
-        Fibonacci fib = new Fibonacci();
-        System.out.println(fib.fib(2));
+        // Fibonacci fib = new Fibonacci();
+        // System.out.println(fib.fib(2));
+
+        // 28
+        SearchBST search = new SearchBST();
+        // //check 700th leetcode easy problem
     }
 }
