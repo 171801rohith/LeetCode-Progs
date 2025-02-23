@@ -154,9 +154,11 @@ public class MainSolution {
         // System.out.println(search.search(nums, 9));
 
         // 26
-        HappyNumber num = new HappyNumber();
-        System.out.println(num.isHappy(19));
+        // HappyNumber num = new HappyNumber();
+        // System.out.println(num.isHappy(19));
 
-
+        // 27
+        Fibonacci fib = new Fibonacci();
+        System.out.println(fib.fib(2));
     }
 }
