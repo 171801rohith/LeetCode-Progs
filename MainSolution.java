@@ -166,7 +166,11 @@ public class MainSolution {
         // //check 700th leetcode easy problem
         
         // 29
-        ReverseList rev = new  ReverseList();
+        // ReverseList rev = new  ReverseList();
         // //check 206th leetcode easy problem
+
+        // 31
+        ValidAnagram check = new ValidAnagram();
+        System.out.println(check.isAnagram("bass", "aasb"));
     }
 }
