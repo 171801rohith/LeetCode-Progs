@@ -164,17 +164,23 @@ public class MainSolution {
         // 28
         // SearchBST search = new SearchBST();
         // //check 700th leetcode easy problem
-        
+
         // 29
-        // ReverseList rev = new  ReverseList();
+        // ReverseList rev = new ReverseList();
         // //check 206th leetcode easy problem
-        
+
         // 31
         // ValidAnagram check = new ValidAnagram();
         // System.out.println(check.isAnagram("bass", "aasb"));
-        
+
         // 32
-        PallindromeLinkedList pl = new PallindromeLinkedList();
+        // PallindromeLinkedList pl = new PallindromeLinkedList();
         // //check 206th leetcode easy problem
+
+        // 33
+        SmallestLetterGreaterThanTarget ceiling = new SmallestLetterGreaterThanTarget();
+        char[] letters = { "c", "f", "j" };
+        char target = 'j';
+        System.out.println(ceiling.nextGreatestLetter(letters, target));
     }
 }
