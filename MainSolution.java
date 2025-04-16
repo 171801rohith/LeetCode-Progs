@@ -1,5 +1,7 @@
 // import java.util.*;
 
+import java.util.Arrays;
+
 public class MainSolution {
     public static void main(String[] args) {
         // 1
@@ -178,9 +180,17 @@ public class MainSolution {
         // //check 206th leetcode easy problem
 
         // 33
-        SmallestLetterGreaterThanTarget ceiling = new SmallestLetterGreaterThanTarget();
-        char[] letters = { "c", "f", "j" };
-        char target = 'j';
-        System.out.println(ceiling.nextGreatestLetter(letters, target));
+        // SmallestLetterGreaterThanTarget ceiling = new
+        // SmallestLetterGreaterThanTarget();
+        // char[] letters = { "c", "f", "j" };
+        // char target = 'j';
+        // System.out.println(ceiling.nextGreatestLetter(letters, target));
+
+        // 34
+        FirstAndLastPosition flp = new FirstAndLastPosition();
+        int[] nums = { 5, 7, 7, 8, 8, 10 };
+        int target = 8;
+        int[] result = flp.searchRange(nums, target);
+        System.out.println(Arrays.toString(result));
     }
 }
