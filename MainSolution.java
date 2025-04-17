@@ -187,10 +187,15 @@ public class MainSolution {
         // System.out.println(ceiling.nextGreatestLetter(letters, target));
 
         // 34
-        FirstAndLastPosition flp = new FirstAndLastPosition();
-        int[] nums = { 5, 7, 7, 8, 8, 10 };
-        int target = 8;
-        int[] result = flp.searchRange(nums, target);
-        System.out.println(Arrays.toString(result));
+        // FirstAndLastPosition flp = new FirstAndLastPosition();
+        // int[] nums = { 5, 7, 7, 8, 8, 10 };
+        // int target = 8;
+        // int[] result = flp.searchRange(nums, target);
+        // System.out.println(Arrays.toString(result));
+
+        // 35
+        PeakOfMountain peak = new PeakOfMountain();
+        int[] arr = { 0, 10, 5, 2 };
+        System.out.println("Peak at: " + peak.peakIndexInMountainArray(arr));
     }
 }
