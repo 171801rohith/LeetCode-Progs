@@ -194,8 +194,14 @@ public class MainSolution {
         // System.out.println(Arrays.toString(result));
 
         // 35
-        PeakOfMountain peak = new PeakOfMountain();
-        int[] arr = { 0, 10, 5, 2 };
-        System.out.println("Peak at: " + peak.peakIndexInMountainArray(arr));
+        // PeakOfMountain peak = new PeakOfMountain();
+        // int[] arr = { 0, 10, 5, 2 };
+        // System.out.println("Peak at: " + peak.peakIndexInMountainArray(arr));
+
+        // 36
+        PeakElement peak = new PeakElement();
+        int[] arr = { 1, 2, 1, 3, 5, 6, 4 };
+        System.out.println("Peak at: " + peak.findPeakElement(arr));
+
     }
 }
