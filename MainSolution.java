@@ -199,9 +199,15 @@ public class MainSolution {
         // System.out.println("Peak at: " + peak.peakIndexInMountainArray(arr));
 
         // 36
-        PeakElement peak = new PeakElement();
-        int[] arr = { 1, 2, 1, 3, 5, 6, 4 };
-        System.out.println("Peak at: " + peak.findPeakElement(arr));
+        // PeakElement peak = new PeakElement();
+        // int[] arr = { 1, 2, 1, 3, 5, 6, 4 };
+        // System.out.println("Peak at: " + peak.findPeakElement(arr));
 
+        // 37
+        FindInMountain find = new FindInMountain();
+        // // check 1095th leetcode hard problem
+        // MountainArr mountainArr = {1, 2, 3, 4, 5, 3, 1};
+        // int target = 3;
+        // System.out.println("Location: " + find.findInMountainArray(target, mountainArr));
     }
 }
