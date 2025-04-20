@@ -47,8 +47,47 @@ public class RotatedSortedArray {
         return -1;
     }
 
+    public static int pivot(int[] arr){
+        int low = 0, high = arr.length - 1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (mid < high && arr[mid] > arr[mid + 1]) return mid;
+            if (mid > low && arr[mid] < arr[mid - 1]) return mid - 1;
+            if (arr[mid] <= arr[low]) high = mid - 1;
+            else low = mid + 1;
+        }
+        return -1;
+    }
+
+    public static int pivotIfDuplicates(int[] arr) {
+        int low = 0, high = arr.length - 1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (mid < high && arr[mid] > arr[mid + 1])
+                return mid;
+            if (mid > low && arr[mid] < arr[mid - 1])
+                return mid - 1;
+            if (arr[mid] == arr[low] && arr[mid] == arr[high]) {
+
+                if (arr[low] > arr[low + 1])
+                    return low;
+                low++;
+
+                if (arr[high] < arr[high - 1])
+                    return high;
+                high--;
+            } else if (arr[low] < arr[mid] || (arr[low] == arr[mid] && arr[mid] > arr[high]))
+                low = mid + 1;
+            else
+                high = mid - 1;
+        }
+        return -1;
+    }
+
     public int search(int[] nums, int target) {
-        int mid = findMaxLocation(nums, 0, nums.length - 1);
+        // int mid = findMaxLocation(nums, 0, nums.length - 1);
+        // int mid = pivot(nums);
+        int mid = pivotIfDuplicates(nums);
         int loc = binarySearch(nums, target, 0, mid);
         if (loc == -1) {
             return binarySearch(nums, target, mid + 1, nums.length - 1);

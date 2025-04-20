@@ -208,11 +208,12 @@ public class MainSolution {
         // // check 1095th leetcode hard problem
         // MountainArr mountainArr = {1, 2, 3, 4, 5, 3, 1};
         // int target = 3;
-        // System.out.println("Location: " + find.findInMountainArray(target, mountainArr));
+        // System.out.println("Location: " + find.findInMountainArray(target,
+        // mountainArr));
 
         // 38
         RotatedSortedArray sort = new RotatedSortedArray();
-        int[] arr = {4,5,6,7,0,1,2};
+        int[] arr = { 4, 5, 6, 7, 0, 1, 2 };
         System.out.println("Location: " + sort.search(arr, 0));
     }
 }
