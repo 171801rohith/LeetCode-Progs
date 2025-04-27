@@ -1,6 +1,6 @@
 // import java.util.*;
 
-import java.util.Arrays;
+// import java.util.Arrays;
 
 public class MainSolution {
     public static void main(String[] args) {
@@ -212,8 +212,13 @@ public class MainSolution {
         // mountainArr));
 
         // 38
-        RotatedSortedArray sort = new RotatedSortedArray();
-        int[] arr = { 4, 5, 6, 7, 0, 1, 2 };
-        System.out.println("Location: " + sort.search(arr, 0));
+        // RotatedSortedArray sort = new RotatedSortedArray();
+        // int[] arr = { 4, 5, 6, 7, 0, 1, 2 };
+        // System.out.println("Location: " + sort.search(arr, 0));
+
+        // 39
+        SplitArrayLargestSum split = new SplitArrayLargestSum();
+        int[] arr = { 7, 2, 5, 10, 8 };
+        System.out.println("Result: " + split.splitArray(arr, 2));
     }
 }
