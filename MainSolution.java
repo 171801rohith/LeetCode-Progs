@@ -2,6 +2,8 @@
 
 // import java.util.Arrays;
 
+import java.lang.classfile.attribute.SourceDebugExtensionAttribute;
+
 public class MainSolution {
     public static void main(String[] args) {
         // 1
@@ -222,7 +224,11 @@ public class MainSolution {
         // System.out.println("Result: " + split.splitArray(arr, 2));
 
         // 40
-        Sqrt sqrt = new Sqrt();
-        System.out.println("Sqrt: " + sqrt.mySqrt(8));
+        // Sqrt sqrt = new Sqrt();
+        // System.out.println("Sqrt: " + sqrt.mySqrt(8));
+
+        // 41
+        GuessNumber guess = new GuessNumber();
+        // // check 374th leetcode easy problem
     }
 }
