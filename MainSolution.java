@@ -217,8 +217,12 @@ public class MainSolution {
         // System.out.println("Location: " + sort.search(arr, 0));
 
         // 39
-        SplitArrayLargestSum split = new SplitArrayLargestSum();
-        int[] arr = { 7, 2, 5, 10, 8 };
-        System.out.println("Result: " + split.splitArray(arr, 2));
+        // SplitArrayLargestSum split = new SplitArrayLargestSum();
+        // int[] arr = { 7, 2, 5, 10, 8 };
+        // System.out.println("Result: " + split.splitArray(arr, 2));
+
+        // 40
+        Sqrt sqrt = new Sqrt();
+        System.out.println("Sqrt: " + sqrt.mySqrt(8));
     }
 }
