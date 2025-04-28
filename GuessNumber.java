@@ -31,14 +31,14 @@
  */
 
 public class GuessNumber {
-    public int guessNumber(int n) {
-        int low = 1, high = n, num;
-        while(low <= high){
-            num = low + (high - low) / 2; 
-            if(guess(num) == 0) return num;
-            else if(guess(num) == 1) low = num + 1;
-            else high = num;
-        }
-        return low;
-    }
+    // public int guessNumber(int n) {
+    //     int low = 1, high = n, num;
+    //     while(low <= high){
+    //         num = low + (high - low) / 2; 
+    //         if(guess(num) == 0) return num;
+    //         else if(guess(num) == 1) low = num + 1;
+    //         else high = num;
+    //     }
+    //     return low;
+    // }
 }
