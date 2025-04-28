@@ -228,7 +228,12 @@ public class MainSolution {
         // System.out.println("Sqrt: " + sqrt.mySqrt(8));
 
         // 41
-        GuessNumber guess = new GuessNumber();
+        // GuessNumber guess = new GuessNumber();
         // // check 374th leetcode easy problem
+        
+        // 42
+        FirstBadVersion bad = new FirstBadVersion();
+        // // check 278th leetcode easy problem
+
     }
 }
