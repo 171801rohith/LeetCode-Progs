@@ -2,8 +2,6 @@
 
 // import java.util.Arrays;
 
-import java.lang.classfile.attribute.SourceDebugExtensionAttribute;
-
 public class MainSolution {
     public static void main(String[] args) {
         // 1
@@ -230,10 +228,13 @@ public class MainSolution {
         // 41
         // GuessNumber guess = new GuessNumber();
         // // check 374th leetcode easy problem
-        
+
         // 42
-        FirstBadVersion bad = new FirstBadVersion();
+        // FirstBadVersion bad = new FirstBadVersion();
         // // check 278th leetcode easy problem
 
+        // 43
+        ArrangingCoins coins = new ArrangingCoins();
+        System.out.println("Output: " + coins.arrangeCoins(8));
     }
 }
