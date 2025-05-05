@@ -234,7 +234,11 @@ public class MainSolution {
         // // check 278th leetcode easy problem
 
         // 43
-        ArrangingCoins coins = new ArrangingCoins();
-        System.out.println("Output: " + coins.arrangeCoins(8));
+        // ArrangingCoins coins = new ArrangingCoins();
+        // System.out.println("Output: " + coins.arrangeCoins(8));
+
+        // 44
+        ValidPerfectSquare sqrt = new ValidPerfectSquare();
+        System.out.println("Output: " + sqrt.isPerfectSquare(16));
     }
 }
