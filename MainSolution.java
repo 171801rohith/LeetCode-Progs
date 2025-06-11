@@ -1,6 +1,6 @@
 // import java.util.*;
 
-// import java.util.Arrays;
+import java.util.Arrays;
 
 public class MainSolution {
     public static void main(String[] args) {
@@ -238,7 +238,17 @@ public class MainSolution {
         // System.out.println("Output: " + coins.arrangeCoins(8));
 
         // 44
-        ValidPerfectSquare sqrt = new ValidPerfectSquare();
-        System.out.println("Output: " + sqrt.isPerfectSquare(16));
+        // ValidPerfectSquare sqrt = new ValidPerfectSquare();
+        // System.out.println("Output: " + sqrt.isPerfectSquare(16));
+
+        // 45
+        Search2DMatrix mat = new Search2DMatrix();
+        int[][] matrix = {
+                { 1, 2, 5, 7 },
+                { 9, 11, 13, 16 },
+                { 20, 23, 25, 29 },
+                { 30, 31, 33, 37 }
+        };
+        System.out.println("Result: " + mat.searchMatrix(matrix, 7));
     }
 }
