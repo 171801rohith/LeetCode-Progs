@@ -244,11 +244,10 @@ public class MainSolution {
         // 45
         Search2DMatrix mat = new Search2DMatrix();
         int[][] matrix = {
-                { 1, 2, 5, 7 },
-                { 9, 11, 13, 16 },
-                { 20, 23, 25, 29 },
-                { 30, 31, 33, 37 }
+                { 1, 3, 5, 7 },
+                { 10, 11, 16, 20 },
+                { 23, 30, 34, 60 }
         };
-        System.out.println("Result: " + mat.searchMatrix(matrix, 7));
+        System.out.println("Result: " + mat.searchMatrix(matrix, 3));
     }
 }
