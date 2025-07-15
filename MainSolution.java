@@ -1,7 +1,3 @@
-// import java.util.*;
-
-import java.util.Arrays;
-
 public class MainSolution {
     public static void main(String[] args) {
         // 1
@@ -242,12 +238,17 @@ public class MainSolution {
         // System.out.println("Output: " + sqrt.isPerfectSquare(16));
 
         // 45
-        Search2DMatrix mat = new Search2DMatrix();
-        int[][] matrix = {
-                { 1, 3, 5, 7 },
-                { 10, 11, 16, 20 },
-                { 23, 30, 34, 60 }
-        };
-        System.out.println("Result: " + mat.searchMatrix(matrix, 3));
+        // Search2DMatrix mat = new Search2DMatrix();
+        // int[][] matrix = {
+        // { 1, 3, 5, 7 },
+        // { 10, 11, 16, 20 },
+        // { 23, 30, 34, 60 }
+        // };
+        // System.out.println("Result: " + mat.searchMatrix(matrix, 3));
+
+        // 46
+        MissingNumber missNum = new MissingNumber();
+        int[] arr = { 5, 4, 3, 0, 2 };
+        System.out.println("Result: " + missNum.missingNumber(arr));
     }
 }
