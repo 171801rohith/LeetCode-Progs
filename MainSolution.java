@@ -252,8 +252,13 @@ public class MainSolution {
         // System.out.println("Result: " + missNum.missingNumber(arr));
 
         // 47
-        AllMissingNums dis = new AllMissingNums();
-        int[] nums = { 4, 3, 2, 7, 8, 2, 3, 1 };
-        System.out.println("Result: " + dis.findDisappearedNumbers(nums));
+        // AllMissingNums dis = new AllMissingNums();
+        // int[] nums = { 4, 3, 2, 7, 8, 2, 3, 1 };
+        // System.out.println("Result: " + dis.findDisappearedNumbers(nums));
+
+        // 48
+        FindDuplicateNum duplicateNum = new FindDuplicateNum();
+        int[] nums = { 5, 4, 3, 3, 2, 1 };
+        System.out.println("Result: " + duplicateNum.findDuplicate(nums));
     }
 }
