@@ -29,8 +29,9 @@ public class MissingNumber {
     public int missingNumber(int[] nums) {
         int i = 0;
         while (i < nums.length) {
-            if (nums[i] < nums.length && i != nums[i])
-                swap(nums, i, nums[i]);
+            int correct = nums[i];
+            if (nums[i] < nums.length && nums[i] != nums[correct])
+                swap(nums, i, correct);
             else
                 i++;
         }
