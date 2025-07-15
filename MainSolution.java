@@ -261,18 +261,18 @@ public class MainSolution {
         // int[] nums = { 5, 4, 3, 3, 2, 1 };
         // System.out.println("Result: " + duplicateNum.findDuplicate(nums));
 
-        // 50
+        // 49
         // FindAllDuplicates duplicates = new FindAllDuplicates();
         // int[] nums = { 4, 3, 2, 7, 8, 2, 3, 1 };
         // System.out.println("Result: " + duplicates.findDuplicates(nums));
 
-        // 51
+        // 50
         // SetMismatch set = new SetMismatch();
         // int[] nums = { 1, 2, 2, 4 };
         // int[] result = set.findErrorNums(nums);
         // System.out.println("Result: " + Arrays.toString(result));
 
-        // 52
+        // 51
         FirstMissingPositive positive = new FirstMissingPositive();
         int[] nums = { 1, 1 };
         System.out.println("Result: " + positive.firstMissingPositive(nums));
