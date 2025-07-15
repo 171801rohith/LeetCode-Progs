@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class MainSolution {
     public static void main(String[] args) {
         // 1
@@ -269,9 +267,15 @@ public class MainSolution {
         // System.out.println("Result: " + duplicates.findDuplicates(nums));
 
         // 51
-        SetMismatch set = new SetMismatch();
-        int[] nums = { 1, 2, 2, 4 };
-        int[] result = set.findErrorNums(nums);
-        System.out.println("Result: " + Arrays.toString(result));
+        // SetMismatch set = new SetMismatch();
+        // int[] nums = { 1, 2, 2, 4 };
+        // int[] result = set.findErrorNums(nums);
+        // System.out.println("Result: " + Arrays.toString(result));
+
+        // 52
+        FirstMissingPositive positive = new FirstMissingPositive();
+        int[] nums = { 1, 1 };
+        System.out.println("Result: " + positive.firstMissingPositive(nums));
+
     }
 }
