@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MainSolution {
     public static void main(String[] args) {
         // 1
@@ -262,8 +264,14 @@ public class MainSolution {
         // System.out.println("Result: " + duplicateNum.findDuplicate(nums));
 
         // 50
-        FindAllDuplicates duplicates = new FindAllDuplicates();
-        int[] nums = { 4, 3, 2, 7, 8, 2, 3, 1 };
-        System.out.println("Result: " +  duplicates.findDuplicates(nums));
+        // FindAllDuplicates duplicates = new FindAllDuplicates();
+        // int[] nums = { 4, 3, 2, 7, 8, 2, 3, 1 };
+        // System.out.println("Result: " + duplicates.findDuplicates(nums));
+
+        // 51
+        SetMismatch set = new SetMismatch();
+        int[] nums = { 1, 2, 2, 4 };
+        int[] result = set.findErrorNums(nums);
+        System.out.println("Result: " + Arrays.toString(result));
     }
 }
