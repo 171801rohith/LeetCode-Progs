@@ -1,14 +1,18 @@
 import java.util.Arrays;
 
 public class SortingAlgorithms {
+
+    public static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+
     public static void bubbleSort(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = 1; j < arr.length - i; j++) {
-                if (arr[j - 1] > arr[j]) {
-                    int temp = arr[j - 1];
-                    arr[j - 1] = arr[j];
-                    arr[j] = temp;
-                }
+                if (arr[j - 1] > arr[j])
+                    swap(arr, j - 1, j);
             }
         }
     }
@@ -21,25 +25,31 @@ public class SortingAlgorithms {
                     minIndex = j;
             }
 
-            if (minIndex != i) {
-                int temp = arr[i];
-                arr[i] = arr[minIndex];
-                arr[minIndex] = temp;
-            }
+            if (minIndex != i)
+                swap(arr, i, minIndex);
         }
     }
 
     public static void insertionSort(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = i + 1; j > 0; j--) {
-                if (arr[j] < arr[j - 1]) {
-                    int temp = arr[j];
-                    arr[j] = arr[j - 1];
-                    arr[j - 1] = temp;
-                } else
+                if (arr[j] < arr[j - 1])
+                    swap(arr, j, j - 1);
+                else
                     break;
             }
 
+        }
+    }
+
+    public static void cyclicSort(int[] arr) {
+        int i = 0;
+        while (i < arr.length) {
+            int correct = arr[i] - 1;
+            if (arr[i] != arr[correct])
+                swap(arr, i, correct);
+            else
+                i++;
         }
     }
 
@@ -54,7 +64,10 @@ public class SortingAlgorithms {
         // selectionSort(arr);
 
         // 3
-        insertionSort(arr);
+        // insertionSort(arr);
+
+        // 4
+        cyclicSort(arr);
 
         System.out.println("After Sorting: " + Arrays.toString(arr));
     }
