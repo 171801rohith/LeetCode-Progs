@@ -247,8 +247,13 @@ public class MainSolution {
         // System.out.println("Result: " + mat.searchMatrix(matrix, 3));
 
         // 46
-        MissingNumber missNum = new MissingNumber();
-        int[] arr = { 5, 4, 3, 0, 2 };
-        System.out.println("Result: " + missNum.missingNumber(arr));
+        // MissingNumber missNum = new MissingNumber();
+        // int[] arr = { 5, 4, 3, 0, 2 };
+        // System.out.println("Result: " + missNum.missingNumber(arr));
+
+        // 47
+        AllMissingNums dis = new AllMissingNums();
+        int[] nums = { 4, 3, 2, 7, 8, 2, 3, 1 };
+        System.out.println("Result: " + dis.findDisappearedNumbers(nums));
     }
 }
