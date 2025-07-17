@@ -295,9 +295,15 @@ public class MainSolution {
         // System.out.println("Result: " + third.thirdMax(nums));
 
         // 55
-        IntersectionOfArrays inter = new IntersectionOfArrays();
-        int[] nums1 = { 4, 9, 5 };
-        int[] nums2 = { 9, 4, 9, 8, 4 };
-        System.out.println("Result: " + Arrays.toString(inter.intersection(nums1, nums2)));
+        // IntersectionOfArrays inter = new IntersectionOfArrays();
+        // int[] nums1 = { 4, 9, 5 };
+        // int[] nums2 = { 9, 4, 9, 8, 4 };
+        // System.out.println("Result: " + Arrays.toString(inter.intersection(nums1,
+        // nums2)));
+
+        // 56
+        SortByParity parity = new SortByParity();
+        int[] nums = { 3, 1, 2, 4 };
+        System.out.println("Result: " + Arrays.toString(parity.sortArrayByParity(nums)));
     }
 }
