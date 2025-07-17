@@ -283,9 +283,13 @@ public class MainSolution {
         // System.out.println("Result: " + major.majorityElement(nums));
 
         // 53
-        MaxProductOfThreeNums maxPro = new MaxProductOfThreeNums();
-        int[] nums = {-100,-2,-3,1};
-        System.out.println("Result: " + maxPro.maximumProduct(nums));
+        // MaxProductOfThreeNums maxPro = new MaxProductOfThreeNums();
+        // int[] nums = {-100,-2,-3,1};
+        // System.out.println("Result: " + maxPro.maximumProduct(nums));
 
+        // 54
+        ThirdMax third = new ThirdMax();
+        int[] nums = { 2, 2, 1, 1 };
+        System.out.println("Result: " + third.thirdMax(nums));
     }
 }
