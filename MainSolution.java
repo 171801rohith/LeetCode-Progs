@@ -273,9 +273,13 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(result));
 
         // 51
-        FirstMissingPositive positive = new FirstMissingPositive();
-        int[] nums = { 1, 1 };
-        System.out.println("Result: " + positive.firstMissingPositive(nums));
+        // FirstMissingPositive positive = new FirstMissingPositive();
+        // int[] nums = { 1, 1 };
+        // System.out.println("Result: " + positive.firstMissingPositive(nums));
 
+        // 52
+        MajorityElement major = new MajorityElement();
+        int[] nums = { 2, 2, 1, 1, 1, 2, 2 };
+        System.out.println("Result: " + major.majorityElement(nums));
     }
 }
