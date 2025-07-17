@@ -318,9 +318,14 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(sorted.sortedSquares(nums)));
 
         // 59
-        SortColors colors = new SortColors();
-        int[] nums = { 1, 0, 2, 2, 1, 0, 1 };
-        colors.sortColors(nums);
+        // SortColors colors = new SortColors();
+        // int[] nums = { 1, 0, 2, 2, 1, 0, 1 };
+        // colors.sortColors(nums);
+
+        // 60
+        AvgSalaryExcludingMaxMin avgSalary = new AvgSalaryExcludingMaxMin();
+        int[] salary = { 4000, 3000, 1000, 2000 };
+        System.out.println(avgSalary.average(salary));
 
     }
 }
