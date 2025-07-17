@@ -308,9 +308,14 @@ public class MainSolution {
         // Arrays.toString(parity.sortArrayByParity(nums));
 
         // 57
-        HeightChecker check = new HeightChecker();
-        int[] nums = { 3, 1, 2, 4 };
-        System.out.println("Result: " + check.heightChecker(nums));
-
+        // HeightChecker check = new HeightChecker();
+        // int[] nums = { 3, 1, 2, 4 };
+        // System.out.println("Result: " + check.heightChecker(nums));
+        
+        // 58
+        SquaresOfSortedArray sorted = new SquaresOfSortedArray();
+        int[] nums = {-7,-3,2,3,11};
+        System.out.println("Result: " + Arrays.toString(sorted.sortedSquares(nums)));
+        
     }
 }
