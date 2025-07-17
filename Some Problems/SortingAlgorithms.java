@@ -53,6 +53,35 @@ public class SortingAlgorithms {
         }
     }
 
+    public static void merge(int[] arr, int low, int mid, int high) {
+        int i = low, k = low, j = mid + 1;
+        int[] buf = new int[arr.length];
+
+        while (i <= mid && j <= high) {
+            if (arr[i] < arr[j])
+                buf[k++] = arr[i++];
+            else
+                buf[k++] = arr[j++];
+        }
+        while (i <= mid)
+            buf[k++] = arr[i++];
+        while (j <= high)
+            buf[k++] = arr[j++];
+
+        for (int l = low; l <= high; l++) {
+            arr[l] = buf[l];
+        }
+    }
+
+    public static void mergeSort(int[] arr, int low, int high) {
+        if (low < high) {
+            int mid = low + (high - low) / 2;
+            mergeSort(arr, low, mid);
+            mergeSort(arr, mid + 1, high);
+            merge(arr, low, mid, high);
+        }
+    }
+
     public static void main(String[] args) {
         int[] arr = { 8, 7, 6, 5, 4, 3, 2, 1 };
         System.out.println("Before Sorting: " + Arrays.toString(arr));
@@ -67,7 +96,10 @@ public class SortingAlgorithms {
         // insertionSort(arr);
 
         // 4
-        cyclicSort(arr);
+        // cyclicSort(arr);
+
+        // 5
+        mergeSort(arr, 0, arr.length - 1);
 
         System.out.println("After Sorting: " + Arrays.toString(arr));
     }

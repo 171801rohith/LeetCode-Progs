@@ -311,11 +311,16 @@ public class MainSolution {
         // HeightChecker check = new HeightChecker();
         // int[] nums = { 3, 1, 2, 4 };
         // System.out.println("Result: " + check.heightChecker(nums));
-        
+
         // 58
-        SquaresOfSortedArray sorted = new SquaresOfSortedArray();
-        int[] nums = {-7,-3,2,3,11};
-        System.out.println("Result: " + Arrays.toString(sorted.sortedSquares(nums)));
-        
+        // SquaresOfSortedArray sorted = new SquaresOfSortedArray();
+        // int[] nums = {-7,-3,2,3,11};
+        // System.out.println("Result: " + Arrays.toString(sorted.sortedSquares(nums)));
+
+        // 59
+        SortColors colors = new SortColors();
+        int[] nums = { 1, 0, 2, 2, 1, 0, 1 };
+        colors.sortColors(nums);
+
     }
 }
