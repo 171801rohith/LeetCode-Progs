@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MainSolution {
     public static void main(String[] args) {
         // 1
@@ -288,8 +290,14 @@ public class MainSolution {
         // System.out.println("Result: " + maxPro.maximumProduct(nums));
 
         // 54
-        ThirdMax third = new ThirdMax();
-        int[] nums = { 2, 2, 1, 1 };
-        System.out.println("Result: " + third.thirdMax(nums));
+        // ThirdMax third = new ThirdMax();
+        // int[] nums = { 2, 2, 1, 1 };
+        // System.out.println("Result: " + third.thirdMax(nums));
+
+        // 55
+        IntersectionOfArrays inter = new IntersectionOfArrays();
+        int[] nums1 = { 4, 9, 5 };
+        int[] nums2 = { 9, 4, 9, 8, 4 };
+        System.out.println("Result: " + Arrays.toString(inter.intersection(nums1, nums2)));
     }
 }
