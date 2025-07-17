@@ -323,9 +323,13 @@ public class MainSolution {
         // colors.sortColors(nums);
 
         // 60
-        AvgSalaryExcludingMaxMin avgSalary = new AvgSalaryExcludingMaxMin();
-        int[] salary = { 4000, 3000, 1000, 2000 };
-        System.out.println(avgSalary.average(salary));
+        // AvgSalaryExcludingMaxMin avgSalary = new AvgSalaryExcludingMaxMin();
+        // int[] salary = { 4000, 3000, 1000, 2000 };
+        // System.out.println(avgSalary.average(salary));
 
+        // 61
+        MaxProductOf2Elements maxPro = new MaxProductOf2Elements();
+        int[] nums = { 4, 3, 1, 2 };
+        System.out.println("Result: " + maxPro.maxProduct(nums));
     }
 }
