@@ -302,8 +302,15 @@ public class MainSolution {
         // nums2)));
 
         // 56
-        SortByParity parity = new SortByParity();
+        // SortByParity parity = new SortByParity();
+        // int[] nums = { 3, 1, 2, 4 };
+        // System.out.println("Result: " +
+        // Arrays.toString(parity.sortArrayByParity(nums));
+
+        // 57
+        HeightChecker check = new HeightChecker();
         int[] nums = { 3, 1, 2, 4 };
-        System.out.println("Result: " + Arrays.toString(parity.sortArrayByParity(nums)));
+        System.out.println("Result: " + check.heightChecker(nums));
+
     }
 }
