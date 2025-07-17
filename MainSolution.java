@@ -278,8 +278,14 @@ public class MainSolution {
         // System.out.println("Result: " + positive.firstMissingPositive(nums));
 
         // 52
-        MajorityElement major = new MajorityElement();
-        int[] nums = { 2, 2, 1, 1, 1, 2, 2 };
-        System.out.println("Result: " + major.majorityElement(nums));
+        // MajorityElement major = new MajorityElement();
+        // int[] nums = { 2, 2, 1, 1, 1, 2, 2 };
+        // System.out.println("Result: " + major.majorityElement(nums));
+
+        // 53
+        MaxProductOfThreeNums maxPro = new MaxProductOfThreeNums();
+        int[] nums = {-100,-2,-3,1};
+        System.out.println("Result: " + maxPro.maximumProduct(nums));
+
     }
 }
