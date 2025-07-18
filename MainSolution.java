@@ -341,7 +341,11 @@ public class MainSolution {
         // System.out.println("Result: " + shuffle.restoreString(s, indices));
 
         // 64
-        GoalParser goalParser = new GoalParser();
-        System.out.println("Result: " + goalParser.interpret("(al)G(al)()()G"));
+        // GoalParser goalParser = new GoalParser();
+        // System.out.println("Result: " + goalParser.interpret("(al)G(al)()()G"));
+
+        // 65
+        ItemsMatchingRule items = new ItemsMatchingRule();
+        // check 1773th leetcode easy problem
     }
 }
