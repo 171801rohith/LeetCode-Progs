@@ -335,9 +335,13 @@ public class MainSolution {
         // System.out.println("Result: " + ip.defangIPaddr("255.100.50.0"));
 
         // 63
-        ShuffleString shuffle = new ShuffleString();
-        int[] indices = { 4, 5, 6, 7, 0, 2, 1, 3 };
-        String s = "codeleet";
-        System.out.println("Result: " + shuffle.restoreString(s, indices));
+        // ShuffleString shuffle = new ShuffleString();
+        // int[] indices = { 4, 5, 6, 7, 0, 2, 1, 3 };
+        // String s = "codeleet";
+        // System.out.println("Result: " + shuffle.restoreString(s, indices));
+
+        // 64
+        GoalParser goalParser = new GoalParser();
+        System.out.println("Result: " + goalParser.interpret("(al)G(al)()()G"));
     }
 }
