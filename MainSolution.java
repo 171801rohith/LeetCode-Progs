@@ -349,8 +349,14 @@ public class MainSolution {
         // check 1773th leetcode easy problem
 
         // 66
-        SortingSentences sentence = new SortingSentences();
-        String s = "Myself2 Me1 I4 and3";
-        System.out.println("Result: " + sentence.sortSentence(s));
+        // SortingSentences sentence = new SortingSentences();
+        // String s = "Myself2 Me1 I4 and3";
+        // System.out.println("Result: " + sentence.sortSentence(s));
+
+        // 67
+        RepeatedStringMatch stringMatch = new RepeatedStringMatch();
+        String a = "a", b = "aa";
+        System.out.println("Result: " + stringMatch.repeatedStringMatch(a, b));
+
     }
 }
