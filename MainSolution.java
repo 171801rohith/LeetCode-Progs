@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class MainSolution {
     public static void main(String[] args) {
         // 1
@@ -328,8 +326,12 @@ public class MainSolution {
         // System.out.println(avgSalary.average(salary));
 
         // 61
-        MaxProductOf2Elements maxPro = new MaxProductOf2Elements();
-        int[] nums = { 4, 3, 1, 2 };
-        System.out.println("Result: " + maxPro.maxProduct(nums));
+        // MaxProductOf2Elements maxPro = new MaxProductOf2Elements();
+        // int[] nums = { 4, 3, 1, 2 };
+        // System.out.println("Result: " + maxPro.maxProduct(nums));
+
+        // 62
+        IPAddress ip = new IPAddress();
+        System.out.println("Result: " + ip.defangIPaddr("255.100.50.0"));
     }
 }
