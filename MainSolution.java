@@ -345,7 +345,12 @@ public class MainSolution {
         // System.out.println("Result: " + goalParser.interpret("(al)G(al)()()G"));
 
         // 65
-        ItemsMatchingRule items = new ItemsMatchingRule();
+        // ItemsMatchingRule items = new ItemsMatchingRule();
         // check 1773th leetcode easy problem
+
+        // 66
+        SortingSentences sentence = new SortingSentences();
+        String s = "Myself2 Me1 I4 and3";
+        System.out.println("Result: " + sentence.sortSentence(s));
     }
 }
