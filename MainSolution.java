@@ -376,8 +376,11 @@ public class MainSolution {
         // System.out.println("Result: " + numSubs.numOfStrings(patterns, word));
         
         // 72
-        RobotReturnOrigin robot = new RobotReturnOrigin();
-        System.out.println("Result: " + robot.judgeCircle("UDDU"));
-
+        // RobotReturnOrigin robot = new RobotReturnOrigin();
+        // System.out.println("Result: " + robot.judgeCircle("UDDU"));
+        
+        // 73
+        ReverseWordsInSentence reverse = new ReverseWordsInSentence();
+        System.out.println("Result: " + reverse.reverseWords("Let's take LeetCode contest"));
     }
 }
