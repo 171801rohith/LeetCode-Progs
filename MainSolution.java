@@ -361,14 +361,19 @@ public class MainSolution {
         // 68
         // ToLowercase lower = new ToLowercase();
         // System.out.println("Result: " + lower.toLowerCase("ABCD"));
-        
+
         // 69
         // HalvesAreAlike areAlike = new HalvesAreAlike();
         // System.out.println("Result: " + areAlike.halvesAreAlike("book"));
-        
+
         // 70
-        DecryptFromStr decrypt = new DecryptFromStr();
-        System.out.println("Result: " + decrypt.freqAlphabets("1326#"));
+        // DecryptFromStr decrypt = new DecryptFromStr();
+        // System.out.println("Result: " + decrypt.freqAlphabets("1326#"));
+
+        // 71
+        NumOfSubStrings numSubs = new NumOfSubStrings();
+        String patterns[] = { "a", "a", "a" }, word = "ab";
+        System.out.println("Result: " + numSubs.numOfStrings(patterns, word));
 
     }
 }
