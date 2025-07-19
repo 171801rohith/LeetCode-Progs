@@ -359,8 +359,13 @@ public class MainSolution {
         // System.out.println("Result: " + stringMatch.repeatedStringMatch(a, b));
 
         // 68
-        ToLowercase lower = new ToLowercase();
-        System.out.println("Result: " + lower.toLowerCase("ABCD"));
+        // ToLowercase lower = new ToLowercase();
+        // System.out.println("Result: " + lower.toLowerCase("ABCD"));
+        
+        // 69
+        HalvesAreAlike areAlike = new HalvesAreAlike();
+        System.out.println("Result: " + areAlike.halvesAreAlike("book"));
+
 
     }
 }
