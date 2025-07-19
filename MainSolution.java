@@ -371,9 +371,13 @@ public class MainSolution {
         // System.out.println("Result: " + decrypt.freqAlphabets("1326#"));
 
         // 71
-        NumOfSubStrings numSubs = new NumOfSubStrings();
-        String patterns[] = { "a", "a", "a" }, word = "ab";
-        System.out.println("Result: " + numSubs.numOfStrings(patterns, word));
+        // NumOfSubStrings numSubs = new NumOfSubStrings();
+        // String patterns[] = { "a", "a", "a" }, word = "ab";
+        // System.out.println("Result: " + numSubs.numOfStrings(patterns, word));
+        
+        // 72
+        RobotReturnOrigin robot = new RobotReturnOrigin();
+        System.out.println("Result: " + robot.judgeCircle("UDDU"));
 
     }
 }
