@@ -354,9 +354,13 @@ public class MainSolution {
         // System.out.println("Result: " + sentence.sortSentence(s));
 
         // 67
-        RepeatedStringMatch stringMatch = new RepeatedStringMatch();
-        String a = "a", b = "aa";
-        System.out.println("Result: " + stringMatch.repeatedStringMatch(a, b));
+        // RepeatedStringMatch stringMatch = new RepeatedStringMatch();
+        // String a = "a", b = "aa";
+        // System.out.println("Result: " + stringMatch.repeatedStringMatch(a, b));
+
+        // 68
+        ToLowercase lower = new ToLowercase();
+        System.out.println("Result: " + lower.toLowerCase("ABCD"));
 
     }
 }
