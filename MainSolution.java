@@ -363,9 +363,12 @@ public class MainSolution {
         // System.out.println("Result: " + lower.toLowerCase("ABCD"));
         
         // 69
-        HalvesAreAlike areAlike = new HalvesAreAlike();
-        System.out.println("Result: " + areAlike.halvesAreAlike("book"));
-
+        // HalvesAreAlike areAlike = new HalvesAreAlike();
+        // System.out.println("Result: " + areAlike.halvesAreAlike("book"));
+        
+        // 70
+        DecryptFromStr decrypt = new DecryptFromStr();
+        System.out.println("Result: " + decrypt.freqAlphabets("1326#"));
 
     }
 }
