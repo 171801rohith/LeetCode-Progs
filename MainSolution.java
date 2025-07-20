@@ -385,8 +385,12 @@ public class MainSolution {
         // contest"));
         
         // 74
-        MaxRepeatingSubstr subStr = new MaxRepeatingSubstr();
-        System.out.println("Result: " + subStr.maxRepeating("ababc", "ab"));
+        // MaxRepeatingSubstr subStr = new MaxRepeatingSubstr();
+        // System.out.println("Result: " + subStr.maxRepeating("ababc", "ab"));
+        
+        // 75
+        BinStrMostOne most = new BinStrMostOne();
+        System.out.println("Result: " + most.checkOnesSegment("100001"));
 
     }
 }
