@@ -374,13 +374,19 @@ public class MainSolution {
         // NumOfSubStrings numSubs = new NumOfSubStrings();
         // String patterns[] = { "a", "a", "a" }, word = "ab";
         // System.out.println("Result: " + numSubs.numOfStrings(patterns, word));
-        
+
         // 72
         // RobotReturnOrigin robot = new RobotReturnOrigin();
         // System.out.println("Result: " + robot.judgeCircle("UDDU"));
-        
+
         // 73
-        ReverseWordsInSentence reverse = new ReverseWordsInSentence();
-        System.out.println("Result: " + reverse.reverseWords("Let's take LeetCode contest"));
+        // ReverseWordsInSentence reverse = new ReverseWordsInSentence();
+        // System.out.println("Result: " + reverse.reverseWords("Let's take LeetCode
+        // contest"));
+        
+        // 74
+        MaxRepeatingSubstr subStr = new MaxRepeatingSubstr();
+        System.out.println("Result: " + subStr.maxRepeating("ababc", "ab"));
+
     }
 }
