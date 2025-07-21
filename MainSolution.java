@@ -383,17 +383,22 @@ public class MainSolution {
         // ReverseWordsInSentence reverse = new ReverseWordsInSentence();
         // System.out.println("Result: " + reverse.reverseWords("Let's take LeetCode
         // contest"));
-        
+
         // 74
         // MaxRepeatingSubstr subStr = new MaxRepeatingSubstr();
         // System.out.println("Result: " + subStr.maxRepeating("ababc", "ab"));
-        
+
         // 75
         // BinStrMostOne most = new BinStrMostOne();
         // System.out.println("Result: " + most.checkOnesSegment("100001"));
 
-        //76
-        MergeStrAlt strAlt = new MergeStrAlt();
-        System.out.println("Result: " + strAlt.mergeAlternately("abc", "def")); 
+        // 76
+        // MergeStrAlt strAlt = new MergeStrAlt();
+        // System.out.println("Result: " + strAlt.mergeAlternately("abc", "def"));
+
+        // 77
+        ReversePrefixStr preStr = new ReversePrefixStr();
+        System.out.println("Result: " + preStr.reversePrefix("abcdefd", 'd'));
+
     }
 }
