@@ -389,8 +389,11 @@ public class MainSolution {
         // System.out.println("Result: " + subStr.maxRepeating("ababc", "ab"));
         
         // 75
-        BinStrMostOne most = new BinStrMostOne();
-        System.out.println("Result: " + most.checkOnesSegment("100001"));
+        // BinStrMostOne most = new BinStrMostOne();
+        // System.out.println("Result: " + most.checkOnesSegment("100001"));
 
+        //76
+        MergeStrAlt strAlt = new MergeStrAlt();
+        System.out.println("Result: " + strAlt.mergeAlternately("abc", "def")); 
     }
 }
