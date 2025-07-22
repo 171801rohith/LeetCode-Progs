@@ -24,21 +24,26 @@
 import java.util.ArrayList;
 
 public class LengthOfWord {
+    // public int lengthOfLastWord(String s) {
+    // ArrayList<String> lastWord = new ArrayList<String>();
+    // for (int i = s.length() - 1; i >= 0; i--) {
+    // if (!(Character.isLetter(s.charAt(i)))) {
+    // if (lastWord.size() == 0) {
+    // continue;
+    // }
+    // }
+    // if (s.charAt(i) == ' ') {
+    // break;
+    // } else {
+    // lastWord.add(String.valueOf(s.charAt(i)));
+    // }
+    // }
+    // System.out.println(lastWord);
+    // return lastWord.size();
+    // }
+
     public int lengthOfLastWord(String s) {
-        ArrayList<String> lastWord = new ArrayList<String>();
-        for (int i = s.length() - 1; i >= 0; i--) {
-            if (!(Character.isLetter(s.charAt(i)))) {
-                if (lastWord.size() == 0) {
-                    continue;
-                }
-            }
-            if (s.charAt(i) == ' ') {
-                break;
-            } else {
-                lastWord.add(String.valueOf(s.charAt(i)));
-            }
-        }
-        System.out.println(lastWord);
-        return lastWord.size();
+        String[] words = s.split(" ");
+        return words[words.length - 1].length();
     }
 }

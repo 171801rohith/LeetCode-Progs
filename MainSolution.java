@@ -67,10 +67,9 @@ public class MainSolution {
         // System.out.println("Index : " + insertPosition.searchInsert(nums, target));
 
         // 10
-        // LengthOfWord lengthOfWord = new LengthOfWord();
-        // String s = " fly me to the moon ";
-        // System.out.println("Length of the last word = " +
-        // lengthOfWord.lengthOfLastWord(s));
+        LengthOfWord lengthOfWord = new LengthOfWord();
+        String s = " fly me to the moon ";
+        System.out.println("Result: " + lengthOfWord.lengthOfLastWord(s));
 
         // 11
         // PlusOne plusOne = new PlusOne();
@@ -397,8 +396,11 @@ public class MainSolution {
         // System.out.println("Result: " + strAlt.mergeAlternately("abc", "def"));
 
         // 77
-        ReversePrefixStr preStr = new ReversePrefixStr();
-        System.out.println("Result: " + preStr.reversePrefix("abcdefd", 'd'));
+        // ReversePrefixStr preStr = new ReversePrefixStr();
+        // System.out.println("Result: " + preStr.reversePrefix("abcdefd", 'd'));
+
+        // 78
+        
 
     }
 }
