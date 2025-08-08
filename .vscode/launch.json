@@ -1,0 +1,112 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchProblem",
+            "request": "launch",
+            "mainClass": "BinarySearchProblem",
+            "projectName": "LeetCode_ab00361c"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchRowColMatrix",
+            "request": "launch",
+            "mainClass": "BinarySearchRowColMatrix",
+            "projectName": "LeetCode_ab00361c"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchSortedMatrix",
+            "request": "launch",
+            "mainClass": "BinarySearchSortedMatrix",
+            "projectName": "LeetCode_ab00361c"
+        },
+        {
+            "type": "java",
+            "name": "CircularQueueImplementation",
+            "request": "launch",
+            "mainClass": "CircularQueueImplementation",
+            "projectName": "LeetCode_ab00361c"
+        },
+        {
+            "type": "java",
+            "name": "CountRotations",
+            "request": "launch",
+            "mainClass": "CountRotations",
+            "projectName": "LeetCode_ab00361c"
+        },
+        {
+            "type": "java",
+            "name": "GraphImplementation",
+            "request": "launch",
+            "mainClass": "GraphImplementation",
+            "projectName": "LeetCode_ab00361c"
+        },
+        {
+            "type": "java",
+            "name": "MainSolution",
+            "request": "launch",
+            "mainClass": "MainSolution",
+            "projectName": "LeetCode_ab00361c"
+        },
+        {
+            "type": "java",
+            "name": "MainSolutionGFG",
+            "request": "launch",
+            "mainClass": "MainSolutionGFG",
+            "projectName": "LeetCode_ab00361c"
+        },
+        {
+            "type": "java",
+            "name": "Patterns",
+            "request": "launch",
+            "mainClass": "Patterns",
+            "projectName": "LeetCode_ab00361c"
+        },
+        {
+            "type": "java",
+            "name": "PositionOfElementInAnInfinteArray",
+            "request": "launch",
+            "mainClass": "PositionOfElementInAnInfinteArray",
+            "projectName": "LeetCode_ab00361c"
+        },
+        {
+            "type": "java",
+            "name": "QueueImplementation",
+            "request": "launch",
+            "mainClass": "QueueImplementation",
+            "projectName": "LeetCode_ab00361c"
+        },
+        {
+            "type": "java",
+            "name": "SatckImplementation",
+            "request": "launch",
+            "mainClass": "SatckImplementation",
+            "projectName": "LeetCode_ab00361c"
+        },
+        {
+            "type": "java",
+            "name": "SingllyLinkedListImplementation",
+            "request": "launch",
+            "mainClass": "SingllyLinkedListImplementation",
+            "projectName": "LeetCode_ab00361c"
+        },
+        {
+            "type": "java",
+            "name": "SortingAlgorithms",
+            "request": "launch",
+            "mainClass": "SortingAlgorithms",
+            "projectName": "LeetCode_ab00361c"
+        }
+    ]
+}
