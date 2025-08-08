@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MainSolution {
     public static void main(String[] args) {
         // 1
@@ -405,8 +407,14 @@ public class MainSolution {
         // int[] { 1, 2, 3 }));
 
         // 79
-        IsomorphicStrings isoStr = new IsomorphicStrings();
-        String s = "foo", t = "bar";
-        System.out.println("Result: " + isoStr.isIsomorphic(s, t));
+        // IsomorphicStrings isoStr = new IsomorphicStrings();
+        // String s = "foo", t = "bar";
+        // System.out.println("Result: " + isoStr.isIsomorphic(s, t));
+
+        // 70
+        NumsSmallerThanCurrentNum numsCur = new NumsSmallerThanCurrentNum();
+        int[] nums = { 8, 1, 2, 2, 3 };
+        int[] result = numsCur.smallerNumbersThanCurrent(nums);
+        System.out.println("Result: " + Arrays.toString(result));
     }
 }
