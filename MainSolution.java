@@ -400,7 +400,13 @@ public class MainSolution {
         // System.out.println("Result: " + preStr.reversePrefix("abcdefd", 'd'));
 
         // 78
-        ShiftingLetters shiftingLetters = new ShiftingLetters();
-        System.out.println("Result: " + shiftingLetters.shiftingLetters("abc", new int[] { 1, 2, 3 }));
+        // ShiftingLetters shiftingLetters = new ShiftingLetters();
+        // System.out.println("Result: " + shiftingLetters.shiftingLetters("abc", new
+        // int[] { 1, 2, 3 }));
+
+        // 79
+        IsomorphicStrings isoStr = new IsomorphicStrings();
+        String s = "foo", t = "bar";
+        System.out.println("Result: " + isoStr.isIsomorphic(s, t));
     }
 }
