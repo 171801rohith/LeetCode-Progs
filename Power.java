@@ -51,7 +51,7 @@
 // Output: false
 // Explanation: There is no x where 3^x = (-1).
 
-public class PowerOfX {
+public class Power {
     public boolean isPowerOfTwo(int n) {
         if (n <= 0)
             return false;
