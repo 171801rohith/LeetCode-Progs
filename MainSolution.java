@@ -418,15 +418,15 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(result));
 
         // 81
-        // Power pow = new Power();
+        // PowerOfX pow = new PowerOfX();
         // System.out.println("Result: " + pow.isPowerOfTwo(4));
 
         // 82
-        // Power pow = new Power();
+        // PowerOfX pow = new PowerOfX();
         // System.out.println("Result: " + pow.isPowerOfFour(1));
 
         // 83
-        Power pow = new Power();
+        PowerOfX pow = new PowerOfX();
         System.out.println("Result: " + pow.isPowerOfThree(27));
 
     }
