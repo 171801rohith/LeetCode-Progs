@@ -32,6 +32,25 @@
 // Input: n = 1
 // Output: true
 
+// 326. Power of Three
+// Given an integer n, return true if it is a power of three. Otherwise, return false.
+// An integer n is a power of three, if there exists an integer x such that n == 3x.
+
+// Example 1:
+// Input: n = 27
+// Output: true
+// Explanation: 27 = 3^3
+
+// Example 2:
+// Input: n = 0
+// Output: false
+// Explanation: There is no x where 3^x = 0.
+
+// Example 3:
+// Input: n = -1
+// Output: false
+// Explanation: There is no x where 3^x = (-1).
+
 public class PowerOfX {
     public boolean isPowerOfTwo(int n) {
         if (n <= 0)
@@ -42,22 +61,36 @@ public class PowerOfX {
     }
 
     public boolean isPowerOfFour(int n) {
-        if (n <= 0)
+         if (n <= 0)
             return false;
+            
         int count = 0;
         while ((n & 1) == 0) {
             n >>= 1;
             count++;
         }
-        System.out.println(count);
         return (n | 0) == 1 && (count & 1) != 1;
+
+        // if (n == 1) return true;
+        // if ( n % 4 == 0) return isPowerOfFour(n / 4);
+        // return false;
+    }
+
+   public boolean isPowerOfThree(int n) {
+        if (n <= 0 && (n & 1) == 0)
+            return false;
+            
+        // long base = 1;
+        // while (base <= n) {
+        //     if (base == n)
+        //         return true;
+        //     base *= 3;
+        // }
+
+        if (n == 1) return true;
+        if (n % 3 == 0)
+            return isPowerOfThree(n / 3);
+
+        return false;
     }
 }
-
-// 00000001 - 1
-
-// 00000100 - 4
-
-// 00010000 - 16
-
-// 01000000 - 64
