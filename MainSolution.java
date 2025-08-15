@@ -411,10 +411,14 @@ public class MainSolution {
         // String s = "foo", t = "bar";
         // System.out.println("Result: " + isoStr.isIsomorphic(s, t));
 
-        // 70
-        NumsSmallerThanCurrentNum numsCur = new NumsSmallerThanCurrentNum();
-        int[] nums = { 8, 1, 2, 2, 3 };
-        int[] result = numsCur.smallerNumbersThanCurrent(nums);
-        System.out.println("Result: " + Arrays.toString(result));
+        // 80
+        // NumsSmallerThanCurrentNum numsCur = new NumsSmallerThanCurrentNum();
+        // int[] nums = { 8, 1, 2, 2, 3 };
+        // int[] result = numsCur.smallerNumbersThanCurrent(nums);
+        // System.out.println("Result: " + Arrays.toString(result));
+
+        // 81
+        PowOf2 pow2 = new PowOf2();
+        System.out.println("Result: " + pow2.isPowerOfTwo(4));
     }
 }
