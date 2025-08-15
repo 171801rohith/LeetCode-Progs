@@ -426,8 +426,12 @@ public class MainSolution {
         // System.out.println("Result: " + pow.isPowerOfFour(1));
 
         // 83
-        PowerOfX pow = new PowerOfX();
-        System.out.println("Result: " + pow.isPowerOfThree(27));
+        // PowerOfX pow = new PowerOfX();
+        // System.out.println("Result: " + pow.isPowerOfThree(27));
+        
+        // 84
+        Power pow = new Power();
+        System.out.println("Result: " + pow.myPow(2, -2147483648));
 
     }
 }
