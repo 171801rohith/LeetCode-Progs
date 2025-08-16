@@ -428,10 +428,15 @@ public class MainSolution {
         // 83
         // PowerOfX pow = new PowerOfX();
         // System.out.println("Result: " + pow.isPowerOfThree(27));
-        
+
         // 84
-        Power pow = new Power();
-        System.out.println("Result: " + pow.myPow(2, -2147483648));
+        // Power pow = new Power();
+        // System.out.println("Result: " + pow.myPow(2, -2147483648));
+
+        // 85
+        FlipAndInvertImg flip = new FlipAndInvertImg();
+        int[][] image = { { 1, 1, 0 }, { 1, 0, 1 }, { 0, 0, 0 } };
+        System.out.println("Result: " + Arrays.deepToString(flip.flipAndInvertImage(image)));
 
     }
 }
