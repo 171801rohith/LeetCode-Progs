@@ -1,3 +1,5 @@
+import java.nio.channels.Pipe.SourceChannel;
+
 public class Bitwise {
     public static void oddOReven(int n) {
         if ((n & 1) == 1)
@@ -78,7 +80,51 @@ public class Bitwise {
         System.out.println(res);
     }
 
+    public static void noOfSetBits(int n) {
+        int count = 0;
+        while (n > 0) {
+            count++;
+            n -= (n & -n);
+        }
+        System.out.println(count);
+        // int count = 0;
+        // while (n > 0) {
+        // if ((n & 1) == 1) count++;
+        // n >>= 1;
+        // }
+        // System.out.println(count);
+    }
+
+    // Time Limit Exceeded for large numbers
+    // public static void XORInRange(int s, int e) {
+    // int res = 0;
+    // for (int i = s; i <= e; i++)
+    // res ^= i;
+    // System.out.println(res);
+    // }
+
+    public static int xor(int n) {
+        switch (n % 4) {
+            case 0:
+                return n;
+            case 1:
+                return 1;
+            case 2:
+                return n + 1;
+            case 3:
+                return 0;
+            default:
+                return 0;
+        }
+    }
+
+    public static void XORInRange(int s, int e){
+        int res = xor(e) ^ xor(s - 1);
+        System.out.println(res);
+    }
+
     public static void main(String[] args) {
+        System.out.println(Integer.toBinaryString(29));
         oddOReven(17);
         findUnique(new int[] { 3, 4, 3, 5, 4, 5, 6 });
         findIthBit(13, 4);
@@ -88,9 +134,10 @@ public class Bitwise {
         noOfDigits(5, 2);
         powOf2(1);
         power(3, 6);
+        noOfSetBits(29);
+        XORInRange(0, 9);
     }
 }
-
 
 // 1000
 // 0111
