@@ -1,5 +1,3 @@
-import java.nio.channels.Pipe.SourceChannel;
-
 public class Bitwise {
     public static void oddOReven(int n) {
         if ((n & 1) == 1)
