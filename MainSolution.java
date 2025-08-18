@@ -434,9 +434,13 @@ public class MainSolution {
         // System.out.println("Result: " + pow.myPow(2, -2147483648));
 
         // 85
-        FlipAndInvertImg flip = new FlipAndInvertImg();
-        int[][] image = { { 1, 1, 0 }, { 1, 0, 1 }, { 0, 0, 0 } };
-        System.out.println("Result: " + Arrays.deepToString(flip.flipAndInvertImage(image)));
+        // FlipAndInvertImg flip = new FlipAndInvertImg();
+        // int[][] image = { { 1, 1, 0 }, { 1, 0, 1 }, { 0, 0, 0 } };
+        // System.out.println("Result: " + Arrays.deepToString(flip.flipAndInvertImage(image)));
 
+        // 86
+        NeitherMaxMin minmax = new NeitherMaxMin();
+        int[] nums = {3, 2, 1};
+        System.out.println("Result: " + minmax.findNonMinOrMax(nums));
     }
 }
