@@ -436,11 +436,21 @@ public class MainSolution {
         // 85
         // FlipAndInvertImg flip = new FlipAndInvertImg();
         // int[][] image = { { 1, 1, 0 }, { 1, 0, 1 }, { 0, 0, 0 } };
-        // System.out.println("Result: " + Arrays.deepToString(flip.flipAndInvertImage(image)));
+        // System.out.println("Result: " +
+        // Arrays.deepToString(flip.flipAndInvertImage(image)));
 
         // 86
-        NeitherMaxMin minmax = new NeitherMaxMin();
-        int[] nums = {3, 2, 1};
-        System.out.println("Result: " + minmax.findNonMinOrMax(nums));
+        // NeitherMaxMin minmax = new NeitherMaxMin();
+        // int[] nums = {3, 2, 1};
+        // System.out.println("Result: " + minmax.findNonMinOrMax(nums));
+
+        // 87
+        // FirstUniqueChar uniqueChar = new FirstUniqueChar();
+        // System.out.println("Result: " + uniqueChar.firstUniqChar("leetcode"));
+
+        // 88
+        WordPattern wordPattern = new WordPattern();
+        System.out.println("Result: " + wordPattern.wordPattern("abba", "dog cat cat dog"));
+
     }
 }
