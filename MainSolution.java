@@ -460,10 +460,16 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(arr));
         
         // 90
-        MoveZeros move = new MoveZeros();
+        // MoveZeros move = new MoveZeros();
+        // int[] arr = { 1, 0, 2, 3, 0, 4, 5, 0 };
+        // move.moveZeroes(arr);
+        // System.out.println("Result: " + Arrays.toString(arr));
+        
+        // 91
+        UniqueNumOcc uniq = new UniqueNumOcc();
         int[] arr = { 1, 0, 2, 3, 0, 4, 5, 0 };
-        move.moveZeroes(arr);
-        System.out.println("Result: " + Arrays.toString(arr));
+        System.out.println("Result: " + uniq.uniqueOccurrences(arr));
+
 
     }
 }
