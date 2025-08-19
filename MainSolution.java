@@ -450,12 +450,20 @@ public class MainSolution {
 
         // 88
         // WordPattern wordPattern = new WordPattern();
-        // System.out.println("Result: " + wordPattern.wordPattern("abba", "dog cat cat dog"));
+        // System.out.println("Result: " + wordPattern.wordPattern("abba", "dog cat cat
+        // dog"));
 
         // 89
-        DuplicateZeros zeros = new DuplicateZeros();
-        int[] arr = {1,0,2,3,0,4,5,0};
-        zeros.duplicateZeros(arr);
+        // DuplicateZeros zeros = new DuplicateZeros();
+        // int[] arr = { 1, 0, 2, 3, 0, 4, 5, 0 };
+        // zeros.duplicateZeros(arr);
+        // System.out.println("Result: " + Arrays.toString(arr));
+        
+        // 90
+        MoveZeros move = new MoveZeros();
+        int[] arr = { 1, 0, 2, 3, 0, 4, 5, 0 };
+        move.moveZeroes(arr);
         System.out.println("Result: " + Arrays.toString(arr));
+
     }
 }
