@@ -471,8 +471,12 @@ public class MainSolution {
         // System.out.println("Result: " + uniq.uniqueOccurrences(arr));
         
         // 92
-        AddStrings add = new AddStrings();
-        System.out.println("Result: " + add.addStrings("6913259244", "71103343"));
+        // AddStrings add = new AddStrings();
+        // System.out.println("Result: " + add.addStrings("6913259244", "71103343"));
+
+        // 93
+        SecLargestDigitInStr secLarge = new SecLargestDigitInStr();
+        System.out.println("Result: " + secLarge.secondHighest("dfsd235431"));
     }
 }
  
