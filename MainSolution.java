@@ -475,8 +475,12 @@ public class MainSolution {
         // System.out.println("Result: " + add.addStrings("6913259244", "71103343"));
 
         // 93
-        SecLargestDigitInStr secLarge = new SecLargestDigitInStr();
-        System.out.println("Result: " + secLarge.secondHighest("dfsd235431"));
+        // SecLargestDigitInStr secLarge = new SecLargestDigitInStr();
+        // System.out.println("Result: " + secLarge.secondHighest("dfsd235431"));
+        
+        // 94
+        ReplaceQuestionMark rep = new ReplaceQuestionMark();
+        System.out.println("Result: " + rep.modifyString("?ejhhka?"));
     }
 }
  
