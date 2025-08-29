@@ -41,6 +41,6 @@ public class MergeIntervals {
                 result[i][j] = list.get(k++);
             }
         }
-        return result;
+        return resut;
     }
 }
