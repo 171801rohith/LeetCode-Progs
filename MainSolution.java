@@ -479,8 +479,12 @@ public class MainSolution {
         // System.out.println("Result: " + secLarge.secondHighest("dfsd235431"));
         
         // 94
-        ReplaceQuestionMark rep = new ReplaceQuestionMark();
-        System.out.println("Result: " + rep.modifyString("?ejhhka?"));
+        // ReplaceQuestionMark rep = new ReplaceQuestionMark();
+        // System.out.println("Result: " + rep.modifyString("?ejhhka?"));
+
+        // 95
+        StepsToReduceToZero zero = new StepsToReduceToZero();
+        System.out.println("Result: " + zero.numberOfSteps(14));
     }
 }
  
