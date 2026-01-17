@@ -458,18 +458,18 @@ public class MainSolution {
         // int[] arr = { 1, 0, 2, 3, 0, 4, 5, 0 };
         // zeros.duplicateZeros(arr);
         // System.out.println("Result: " + Arrays.toString(arr));
-        
+
         // 90
         // MoveZeros move = new MoveZeros();
         // int[] arr = { 1, 0, 2, 3, 0, 4, 5, 0 };
         // move.moveZeroes(arr);
         // System.out.println("Result: " + Arrays.toString(arr));
-        
+
         // 91
         // UniqueNumOcc uniq = new UniqueNumOcc();
         // int[] arr = { 1, 0, 2, 3, 0, 4, 5, 0 };
         // System.out.println("Result: " + uniq.uniqueOccurrences(arr));
-        
+
         // 92
         // AddStrings add = new AddStrings();
         // System.out.println("Result: " + add.addStrings("6913259244", "71103343"));
@@ -477,7 +477,7 @@ public class MainSolution {
         // 93
         // SecLargestDigitInStr secLarge = new SecLargestDigitInStr();
         // System.out.println("Result: " + secLarge.secondHighest("dfsd235431"));
-        
+
         // 94
         // ReplaceQuestionMark rep = new ReplaceQuestionMark();
         // System.out.println("Result: " + rep.modifyString("?ejhhka?"));
@@ -487,11 +487,18 @@ public class MainSolution {
         // System.out.println("Result: " + zero.numberOfSteps(14));
 
         // 96
-        Merge2SortedList lists = new Merge2SortedList();
+        // Merge2SortedList lists = new Merge2SortedList();
         // //check 21th leetcode easy problem
 
+        // // 97
+        TransposeMatrix tMat = new TransposeMatrix();
+        int[][] arr = { { 1, 2, 3 }, { 4, 5, 6 }};
+        System.out.println("Result: " + Arrays.deepToString(tMat.transpose(arr)));
 
+        // RotateImage rotImg = new RotateImage();
+        // int[][] arr = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+        // rotImg.rotate(arr);
+        // System.out.println("Result: " + Arrays.deepToString(arr));
 
     }
 }
- 
