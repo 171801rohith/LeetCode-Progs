@@ -491,14 +491,16 @@ public class MainSolution {
         // //check 21th leetcode easy problem
 
         // // 97
-        TransposeMatrix tMat = new TransposeMatrix();
-        int[][] arr = { { 1, 2, 3 }, { 4, 5, 6 }};
-        System.out.println("Result: " + Arrays.deepToString(tMat.transpose(arr)));
+        // TransposeMatrix tMat = new TransposeMatrix();
+        // int[][] arr = { { 1, 2, 3 }, { 4, 5, 6 }};
+        // System.out.println("Result: " + Arrays.deepToString(tMat.transpose(arr)));
 
-        // RotateImage rotImg = new RotateImage();
-        // int[][] arr = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
-        // rotImg.rotate(arr);
-        // System.out.println("Result: " + Arrays.deepToString(arr));
+
+        // 98
+        RotateImage rotImg = new RotateImage();
+        int[][] arr = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+        rotImg.rotate(arr);
+        System.out.println("Result: " + Arrays.deepToString(arr));
 
     }
 }
