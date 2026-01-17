@@ -14,14 +14,14 @@
 // Output: []
 
 public class ReverseList {
-        public ListNode reverseList(ListNode head) {
-        if(head == null){
+    public ListNode reverseList(ListNode head) {
+        if (head == null) {
             return head;
         }
         ListNode cur = head;
         ListNode next = head.next;
-        while(cur.next != null){
-        System.out.println(next.val);
+        while (cur.next != null) {
+            System.out.println(next.val);
             cur.next = next.next;
             next.next = head;
             head = next;

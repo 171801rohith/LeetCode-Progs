@@ -483,8 +483,15 @@ public class MainSolution {
         // System.out.println("Result: " + rep.modifyString("?ejhhka?"));
 
         // 95
-        StepsToReduceToZero zero = new StepsToReduceToZero();
-        System.out.println("Result: " + zero.numberOfSteps(14));
+        // StepsToReduceToZero zero = new StepsToReduceToZero();
+        // System.out.println("Result: " + zero.numberOfSteps(14));
+
+        // 96
+        Merge2SortedList lists = new Merge2SortedList();
+        // //check 21th leetcode easy problem
+
+
+
     }
 }
  
