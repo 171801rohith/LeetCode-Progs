@@ -22,7 +22,7 @@ public class DeleteDuplicateList {
         cur.next = insert;
     }
 
-    public ListNode deleteDuplicates(ListNode head) {
+    public ListNode deleteDuplicates2(ListNode head) {
         ArrayList<Integer> list = new ArrayList<Integer>();
         while (head != null) {
             if (!list.contains(head.val))
@@ -36,5 +36,20 @@ public class DeleteDuplicateList {
             insertEnd(result, i);
         }
         return result.next;
+    }
+
+    public ListNode deleteDuplicates(ListNode head) {
+        if (head == null)
+            return null;
+        ListNode cur = head;
+
+        while (cur.next != null) {
+            if (cur.val == cur.next.val) {
+                cur.next = cur.next.next;
+            } else
+                cur = cur.next;
+
+        }
+        return head;
     }
 }
