@@ -495,12 +495,15 @@ public class MainSolution {
         // int[][] arr = { { 1, 2, 3 }, { 4, 5, 6 }};
         // System.out.println("Result: " + Arrays.deepToString(tMat.transpose(arr)));
 
-
         // 98
-        RotateImage rotImg = new RotateImage();
-        int[][] arr = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
-        rotImg.rotate(arr);
-        System.out.println("Result: " + Arrays.deepToString(arr));
+        // RotateImage rotImg = new RotateImage();
+        // int[][] arr = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+        // rotImg.rotate(arr);
+        // System.out.println("Result: " + Arrays.deepToString(arr));
+
+        // 96
+        // DeleteDuplicateList duplicateList = new DeleteDuplicateList();;
+        // // check 83rd leetcode easy problem
 
     }
 }

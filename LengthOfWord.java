@@ -21,7 +21,7 @@
 // Output: 6
 // Explanation: The last word is "joyboy" with length 6.
 
-import java.util.ArrayList;
+// import java.util.ArrayList;
 
 public class LengthOfWord {
     // public int lengthOfLastWord(String s) {

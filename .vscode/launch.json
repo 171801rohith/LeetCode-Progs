@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MMainSolution",
+            "request": "launch",
+            "mainClass": "MMainSolution",
+            "projectName": "LeetCode_ab00361c"
+        },
+        {
+            "type": "java",
             "name": "Bitwise",
             "request": "launch",
             "mainClass": "Bitwise",
