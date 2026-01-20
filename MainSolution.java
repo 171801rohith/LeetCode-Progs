@@ -505,5 +505,9 @@ public class MainSolution {
         // DeleteDuplicateList duplicateList = new DeleteDuplicateList();;
         // // check 83rd leetcode easy problem
 
+        // 97
+        // DeleteDuplicateList2 duplicateList = new DeleteDuplicateList2();;
+        // // check 82rd leetcode easy problem
+
     }
 }
