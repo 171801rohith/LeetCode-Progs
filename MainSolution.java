@@ -509,5 +509,8 @@ public class MainSolution {
         // DeleteDuplicateList2 duplicateList = new DeleteDuplicateList2();;
         // // check 82rd leetcode easy problem
 
+        // 98
+        MergeKSortedLists lists = new MergeKSortedLists();
+        // //check 23rd leetcode easy problem
     }
 }
