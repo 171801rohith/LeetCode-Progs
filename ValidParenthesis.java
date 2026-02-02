@@ -20,8 +20,6 @@
 // Input: s = "([])"
 // Output: true
 
-import java.util.ArrayList;
-import java.util.Stack;
 
 public class ValidParenthesis {
     // public int setValue(char ch) {

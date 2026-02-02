@@ -513,5 +513,9 @@ public class MainSolution {
         // 98
         // MergeKSortedLists lists = new MergeKSortedLists();
         // //check 23rd leetcode easy problem
+
+        // 99
+        RotateList rlist = new RotateList();
+        // //check 61st leetcode medium problem
     }
 }
