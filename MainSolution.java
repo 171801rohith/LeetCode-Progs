@@ -515,7 +515,11 @@ public class MainSolution {
         // //check 23rd leetcode easy problem
 
         // 99
-        RotateList rlist = new RotateList();
+        // RotateList rlist = new RotateList();
         // //check 61st leetcode medium problem
+
+        // 100
+        // StackUsing2Queues myStack = new StackUsing2Queues();
+        //  check 225th Leetcode Easy problem
     }
 }
