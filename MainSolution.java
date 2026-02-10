@@ -521,5 +521,9 @@ public class MainSolution {
         // 100
         // StackUsing2Queues myStack = new StackUsing2Queues();
         //  check 225th Leetcode Easy problem
+
+        // 101
+        QueueUsing2Stacks myQueue = new QueueUsing2Stacks();
+        //  check 232nd Leetcode Easy problem
     }
 }
