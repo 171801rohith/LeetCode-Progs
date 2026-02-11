@@ -519,15 +519,34 @@ public class MainSolution {
         // //check 61st leetcode medium problem
 
         // 100
-        // StackUsing2Queues myStack = new StackUsing2Queues();
-        //  check 225th Leetcode Easy problem
-
+        // StackUsing2Queues obj = new StackUsing2Queues();
+        // obj.push(4);
+        // int param_2 = obj.pop();
+        // int param_3 = obj.top();
+        // boolean param_4 = obj.empty();
+        
         // 101
-        // QueueUsing2Stacks myQueue = new QueueUsing2Stacks();
-        //  check 232nd Leetcode Easy problem
+        // QueueUsing2Stacks obj = new QueueUsing2Stacks();
+        // obj.push(4);
+        // int param_2 = obj.pop();
+        // int param_3 = obj.peek();
+        // boolean param_4 = obj.empty();
 
         // 102
-        MinStack minStack = new MinStack();
-        // check 155th Leetcode medium problem
+        // MinStack obj = new MinStack();
+        // obj.push(3);
+        // obj.pop();
+        // int param_3 = obj.top();
+        // int param_4 = obj.getMin();
+
+        // 103
+        MyCircularQueue obj = new MyCircularQueue(2);
+        boolean param_1 = obj.enQueue(5);
+        boolean param_2 = obj.deQueue();
+        int param_3 = obj.Front();
+        int param_4 = obj.Rear();
+        boolean param_5 = obj.isEmpty();
+        boolean param_6 = obj.isFull();
+
     }
 }
