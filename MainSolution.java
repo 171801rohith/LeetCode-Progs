@@ -523,7 +523,11 @@ public class MainSolution {
         //  check 225th Leetcode Easy problem
 
         // 101
-        QueueUsing2Stacks myQueue = new QueueUsing2Stacks();
+        // QueueUsing2Stacks myQueue = new QueueUsing2Stacks();
         //  check 232nd Leetcode Easy problem
+
+        // 102
+        MinStack minStack = new MinStack();
+        // check 155th Leetcode medium problem
     }
 }
