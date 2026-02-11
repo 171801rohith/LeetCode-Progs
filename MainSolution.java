@@ -524,7 +524,7 @@ public class MainSolution {
         // int param_2 = obj.pop();
         // int param_3 = obj.top();
         // boolean param_4 = obj.empty();
-        
+
         // 101
         // QueueUsing2Stacks obj = new QueueUsing2Stacks();
         // obj.push(4);
@@ -540,13 +540,20 @@ public class MainSolution {
         // int param_4 = obj.getMin();
 
         // 103
-        MyCircularQueue obj = new MyCircularQueue(2);
-        boolean param_1 = obj.enQueue(5);
-        boolean param_2 = obj.deQueue();
-        int param_3 = obj.Front();
-        int param_4 = obj.Rear();
-        boolean param_5 = obj.isEmpty();
-        boolean param_6 = obj.isFull();
+        // MyCircularQueue obj = new MyCircularQueue(2);
+        // boolean param_1 = obj.enQueue(5);
+        // boolean param_2 = obj.deQueue();
+        // int param_3 = obj.Front();
+        // int param_4 = obj.Rear();
+        // boolean param_5 = obj.isEmpty();
+        // boolean param_6 = obj.isFull();
+
+        // 104
+        int[] nums = { 1, 2, 4, 5, 6, 7, 7, 8, 8 };
+        NumArrayImmutable obj = new NumArrayImmutable(nums);
+        int param_1 = obj.sumRange(1, 5);
+        System.out.println("Result: " + param_1);
+        
 
     }
 }
