@@ -17,22 +17,38 @@
 // numArray.sumRange(2, 5); // return 3 + (-5) + 2 + (-1) = -1
 // numArray.sumRange(0, 5); // return (-2) + 0 + 3 + (-5) + 2 + (-1) = -3
 
-public class NumArrayImmutable {
-    int[] nums;
+// public class NumArrayImmutable {
+//     int[] nums;
+
+//     public NumArrayImmutable(int[] nums) {
+//         this.nums = nums;
+//     }
+
+//     public int sumRange(int left, int right) {
+//         int sum = 0;
+//         for (int i = left; i <= right; i++) sum += nums[i];
+//         return sum;
+//     }
+
+// /**
+//  * Your NumArray object will be instantiated and called as such:
+//  * NumArray obj = new NumArray(nums);
+//  * int param_1 = obj.sumRange(left,right);
+//  */
+// }
+
+class NumArrayImmutable {
+
+    private int[] prefix;
 
     public NumArrayImmutable(int[] nums) {
-        this.nums = nums;
-    }
-    
-    public int sumRange(int left, int right) {
-        int sum = 0;
-        for (int i = left; i <= right; i++) sum += nums[i];
-        return sum;
+        int n = nums.length;
+        prefix = new int[n + 1];
+        for (int i = 0; i < n; i++)
+            prefix[i + 1] = prefix[i] + nums[i];
     }
 
-/**
- * Your NumArray object will be instantiated and called as such:
- * NumArray obj = new NumArray(nums);
- * int param_1 = obj.sumRange(left,right);
- */
+    public int sumRange(int left, int right) {
+        return prefix[right + 1] - prefix[left];
+    }
 }
