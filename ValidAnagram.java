@@ -51,7 +51,7 @@ public class ValidAnagram {
         Arrays.sort(a);
         Arrays.sort(b);
 
-        return a.equals(b);
+        return Arrays.equals(a, b);
 
     }
 }
