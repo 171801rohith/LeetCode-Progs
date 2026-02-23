@@ -9,6 +9,7 @@
 // Input: s = "rat", t = "car"
 // Output: false
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class ValidAnagram {
@@ -41,5 +42,16 @@ public class ValidAnagram {
                 return false;
         }
         return true;
+    }
+
+    public boolean isAnagramEfficient(String s, String t) {
+        char[] a = s.toCharArray();
+        char[] b = s.toCharArray();
+
+        Arrays.sort(a);
+        Arrays.sort(b);
+
+        return a.equals(b);
+
     }
 }
