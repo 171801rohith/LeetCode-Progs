@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Recursion2",
+            "request": "launch",
+            "mainClass": "Recursion2",
+            "projectName": "LeetCode_ab00361c"
+        },
+        {
+            "type": "java",
+            "name": "IsArraySorted",
+            "request": "launch",
+            "mainClass": "Recursion.IsArraySorted",
+            "projectName": "LeetCode_ab00361c"
+        },
+        {
+            "type": "java",
             "name": "MMainSolution",
             "request": "launch",
             "mainClass": "MMainSolution",
