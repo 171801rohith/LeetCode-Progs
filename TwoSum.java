@@ -20,8 +20,10 @@
 // Input: nums = [3,3], target = 6
 // Output: [0,1]
 
-public class Two_Sum {
-    public int[] twoSum(int[] nums, int target) {
+import java.util.HashMap;
+
+public class TwoSum {
+    public int[] two_Sum(int[] nums, int target) {
         int[] a = new int[2];
         for (int i = 0; i < nums.length - 1; i++) {
             for (int k = i + 1; k < nums.length; k++) {
@@ -32,5 +34,16 @@ public class Two_Sum {
             }
         }
         return a;
+    }
+
+    public int[] twoSum(int[] nums, int target) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (map.containsKey(complement)) return new int[] {map.get(complement), i};
+            map.put(nums[i], i);
+        }
+        return new int[] {};
     }
 }

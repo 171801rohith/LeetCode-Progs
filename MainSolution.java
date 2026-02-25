@@ -549,11 +549,15 @@ public class MainSolution {
         // boolean param_6 = obj.isFull();
 
         // 104
-        int[] nums = { 1, 2, 4, 5, 6, 7, 7, 8, 8 };
-        NumArrayImmutable obj = new NumArrayImmutable(nums);
-        int param_1 = obj.sumRange(1, 5);
-        System.out.println("Result: " + param_1);
+        // int[] nums = { 1, 2, 4, 5, 6, 7, 7, 8, 8 };
+        // NumArrayImmutable obj = new NumArrayImmutable(nums);
+        // int param_1 = obj.sumRange(1, 5);
+        // System.out.println("Result: " + param_1);
         
+        // 105
+        int[] nums = { -1, 0, 1, 2, -1, -4 };
+        ThreeSum _3sum = new ThreeSum();
+        System.out.println("Result: " + _3sum.threeSum(nums));
 
     }
 }
