@@ -553,11 +553,18 @@ public class MainSolution {
         // NumArrayImmutable obj = new NumArrayImmutable(nums);
         // int param_1 = obj.sumRange(1, 5);
         // System.out.println("Result: " + param_1);
-        
+
         // 105
-        int[] nums = { -1, 0, 1, 2, -1, -4 };
-        ThreeSum _3sum = new ThreeSum();
-        System.out.println("Result: " + _3sum.threeSum(nums));
+        // int[] nums = { -1, 0, 1, 2, -1, -4 };
+        // ThreeSum _3sum = new ThreeSum();
+        // System.out.println("Result: " + _3sum.threeSum(nums));
+        
+        // 106
+        int[] nums = { -1, 2, 1, -4 };
+        int target = 1;
+        ThreeSumClosest _3Closest = new ThreeSumClosest();
+        System.out.println("Result: " + _3Closest.threeSumClosest(nums, target));
+
 
     }
 }
