@@ -560,10 +560,16 @@ public class MainSolution {
         // System.out.println("Result: " + _3sum.threeSum(nums));
         
         // 106
-        int[] nums = { -1, 2, 1, -4 };
-        int target = 1;
-        ThreeSumClosest _3Closest = new ThreeSumClosest();
-        System.out.println("Result: " + _3Closest.threeSumClosest(nums, target));
+        // int[] nums = { -1, 2, 1, -4 };
+        // int target = 1;
+        // ThreeSumClosest _3Closest = new ThreeSumClosest();
+        // System.out.println("Result: " + _3Closest.threeSumClosest(nums, target));
+
+        // 107
+        int[] nums = {1,0,-1,0,-2,2};
+        int target = 0;
+        FourSum _4Sum = new FourSum(); 
+        System.out.println("Result: " + _4Sum.fourSum(nums, target));
 
 
     }

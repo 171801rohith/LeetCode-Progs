@@ -18,15 +18,14 @@ import java.util.Arrays;
 public class ThreeSumClosest {
     public int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
-        int closest = -1;
-        for (int i = 0; i < nums.length - 1; i++) {
+        int closest = Integer.MAX_VALUE;
+        for (int i = 0; i < nums.length - 2; i++) {
             int left = i + 1, right = nums.length - 1;
 
             if (i > 0  && nums[i] == nums[i - 1]) continue;
-            if (closest == -1) closest = nums[i] + nums[left] + nums[right];
 
             while (left< right) {
-                int sum = nums[i] + nums[left] + nums[right];;
+                int sum = nums[i] + nums[left] + nums[right];
                 if (sum == target) return sum;
                 else if (sum < target) {
                     if (Math.abs(sum - target) < Math.abs(closest - target)) closest = sum;
