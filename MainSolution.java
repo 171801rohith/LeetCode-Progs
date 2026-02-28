@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class MainSolution {
     public static void main(String[] args) {
         // 1
@@ -566,11 +564,15 @@ public class MainSolution {
         // System.out.println("Result: " + _3Closest.threeSumClosest(nums, target));
 
         // 107
-        int[] nums = {1,0,-1,0,-2,2};
-        int target = 0;
-        FourSum _4Sum = new FourSum(); 
-        System.out.println("Result: " + _4Sum.fourSum(nums, target));
+        // int[] nums = {1,0,-1,0,-2,2};
+        // int target = 0;
+        // FourSum _4Sum = new FourSum(); 
+        // System.out.println("Result: " + _4Sum.fourSum(nums, target));
 
+        // 108
+        Intersection2LL _2ll = new Intersection2LL();
+        // //check 160th leetcode easy problem
+        
 
     }
 }

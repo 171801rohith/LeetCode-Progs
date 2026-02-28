@@ -1,7 +1,0 @@
-[
-  ["phone","blue","pixel"],
-  ["computer","silver","lenovo"],
-  ["phone","gold","iphone"]
-], 
-ruleKey = "color",
-ruleValue = "silver"
