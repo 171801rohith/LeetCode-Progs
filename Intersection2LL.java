@@ -30,12 +30,11 @@
 // Output: No intersection
 // Explanation: From the head of A, it reads as [2,6,4]. From the head of B, it reads as [1,5]. Since the two lists do not intersect, intersectVal must be 0, while skipA and skipB can be arbitrary values.
 // Explanation: The two lists do not intersect, so return null.
- 
 
 import java.util.HashSet;
 
 public class Intersection2LL {
-        public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+    public ListNode getIntersectionNodeBF(ListNode headA, ListNode headB) {
         HashSet<ListNode> set = new HashSet<>();
         ListNode cur = headA;
         while (cur != null) {
@@ -46,10 +45,36 @@ public class Intersection2LL {
         System.out.println(set);
         while (cur != null) {
             System.out.println(cur);
-            if (set.contains(cur)) return cur;
+            if (set.contains(cur))
+                return cur;
             cur = cur.next;
         }
 
         return null;
+    }
+
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        int lenA = 0, lenB  = 0;
+        ListNode tempA = headA, tempB = headB;
+        while (tempA  != null) {
+            tempA = tempA.next;
+            lenA++;
+        }
+        while (tempB  != null) {
+            tempB = tempB.next;
+            lenB++;
+        }
+
+        tempA = headA; tempB = headB;
+
+        if (lenA > lenB) for (int i = 0; i < lenA - lenB; i++) tempA = tempA.next;
+        else for (int i = 0; i < lenB - lenA; i++) tempB = tempB.next;
+        
+        while (tempA != tempB) {
+            tempA = tempA.next;
+            tempB = tempB.next;
+        }
+
+        return tempA;
     }
 }
