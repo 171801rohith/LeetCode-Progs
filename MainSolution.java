@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class MainSolution {
     public static void main(String[] args) {
         // 1
@@ -580,10 +578,15 @@ public class MainSolution {
         // System.out.println("Result: " + revVowel.reverseVowels("leetcode"));
 
         // 110
-        IntersectionOfArrays inter = new IntersectionOfArrays();
-        int[] nums1 = { 4, 9, 5 };
-        int[] nums2 = { 9, 4, 9, 8, 4 };
-        System.out.println("Result: " + Arrays.toString(inter.intersection(nums1, nums2)));
-
+        // IntersectionOfArrays inter = new IntersectionOfArrays();
+        // int[] nums1 = { 4, 9, 5 };
+        // int[] nums2 = { 9, 4, 9, 8, 4 };
+        // System.out.println("Result: " + Arrays.toString(inter.intersection(nums1, nums2)));
+        
+        // 111
+        IsSubSequence _isSeq = new IsSubSequence();
+        String s = "abc", t = "ahbgdc";
+        System.out.println("Result: " + _isSeq.isSubsequence(s, t));
+        
     }
 }
