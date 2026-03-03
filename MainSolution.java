@@ -591,11 +591,15 @@ public class MainSolution {
         // System.out.println("Result: " + _isSeq.isSubsequence(s, t));
         
         // 112
-        RotateArrayLC rArray = new RotateArrayLC();
-        int[] nums = { 9, 4, 9, 8, 4 };
-        int k = 3;
-        rArray.rotateClockwise(nums, k);
-        System.out.println("Result: " + Arrays.toString(nums));
+        // RotateArrayLC rArray = new RotateArrayLC();
+        // int[] nums = { 9, 4, 9, 8, 4 };
+        // int k = 3;
+        // rArray.rotateClockwise(nums, k);
+        // System.out.println("Result: " + Arrays.toString(nums));
+        
+        // 113
+        MyAtoi _atoi = new MyAtoi();
+        System.out.println("Result: " + _atoi.myAtoi("-4323"));
 
     }
 }
