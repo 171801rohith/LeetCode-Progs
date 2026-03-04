@@ -608,7 +608,12 @@ public class MainSolution {
         // System.out.println("Result: " + cookies.findContentChildren(g, s));
 
         // 115
-        ReverseOnlyLetters revLetters = new ReverseOnlyLetters();
-        System.out.println("Result: " + revLetters.reverseOnlyLetters("a-bC-dEf-ghIj"));
+        // ReverseOnlyLetters revLetters = new ReverseOnlyLetters();
+        // System.out.println("Result: " + revLetters.reverseOnlyLetters("a-bC-dEf-ghIj"));
+
+        // 116
+        LeftSumRightSumDiff lrsDiff = new LeftSumRightSumDiff();
+        int[] nums = {10,4,8,3};
+        System.out.println("Result: " + Arrays.toString(lrsDiff.leftRightDifference(nums)));
     }
 }
