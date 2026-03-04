@@ -598,8 +598,13 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(nums));
         
         // 113
-        MyAtoi _atoi = new MyAtoi();
-        System.out.println("Result: " + _atoi.myAtoi("-4323"));
-
+        // MyAtoi _atoi = new MyAtoi();
+        // System.out.println("Result: " + _atoi.myAtoi("-4323"));
+        
+        // 114
+        AssignCookies cookies = new AssignCookies();
+        int[] g = {1, 2, 3};
+        int[] s = {1, 1};
+        System.out.println("Result: " + cookies.findContentChildren(g, s));
     }
 }
