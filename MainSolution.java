@@ -610,15 +610,19 @@ public class MainSolution {
         // 115
         // ReverseOnlyLetters revLetters = new ReverseOnlyLetters();
         // System.out.println("Result: " + revLetters.reverseOnlyLetters("a-bC-dEf-ghIj"));
-
+        
         // 116
         // LeftSumRightSumDiff lrsDiff = new LeftSumRightSumDiff();
         // int[] nums = {10,4,8,3};
         // System.out.println("Result: " + Arrays.toString(lrsDiff.leftRightDifference(nums)));
-
+        
         // 117
-        LLCycle ll = new LLCycle();
+        // LLCycle ll = new LLCycle();
         // //check 1421st leetcode easy problem
+        
+        // 118
+        RansomNote note = new RansomNote();
+        System.out.println("Result: " + note.canConstruct("aa", "aab"));
 
     }
 }
