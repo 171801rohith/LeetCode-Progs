@@ -612,8 +612,13 @@ public class MainSolution {
         // System.out.println("Result: " + revLetters.reverseOnlyLetters("a-bC-dEf-ghIj"));
 
         // 116
-        LeftSumRightSumDiff lrsDiff = new LeftSumRightSumDiff();
-        int[] nums = {10,4,8,3};
-        System.out.println("Result: " + Arrays.toString(lrsDiff.leftRightDifference(nums)));
+        // LeftSumRightSumDiff lrsDiff = new LeftSumRightSumDiff();
+        // int[] nums = {10,4,8,3};
+        // System.out.println("Result: " + Arrays.toString(lrsDiff.leftRightDifference(nums)));
+
+        // 117
+        LLCycle ll = new LLCycle();
+        // //check 1421st leetcode easy problem
+
     }
 }
