@@ -558,7 +558,7 @@ public class MainSolution {
         // int[] nums = { -1, 0, 1, 2, -1, -4 };
         // ThreeSum _3sum = new ThreeSum();
         // System.out.println("Result: " + _3sum.threeSum(nums));
-        
+
         // 106
         // int[] nums = { -1, 2, 1, -4 };
         // int target = 1;
@@ -568,13 +568,13 @@ public class MainSolution {
         // 107
         // int[] nums = {1,0,-1,0,-2,2};
         // int target = 0;
-        // FourSum _4Sum = new FourSum(); 
+        // FourSum _4Sum = new FourSum();
         // System.out.println("Result: " + _4Sum.fourSum(nums, target));
-        
+
         // 108
         // Intersection2LL _2ll = new Intersection2LL();
         // //check 160th leetcode easy problem
-        
+
         // 109
         // ReverseVowelsInStr revVowel = new ReverseVowelsInStr();
         // System.out.println("Result: " + revVowel.reverseVowels("leetcode"));
@@ -583,24 +583,25 @@ public class MainSolution {
         // IntersectionOfArrays inter = new IntersectionOfArrays();
         // int[] nums1 = { 4, 9, 5 };
         // int[] nums2 = { 9, 4, 9, 8, 4 };
-        // System.out.println("Result: " + Arrays.toString(inter.intersection(nums1, nums2)));
-        
+        // System.out.println("Result: " + Arrays.toString(inter.intersection(nums1,
+        // nums2)));
+
         // 111
         // IsSubSequence _isSeq = new IsSubSequence();
         // String s = "abc", t = "ahbgdc";
         // System.out.println("Result: " + _isSeq.isSubsequence(s, t));
-        
+
         // 112
         // RotateArrayLC rArray = new RotateArrayLC();
         // int[] nums = { 9, 4, 9, 8, 4 };
         // int k = 3;
         // rArray.rotateClockwise(nums, k);
         // System.out.println("Result: " + Arrays.toString(nums));
-        
+
         // 113
         // MyAtoi _atoi = new MyAtoi();
         // System.out.println("Result: " + _atoi.myAtoi("-4323"));
-        
+
         // 114
         // AssignCookies cookies = new AssignCookies();
         // int[] g = {1, 2, 3};
@@ -609,20 +610,27 @@ public class MainSolution {
 
         // 115
         // ReverseOnlyLetters revLetters = new ReverseOnlyLetters();
-        // System.out.println("Result: " + revLetters.reverseOnlyLetters("a-bC-dEf-ghIj"));
-        
+        // System.out.println("Result: " +
+        // revLetters.reverseOnlyLetters("a-bC-dEf-ghIj"));
+
         // 116
         // LeftSumRightSumDiff lrsDiff = new LeftSumRightSumDiff();
         // int[] nums = {10,4,8,3};
-        // System.out.println("Result: " + Arrays.toString(lrsDiff.leftRightDifference(nums)));
-        
+        // System.out.println("Result: " +
+        // Arrays.toString(lrsDiff.leftRightDifference(nums)));
+
         // 117
         // LLCycle ll = new LLCycle();
         // //check 1421st leetcode easy problem
-        
-        // 118
-        RansomNote note = new RansomNote();
-        System.out.println("Result: " + note.canConstruct("aa", "aab"));
 
+        // 118
+        // RansomNote note = new RansomNote();
+        // System.out.println("Result: " + note.canConstruct("aa", "aab"));
+
+        // 119
+        SetMatrixZero mat0 = new SetMatrixZero();
+        int[][] mat = { { 1, 1, 1 }, { 1, 0, 1 }, { 1, 1, 1 } };
+        mat0.setZeroes(mat);
+        System.out.println("Result: " + Arrays.deepToString(mat));
     }
 }
