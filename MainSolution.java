@@ -1,5 +1,7 @@
 import java.util.Arrays;
 
+import javax.management.relation.RelationException;
+
 public class MainSolution {
     public static void main(String[] args) {
         // 1
@@ -628,9 +630,13 @@ public class MainSolution {
         // System.out.println("Result: " + note.canConstruct("aa", "aab"));
 
         // 119
-        SetMatrixZero mat0 = new SetMatrixZero();
-        int[][] mat = { { 1, 1, 1 }, { 1, 0, 1 }, { 1, 1, 1 } };
-        mat0.setZeroes(mat);
-        System.out.println("Result: " + Arrays.deepToString(mat));
+        // SetMatrixZero mat0 = new SetMatrixZero();
+        // int[][] mat = { { 1, 1, 1 }, { 1, 0, 1 }, { 1, 1, 1 } };
+        // mat0.setZeroes(mat);
+        // System.out.println("Result: " + Arrays.deepToString(mat));
+
+        // 120
+        RemoveLLElements rm = new RemoveLLElements();
+        // Check Leetcode 203rd easy problem
     }
 }
