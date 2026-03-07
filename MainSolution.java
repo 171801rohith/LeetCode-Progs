@@ -636,7 +636,11 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.deepToString(mat));
 
         // 120
-        RemoveLLElements rm = new RemoveLLElements();
+        // RemoveLLElements rm = new RemoveLLElements();
         // Check Leetcode 203rd easy problem
+
+        // 121
+        FindStrDifference diff = new FindStrDifference();
+        System.out.println("Result: " + diff.findTheDifference("absc", "abecs"));
     }
 }
