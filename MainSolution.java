@@ -644,8 +644,13 @@ public class MainSolution {
         // System.out.println("Result: " + diff.findTheDifference("absc", "abecs"));
 
         // 122
-        MaxConsecutiveOnes max = new MaxConsecutiveOnes();
-        int[] nums = { 1, 1, 0, 1, 1, 1 };
-        System.out.println("Result: " + max.findMaxConsecutiveOnes(nums));
+        // MaxConsecutiveOnes max = new MaxConsecutiveOnes();
+        // int[] nums = { 1, 1, 0, 1, 1, 1 };
+        // System.out.println("Result: " + max.findMaxConsecutiveOnes(nums));
+
+        // 123
+        BaseballGame game = new BaseballGame();
+        String[] ops = { "5", "2", "C", "D", "+" };
+        System.out.println("Result: " + game.calPoints(ops));
     }
 }
