@@ -640,7 +640,12 @@ public class MainSolution {
         // Check Leetcode 203rd easy problem
 
         // 121
-        FindStrDifference diff = new FindStrDifference();
-        System.out.println("Result: " + diff.findTheDifference("absc", "abecs"));
+        // FindStrDifference diff = new FindStrDifference();
+        // System.out.println("Result: " + diff.findTheDifference("absc", "abecs"));
+
+        // 122
+        MaxConsecutiveOnes max = new MaxConsecutiveOnes();
+        int[] nums = { 1, 1, 0, 1, 1, 1 };
+        System.out.println("Result: " + max.findMaxConsecutiveOnes(nums));
     }
 }
