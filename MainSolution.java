@@ -649,8 +649,13 @@ public class MainSolution {
         // System.out.println("Result: " + max.findMaxConsecutiveOnes(nums));
 
         // 123
-        BaseballGame game = new BaseballGame();
-        String[] ops = { "5", "2", "C", "D", "+" };
-        System.out.println("Result: " + game.calPoints(ops));
+        // BaseballGame game = new BaseballGame();
+        // String[] ops = { "5", "2", "C", "D", "+" };
+        // System.out.println("Result: " + game.calPoints(ops));
+
+        // 124
+        JewelsNStones jns = new JewelsNStones();
+        System.out.println("Result: " + jns.numJewelsInStones("aA", "aAAbbbb"));
+
     }
 }
