@@ -654,8 +654,12 @@ public class MainSolution {
         // System.out.println("Result: " + game.calPoints(ops));
 
         // 124
-        JewelsNStones jns = new JewelsNStones();
-        System.out.println("Result: " + jns.numJewelsInStones("aA", "aAAbbbb"));
+        // JewelsNStones jns = new JewelsNStones();
+        // System.out.println("Result: " + jns.numJewelsInStones("aA", "aAAbbbb"));
 
+        // 125
+        ConcatArray concat = new ConcatArray();
+        int[] nums = {1, 2, 4, 1};
+        System.out.println("Result: " + Arrays.toString(concat.getConcatenation(nums)));
     }
 }
