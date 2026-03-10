@@ -667,11 +667,17 @@ public class MainSolution {
         // ShuffleArray shuffle = new ShuffleArray();
         // int[] nums = {1, 2, 4, 1};
         // System.out.println("Result: " + Arrays.toString(shuffle.shuffle(nums, 2)));
-        
+
         // 127
-        LongestConsecutiveSequence lcs = new LongestConsecutiveSequence();
-        int[] nums = { 0, 3, 7, 2, 5, 8, 4, 6, 0, 1 };
-        System.out.println("Result: " + lcs.longestConsecutive(nums));
+        // LongestConsecutiveSequence lcs = new LongestConsecutiveSequence();
+        // int[] nums = { 0, 3, 7, 2, 5, 8, 4, 6, 0, 1 };
+        // System.out.println("Result: " + lcs.longestConsecutive(nums));
+        
+        // 128
+        MatDiagonalSum mds = new MatDiagonalSum();
+        int[][] mat = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+        System.out.println("Result: " + mds.diagonalSum(mat));
+
 
     }
 }
