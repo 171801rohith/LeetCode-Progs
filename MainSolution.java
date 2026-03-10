@@ -679,11 +679,14 @@ public class MainSolution {
         // System.out.println("Result: " + mds.diagonalSum(mat));
 
         // 129
-        ReshapeMatrix reshape = new ReshapeMatrix();
-        int[][] mat = { { 1, 2 }, { 3, 4 } };
-        System.out.println("Result: " + Arrays.deepToString(reshape.matrixReshape(mat, 1, 4)));
-
+        // ReshapeMatrix reshape = new ReshapeMatrix();
+        // int[][] mat = { { 1, 2 }, { 3, 4 } };
+        // System.out.println("Result: " + Arrays.deepToString(reshape.matrixReshape(mat, 1, 4)));
+        
         // 130
+        ToeplitzMatrix toeplitz = new ToeplitzMatrix();
+        int[][] mat = { { 1, 2 }, { 3, 1 } };
+        System.out.println("Result: " + toeplitz.isToeplitzMatrix(mat));
 
     }
 }
