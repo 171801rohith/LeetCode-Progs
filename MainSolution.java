@@ -660,12 +660,18 @@ public class MainSolution {
         // 125
         // ConcatArray concat = new ConcatArray();
         // int[] nums = {1, 2, 4, 1};
-        // System.out.println("Result: " + Arrays.toString(concat.getConcatenation(nums)));
-        
+        // System.out.println("Result: " +
+        // Arrays.toString(concat.getConcatenation(nums)));
+
         // 126
-        ShuffleArray shuffle = new ShuffleArray();
-        int[] nums = {1, 2, 4, 1};
-        System.out.println("Result: " + Arrays.toString(shuffle.shuffle(nums, 2)));
+        // ShuffleArray shuffle = new ShuffleArray();
+        // int[] nums = {1, 2, 4, 1};
+        // System.out.println("Result: " + Arrays.toString(shuffle.shuffle(nums, 2)));
         
+        // 127
+        LongestConsecutiveSequence lcs = new LongestConsecutiveSequence();
+        int[] nums = { 0, 3, 7, 2, 5, 8, 4, 6, 0, 1 };
+        System.out.println("Result: " + lcs.longestConsecutive(nums));
+
     }
 }
