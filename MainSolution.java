@@ -672,12 +672,18 @@ public class MainSolution {
         // LongestConsecutiveSequence lcs = new LongestConsecutiveSequence();
         // int[] nums = { 0, 3, 7, 2, 5, 8, 4, 6, 0, 1 };
         // System.out.println("Result: " + lcs.longestConsecutive(nums));
-        
-        // 128
-        MatDiagonalSum mds = new MatDiagonalSum();
-        int[][] mat = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
-        System.out.println("Result: " + mds.diagonalSum(mat));
 
+        // 128
+        // MatDiagonalSum mds = new MatDiagonalSum();
+        // int[][] mat = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+        // System.out.println("Result: " + mds.diagonalSum(mat));
+
+        // 129
+        ReshapeMatrix reshape = new ReshapeMatrix();
+        int[][] mat = { { 1, 2 }, { 3, 4 } };
+        System.out.println("Result: " + Arrays.deepToString(reshape.matrixReshape(mat, 1, 4)));
+
+        // 130
 
     }
 }
