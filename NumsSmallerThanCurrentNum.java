@@ -34,7 +34,7 @@ public class NumsSmallerThanCurrentNum {
         return hm;
     }
 
-    public int[] smallerNumbersThanCurrent(int[] nums) {
+    public int[] smallerNumbersThanCurrentLazy(int[] nums) {
         HashMap<Integer, Integer> map = createMap(nums);
         int[] result = new int[nums.length];
         System.out.println(map);
@@ -46,5 +46,21 @@ public class NumsSmallerThanCurrentNum {
             }
         }
         return result;
+    }
+
+    public int[] smallerNumbersThanCurrent(int[] nums) {
+        int[] arr = new int[101];
+        for (int num: nums) arr[num]++;
+
+        int temp = 0;
+        for (int i = 0; i < 101; i++) {
+            int t = temp;
+            temp += arr[i];
+            arr[i] = t;
+        }
+
+        for (int i = 0; i < nums.length; i++) nums[i] = arr[nums[i]];
+
+        return nums;
     }
 }
