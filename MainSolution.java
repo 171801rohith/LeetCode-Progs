@@ -684,9 +684,12 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.deepToString(reshape.matrixReshape(mat, 1, 4)));
         
         // 130
-        ToeplitzMatrix toeplitz = new ToeplitzMatrix();
-        int[][] mat = { { 1, 2 }, { 3, 1 } };
-        System.out.println("Result: " + toeplitz.isToeplitzMatrix(mat));
+        // ToeplitzMatrix toeplitz = new ToeplitzMatrix();
+        // int[][] mat = { { 1, 2 }, { 3, 1 } };
+        // System.out.println("Result: " + toeplitz.isToeplitzMatrix(mat));
 
+        // 131
+        LongestSubStrWORepeatingChar lswrc = new LongestSubStrWORepeatingChar();
+        System.out.println("Result: " + lswrc.lengthOfLongestSubstring("pwwkew"));
     }
 }
