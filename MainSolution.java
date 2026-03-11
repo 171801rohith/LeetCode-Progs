@@ -689,7 +689,12 @@ public class MainSolution {
         // System.out.println("Result: " + toeplitz.isToeplitzMatrix(mat));
 
         // 131
-        LongestSubStrWORepeatingChar lswrc = new LongestSubStrWORepeatingChar();
-        System.out.println("Result: " + lswrc.lengthOfLongestSubstring("pwwkew"));
+        // LongestSubStrWORepeatingChar lswrc = new LongestSubStrWORepeatingChar();
+        // System.out.println("Result: " + lswrc.lengthOfLongestSubstring("pwwkew"));
+
+        // 132
+        ArrWithStackOps stackOps = new ArrWithStackOps();
+        int[] target = {1, 3};
+        System.out.println("Result: " + stackOps.buildArray(target, 3));
     }
 }
