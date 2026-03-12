@@ -681,8 +681,9 @@ public class MainSolution {
         // 129
         // ReshapeMatrix reshape = new ReshapeMatrix();
         // int[][] mat = { { 1, 2 }, { 3, 4 } };
-        // System.out.println("Result: " + Arrays.deepToString(reshape.matrixReshape(mat, 1, 4)));
-        
+        // System.out.println("Result: " +
+        // Arrays.deepToString(reshape.matrixReshape(mat, 1, 4)));
+
         // 130
         // ToeplitzMatrix toeplitz = new ToeplitzMatrix();
         // int[][] mat = { { 1, 2 }, { 3, 1 } };
@@ -693,8 +694,13 @@ public class MainSolution {
         // System.out.println("Result: " + lswrc.lengthOfLongestSubstring("pwwkew"));
 
         // 132
-        ArrWithStackOps stackOps = new ArrWithStackOps();
-        int[] target = {1, 3};
-        System.out.println("Result: " + stackOps.buildArray(target, 3));
+        // ArrWithStackOps stackOps = new ArrWithStackOps();
+        // int[] target = {1, 3};
+        // System.out.println("Result: " + stackOps.buildArray(target, 3));
+
+        // 133
+        ReversePolishNotation rpn = new ReversePolishNotation();
+        String[] tokens = { "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+" };
+        System.out.println("Result: " + rpn.evalRPN(tokens));
     }
 }
