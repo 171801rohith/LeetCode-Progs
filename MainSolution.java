@@ -699,8 +699,12 @@ public class MainSolution {
         // System.out.println("Result: " + stackOps.buildArray(target, 3));
 
         // 133
-        ReversePolishNotation rpn = new ReversePolishNotation();
-        String[] tokens = { "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+" };
-        System.out.println("Result: " + rpn.evalRPN(tokens));
+        // ReversePolishNotation rpn = new ReversePolishNotation();
+        // String[] tokens = { "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+" };
+        // System.out.println("Result: " + rpn.evalRPN(tokens));
+
+        // 134
+        CountingBits cb = new CountingBits();
+        System.out.println("Result: " + Arrays.toString(cb.countBits(5)));
     }
 }
