@@ -708,7 +708,11 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(cb.countBits(5)));
 
         // 135
-        BullsNCows bnc = new BullsNCows();
-        System.out.println("Result: " + bnc.getHint("1122", "1222"));
+        // BullsNCows bnc = new BullsNCows();
+        // System.out.println("Result: " + bnc.getHint("1122", "1222"));
+        
+        // 136
+        BackSpaceCharCmp bCharCmp = new BackSpaceCharCmp();
+        System.out.println("Result: " + bCharCmp.backspaceCompare("11#2#2", "122##2"));
     }
 }
