@@ -43,7 +43,7 @@ public class BinarySearchProblem {
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 4, 6, 8, 12, 16};
-        int target = -1;
+        int target = 5;
         System.out.println("CEIL INDEX = " + ceil(arr, target));
         System.out.println("FLOOR INDEX = " + floor(arr, target));
     }
