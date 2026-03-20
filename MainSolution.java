@@ -716,8 +716,13 @@ public class MainSolution {
         // System.out.println("Result: " + bCharCmp.backspaceCompare("11#2#2", "122##2"));
         
         // 138
-        SortLL sll = new SortLL();
+        // SortLL sll = new SortLL();
         // Check Leetcode 148th easy problem
+        
+        // 139
+        ReverseWordsInStr rev =  new ReverseWordsInStr();
+        System.out.println("Result: " + rev.reverseWords("11#2#2 122##2 hdjfdl    "));
+
 
     }
 }
