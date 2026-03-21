@@ -720,8 +720,14 @@ public class MainSolution {
         // Check Leetcode 148th easy problem
         
         // 139
-        ReverseWordsInStr rev =  new ReverseWordsInStr();
-        System.out.println("Result: " + rev.reverseWords("11#2#2 122##2 hdjfdl    "));
+        // ReverseWordsInStr rev =  new ReverseWordsInStr();
+        // System.out.println("Result: " + rev.reverseWords("11#2#2 122##2 hdjfdl    "));
+
+        // 140
+        ContainsDuplicate cd2 = new ContainsDuplicate();
+        int[] nums = {1, 2, 3, 1};
+        int k = 3;
+        System.out.println("Result: " + cd2.containsNearbyDuplicate(nums, k));
 
 
     }
