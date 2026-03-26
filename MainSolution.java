@@ -638,11 +638,11 @@ public class MainSolution {
         // 120
         // RemoveLLElements rm = new RemoveLLElements();
         // Check Leetcode 203rd easy problem
-        
+
         // 121
         // FindStrDifference diff = new FindStrDifference();
         // System.out.println("Result: " + diff.findTheDifference("absc", "abecs"));
-        
+
         // 122
         // MaxConsecutiveOnes max = new MaxConsecutiveOnes();
         // int[] nums = { 1, 1, 0, 1, 1, 1 };
@@ -652,43 +652,43 @@ public class MainSolution {
         // BaseballGame game = new BaseballGame();
         // String[] ops = { "5", "2", "C", "D", "+" };
         // System.out.println("Result: " + game.calPoints(ops));
-        
+
         // 124
         // JewelsNStones jns = new JewelsNStones();
         // System.out.println("Result: " + jns.numJewelsInStones("aA", "aAAbbbb"));
-        
+
         // 125
         // ConcatArray concat = new ConcatArray();
         // int[] nums = {1, 2, 4, 1};
         // System.out.println("Result: " +
         // Arrays.toString(concat.getConcatenation(nums)));
-        
+
         // 126
         // ShuffleArray shuffle = new ShuffleArray();
         // int[] nums = {1, 2, 4, 1};
         // System.out.println("Result: " + Arrays.toString(shuffle.shuffle(nums, 2)));
-        
+
         // 127
         // LongestConsecutiveSequence lcs = new LongestConsecutiveSequence();
         // int[] nums = { 0, 3, 7, 2, 5, 8, 4, 6, 0, 1 };
         // System.out.println("Result: " + lcs.longestConsecutive(nums));
-        
+
         // 128
         // MatDiagonalSum mds = new MatDiagonalSum();
         // int[][] mat = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
         // System.out.println("Result: " + mds.diagonalSum(mat));
-        
+
         // 129
         // ReshapeMatrix reshape = new ReshapeMatrix();
         // int[][] mat = { { 1, 2 }, { 3, 4 } };
         // System.out.println("Result: " +
         // Arrays.deepToString(reshape.matrixReshape(mat, 1, 4)));
-        
+
         // 130
         // ToeplitzMatrix toeplitz = new ToeplitzMatrix();
         // int[][] mat = { { 1, 2 }, { 3, 1 } };
         // System.out.println("Result: " + toeplitz.isToeplitzMatrix(mat));
-        
+
         // 131
         // LongestSubStrWORepeatingChar lswrc = new LongestSubStrWORepeatingChar();
         // System.out.println("Result: " + lswrc.lengthOfLongestSubstring("pwwkew"));
@@ -697,38 +697,43 @@ public class MainSolution {
         // ArrWithStackOps stackOps = new ArrWithStackOps();
         // int[] target = {1, 3};
         // System.out.println("Result: " + stackOps.buildArray(target, 3));
-        
+
         // 133
         // ReversePolishNotation rpn = new ReversePolishNotation();
-        // String[] tokens = { "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+" };
+        // String[] tokens = { "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17",
+        // "+", "5", "+" };
         // System.out.println("Result: " + rpn.evalRPN(tokens));
-        
+
         // 134
         // CountingBits cb = new CountingBits();
         // System.out.println("Result: " + Arrays.toString(cb.countBits(5)));
-        
+
         // 135
         // BullsNCows bnc = new BullsNCows();
         // System.out.println("Result: " + bnc.getHint("1122", "1222"));
-        
+
         // 136
         // BackSpaceCharCmp bCharCmp = new BackSpaceCharCmp();
-        // System.out.println("Result: " + bCharCmp.backspaceCompare("11#2#2", "122##2"));
-        
+        // System.out.println("Result: " + bCharCmp.backspaceCompare("11#2#2",
+        // "122##2"));
+
         // 138
         // SortLL sll = new SortLL();
         // Check Leetcode 148th easy problem
-        
+
         // 139
-        // ReverseWordsInStr rev =  new ReverseWordsInStr();
-        // System.out.println("Result: " + rev.reverseWords("11#2#2 122##2 hdjfdl    "));
+        // ReverseWordsInStr rev = new ReverseWordsInStr();
+        // System.out.println("Result: " + rev.reverseWords("11#2#2 122##2 hdjfdl "));
 
         // 140
-        ContainsDuplicate cd2 = new ContainsDuplicate();
-        int[] nums = {1, 2, 3, 1};
-        int k = 3;
-        System.out.println("Result: " + cd2.containsNearbyDuplicate(nums, k));
+        // ContainsDuplicate cd2 = new ContainsDuplicate();
+        // int[] nums = {1, 2, 3, 1};
+        // int k = 3;
+        // System.out.println("Result: " + cd2.containsNearbyDuplicate(nums, k));
 
-
+        // 141
+        SummaryRanges ranges = new SummaryRanges();
+        int[] nums = { 0, 2, 3, 4, 6, 8, 9 };
+        System.out.println("Result: " + ranges.summaryRanges(nums));
     }
 }
