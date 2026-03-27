@@ -732,8 +732,12 @@ public class MainSolution {
         // System.out.println("Result: " + cd2.containsNearbyDuplicate(nums, k));
 
         // 141
-        SummaryRanges ranges = new SummaryRanges();
-        int[] nums = { 0, 2, 3, 4, 6, 8, 9 };
-        System.out.println("Result: " + ranges.summaryRanges(nums));
+        // SummaryRanges ranges = new SummaryRanges();
+        // int[] nums = { 0, 2, 3, 4, 6, 8, 9 };
+        // System.out.println("Result: " + ranges.summaryRanges(nums));
+
+        // 142
+        FizzBuzz fb = new FizzBuzz();
+        System.out.println("Result: " +fb.fizzBuzz(18));
     }
 }
