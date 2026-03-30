@@ -737,7 +737,12 @@ public class MainSolution {
         // System.out.println("Result: " + ranges.summaryRanges(nums));
 
         // 142
-        FizzBuzz fb = new FizzBuzz();
-        System.out.println("Result: " +fb.fizzBuzz(18));
+        // FizzBuzz fb = new FizzBuzz();
+        // System.out.println("Result: " +fb.fizzBuzz(18));
+
+        // 143
+        MajorityElement m2 = new MajorityElement();
+        int[] nums = {1, 2, 1};
+        System.out.println("Result: " + m2.majorityElement2(nums));
     }
 }
