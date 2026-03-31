@@ -22,7 +22,7 @@
 import java.util.ArrayList;
 
 public class HappyNumber {
-           public int addNums(ArrayList<Integer> nums) {
+    public int addNums(ArrayList<Integer> nums) {
         int sum = 0;
         for (Integer num : nums) {
             sum += Math.pow(num, 2);
@@ -40,11 +40,13 @@ public class HappyNumber {
     }
 
     public boolean isHappy(int num) {
-        for(int i = 0; Math.pow(num, 2) >= 1; i++) {
+        for (int i = 0; Math.pow(num, 2) >= 1; i++) {
             ArrayList<Integer> nums = storeInArray(num);
             num = addNums(nums);
-            if(num == 1) return true;
-            if(i == 100) break;
+            if (num == 1)
+                return true;
+            if (i == 100)
+                break;
         }
         return false;
     }
