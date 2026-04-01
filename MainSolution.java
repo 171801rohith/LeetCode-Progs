@@ -741,8 +741,13 @@ public class MainSolution {
         // System.out.println("Result: " +fb.fizzBuzz(18));
 
         // 143
-        MajorityElement m2 = new MajorityElement();
-        int[] nums = {1, 2, 1};
-        System.out.println("Result: " + m2.majorityElement2(nums));
+        // MajorityElement m2 = new MajorityElement();
+        // int[] nums = {1, 2, 1};
+        // System.out.println("Result: " + m2.majorityElement2(nums));
+        
+        // 144
+        NoOfSegmentsStr segs = new NoOfSegmentsStr();
+        System.out.println("Result: " + segs.countSegments("Hello Wolrd"));
+
     }
 }
