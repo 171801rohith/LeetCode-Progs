@@ -744,10 +744,14 @@ public class MainSolution {
         // MajorityElement m2 = new MajorityElement();
         // int[] nums = {1, 2, 1};
         // System.out.println("Result: " + m2.majorityElement2(nums));
-        
-        // 144
-        NoOfSegmentsStr segs = new NoOfSegmentsStr();
-        System.out.println("Result: " + segs.countSegments("Hello Wolrd"));
 
+        // 144
+        // NoOfSegmentsStr segs = new NoOfSegmentsStr();
+        // System.out.println("Result: " + segs.countSegments("Hello Wolrd"));
+
+        // 145
+        IncDecOps inde = new IncDecOps();
+        String[] ops = { "--X", "X++", "X++" };
+        System.out.println("Result: " + inde.finalValueAfterOperations(ops));
     }
 }
