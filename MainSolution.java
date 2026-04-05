@@ -750,8 +750,13 @@ public class MainSolution {
         // System.out.println("Result: " + segs.countSegments("Hello Wolrd"));
 
         // 145
-        IncDecOps inde = new IncDecOps();
-        String[] ops = { "--X", "X++", "X++" };
-        System.out.println("Result: " + inde.finalValueAfterOperations(ops));
+        // IncDecOps inde = new IncDecOps();
+        // String[] ops = { "--X", "X++", "X++" };
+        // System.out.println("Result: " + inde.finalValueAfterOperations(ops));
+
+        // 146
+        FindWordContainingChar fwcc = new FindWordContainingChar();
+        String[] words = { "abc", "bcd", "aaaa", "cbc" };
+        System.out.println("Result: " + fwcc.findWordsContaining(words, 'a'));
     }
 }
