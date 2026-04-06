@@ -755,8 +755,12 @@ public class MainSolution {
         // System.out.println("Result: " + inde.finalValueAfterOperations(ops));
 
         // 146
-        FindWordContainingChar fwcc = new FindWordContainingChar();
-        String[] words = { "abc", "bcd", "aaaa", "cbc" };
-        System.out.println("Result: " + fwcc.findWordsContaining(words, 'a'));
+        // FindWordContainingChar fwcc = new FindWordContainingChar();
+        // String[] words = { "abc", "bcd", "aaaa", "cbc" };
+        // System.out.println("Result: " + fwcc.findWordsContaining(words, 'a'));
+
+        // 147
+        ScoreStr scoreStr = new ScoreStr();
+        System.out.println("Result: " + scoreStr.scoreOfString("rohith"));
     }
 }
