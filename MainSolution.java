@@ -760,7 +760,11 @@ public class MainSolution {
         // System.out.println("Result: " + fwcc.findWordsContaining(words, 'a'));
 
         // 147
-        ScoreStr scoreStr = new ScoreStr();
-        System.out.println("Result: " + scoreStr.scoreOfString("rohith"));
+        // ScoreStr scoreStr = new ScoreStr();
+        // System.out.println("Result: " + scoreStr.scoreOfString("rohith"));
+
+        // 148
+        RevStrPrefix rev = new RevStrPrefix();
+        System.out.println("Result: " + rev.reversePrefix("abcd", 2)); 
     }
 }
