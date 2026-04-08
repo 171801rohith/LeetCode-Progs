@@ -764,7 +764,11 @@ public class MainSolution {
         // System.out.println("Result: " + scoreStr.scoreOfString("rohith"));
 
         // 148
-        RevStrPrefix rev = new RevStrPrefix();
-        System.out.println("Result: " + rev.reversePrefix("abcd", 2)); 
+        // RevStrPrefix rev = new RevStrPrefix();
+        // System.out.println("Result: " + rev.reversePrefix("abcd", 2)); 
+
+        // 149
+        ClosestPerson cp = new ClosestPerson();
+        System.out.println("Result: " + cp.findClosest(3, 5, 4));
     }
 }
