@@ -768,7 +768,16 @@ public class MainSolution {
         // System.out.println("Result: " + rev.reversePrefix("abcd", 2)); 
 
         // 149
-        ClosestPerson cp = new ClosestPerson();
-        System.out.println("Result: " + cp.findClosest(3, 5, 4));
+        // ClosestPerson cp = new ClosestPerson();
+        // System.out.println("Result: " + cp.findClosest(3, 5, 4));
+
+        // 150
+        // ComputeAlternatingSum altSum = new ComputeAlternatingSum();
+        // int[] nums =  {1, 3, 5, 6, 7};
+        // System.out.println("Result: " + altSum.alternatingSum(nums));
+
+        // 151
+        SmallestEvenMultiple sem = new SmallestEvenMultiple();
+        System.out.println("Result: " + sem.smallestEvenMultiple(6));
     }
 }
