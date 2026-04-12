@@ -765,7 +765,7 @@ public class MainSolution {
 
         // 148
         // RevStrPrefix rev = new RevStrPrefix();
-        // System.out.println("Result: " + rev.reversePrefix("abcd", 2)); 
+        // System.out.println("Result: " + rev.reversePrefix("abcd", 2));
 
         // 149
         // ClosestPerson cp = new ClosestPerson();
@@ -773,11 +773,22 @@ public class MainSolution {
 
         // 150
         // ComputeAlternatingSum altSum = new ComputeAlternatingSum();
-        // int[] nums =  {1, 3, 5, 6, 7};
+        // int[] nums = {1, 3, 5, 6, 7};
         // System.out.println("Result: " + altSum.alternatingSum(nums));
 
         // 151
-        SmallestEvenMultiple sem = new SmallestEvenMultiple();
-        System.out.println("Result: " + sem.smallestEvenMultiple(6));
+        // SmallestEvenMultiple sem = new SmallestEvenMultiple();
+        // System.out.println("Result: " + sem.smallestEvenMultiple(6));
+
+        // 152
+        // NoOfConsistantStr ncs = new NoOfConsistantStr();
+        // String allowed = "ab";
+        // String[] words = { "ad", "bd", "aaab", "baa", "badab" };
+        // System.out.println("Result: " + ncs.countConsistentStrings(allowed, words));
+
+        // 153
+        RestoreFinishingOrder rfo = new RestoreFinishingOrder();
+        int[] order = { 3, 1, 2, 5, 4 }, friends = { 1, 3, 4 };
+        System.out.println("Result: " + Arrays.toString(rfo.recoverOrder(order, friends)));
     }
 }
