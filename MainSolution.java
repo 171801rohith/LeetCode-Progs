@@ -787,8 +787,14 @@ public class MainSolution {
         // System.out.println("Result: " + ncs.countConsistentStrings(allowed, words));
 
         // 153
-        RestoreFinishingOrder rfo = new RestoreFinishingOrder();
-        int[] order = { 3, 1, 2, 5, 4 }, friends = { 1, 3, 4 };
-        System.out.println("Result: " + Arrays.toString(rfo.recoverOrder(order, friends)));
+        // RestoreFinishingOrder rfo = new RestoreFinishingOrder();
+        // int[] order = { 3, 1, 2, 5, 4 }, friends = { 1, 3, 4 };
+        // System.out.println("Result: " + Arrays.toString(rfo.recoverOrder(order,
+        // friends)));
+
+        // 154
+        RichestPersonWealth rpw = new RichestPersonWealth();
+        int[][] accounts = { { 2, 8, 7 }, { 7, 1, 3 }, { 1, 9, 5 } };
+        System.out.println("Result: " + rpw.maximumWealth(accounts));
     }
 }
