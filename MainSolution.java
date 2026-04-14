@@ -793,8 +793,13 @@ public class MainSolution {
         // friends)));
 
         // 154
-        RichestPersonWealth rpw = new RichestPersonWealth();
-        int[][] accounts = { { 2, 8, 7 }, { 7, 1, 3 }, { 1, 9, 5 } };
-        System.out.println("Result: " + rpw.maximumWealth(accounts));
+        // RichestPersonWealth rpw = new RichestPersonWealth();
+        // int[][] accounts = { { 2, 8, 7 }, { 7, 1, 3 }, { 1, 9, 5 } };
+        // System.out.println("Result: " + rpw.maximumWealth(accounts));
+        
+        // 155
+        MostFreqVnC vnc = new MostFreqVnC();
+        System.out.println("Result: " + vnc.maxFreqSum("successes"));
+
     }
 }
