@@ -798,8 +798,12 @@ public class MainSolution {
         // System.out.println("Result: " + rpw.maximumWealth(accounts));
         
         // 155
-        MostFreqVnC vnc = new MostFreqVnC();
-        System.out.println("Result: " + vnc.maxFreqSum("successes"));
+        // MostFreqVnC vnc = new MostFreqVnC();
+        // System.out.println("Result: " + vnc.maxFreqSum("successes"));
+
+        // 156
+        TruncateSentence ts = new TruncateSentence();
+        System.out.println("Result: " + ts.truncateSentence("What is the solution to this problem", 4));
 
     }
 }
