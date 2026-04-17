@@ -807,8 +807,12 @@ public class MainSolution {
         // System.out.println("Result: " + ts.truncateSentence("What is the solution to this problem", 4));
 
         // 157
-        PairsSumLessThanTarget pst = new PairsSumLessThanTarget();
+        // PairsSumLessThanTarget pst = new PairsSumLessThanTarget();
         // Check easy problem 2824
+
+        // 158
+        RevDegOfStr re = new RevDegOfStr();
+        System.out.println("Result: " re.reverseDegree("abc"));
 
     }
 }
