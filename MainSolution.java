@@ -1,8 +1,6 @@
 import java.util.Arrays;
 import java.util.List;
 
-import javax.management.relation.RelationException;
-
 public class MainSolution {
     public static void main(String[] args) {
         // 1
@@ -811,8 +809,13 @@ public class MainSolution {
         // Check easy problem 2824
 
         // 158
-        RevDegOfStr re = new RevDegOfStr();
-        System.out.println("Result: " re.reverseDegree("abc"));
+        // RevDegOfStr re = new RevDegOfStr();
+        // System.out.println("Result: " + re.reverseDegree("abc"));
 
+        // 160
+        SortPersons sp = new SortPersons();
+        String[] ppl = {"abc", "def", "ghi"};
+        int[] height = {1, 2, 3};
+        System.out.println("Result: " + Arrays.toString(sp.sortPeople(ppl, height)));
     }
 }
