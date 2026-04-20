@@ -819,9 +819,14 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(sp.sortPeople(ppl, height)));
         
         // 161
-        MaxWordsInSentences maxWords = new MaxWordsInSentences();
-        String[] sentences = {"alice and bob love leetcode", "i think so too", "this is great thanks very much"};
-        System.out.println("Result: " + maxWords.mostWordsFound(sentences));
+        // MaxWordsInSentences maxWords = new MaxWordsInSentences();
+        // String[] sentences = {"alice and bob love leetcode", "i think so too", "this is great thanks very much"};
+        // System.out.println("Result: " + maxWords.mostWordsFound(sentences));
+
+        // 163
+        RunningSum1dArr run = new RunningSum1dArr();
+        int[] nums = {1, 2, 4, 5};
+        System.out.println("Result: " + Arrays.toString(run.runningSum(nums)));
 
     }
 }
