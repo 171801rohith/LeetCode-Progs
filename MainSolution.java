@@ -824,9 +824,14 @@ public class MainSolution {
         // System.out.println("Result: " + maxWords.mostWordsFound(sentences));
 
         // 163
-        RunningSum1dArr run = new RunningSum1dArr();
+        // RunningSum1dArr run = new RunningSum1dArr();
+        // int[] nums = {1, 2, 4, 5};
+        // System.out.println("Result: " + Arrays.toString(run.runningSum(nums)));
+
+        // 164
+        ArrStateAfterKMul arrKMul = new ArrStateAfterKMul();
         int[] nums = {1, 2, 4, 5};
-        System.out.println("Result: " + Arrays.toString(run.runningSum(nums)));
+        System.out.println("Result: " + Arrays.toString(arrKMul.getFinalState(nums, 3, 3)));
 
     }
 }
