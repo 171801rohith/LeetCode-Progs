@@ -829,9 +829,13 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(run.runningSum(nums)));
 
         // 164
-        ArrStateAfterKMul arrKMul = new ArrStateAfterKMul();
-        int[] nums = {1, 2, 4, 5};
-        System.out.println("Result: " + Arrays.toString(arrKMul.getFinalState(nums, 3, 3)));
+        // ArrStateAfterKMul arrKMul = new ArrStateAfterKMul();
+        // int[] nums = {1, 2, 4, 5};
+        // System.out.println("Result: " + Arrays.toString(arrKMul.getFinalState(nums, 3, 3)));
 
+        // 165
+        DecodeMsg decode = new DecodeMsg();
+        String msg = "zwx hnfx lqantp mnoeius ycgk vcnjrdb", key = "eljuxhpwnyrdgtqkviszcfmabo";
+        System.out.println("Result: " + decode.decodeMessage(key, msg));
     }
 }
