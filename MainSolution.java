@@ -834,8 +834,13 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(arrKMul.getFinalState(nums, 3, 3)));
 
         // 165
-        DecodeMsg decode = new DecodeMsg();
-        String msg = "zwx hnfx lqantp mnoeius ycgk vcnjrdb", key = "eljuxhpwnyrdgtqkviszcfmabo";
-        System.out.println("Result: " + decode.decodeMessage(key, msg));
+        // DecodeMsg decode = new DecodeMsg();
+        // String msg = "zwx hnfx lqantp mnoeius ycgk vcnjrdb", key = "eljuxhpwnyrdgtqkviszcfmabo";
+        // System.out.println("Result: " + decode.decodeMessage(key, msg));
+
+        // 166
+        TwoSneakyNums sneakyNums = new TwoSneakyNums();
+        int[] nums = {0, 1, 0, 1, 2};
+        System.out.println("Result: " + Arrays.toString(sneakyNums.getSneakyNumbers(nums)));
     }
 }
