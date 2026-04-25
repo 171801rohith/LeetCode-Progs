@@ -842,5 +842,11 @@ public class MainSolution {
         TwoSneakyNums sneakyNums = new TwoSneakyNums();
         int[] nums = {0, 1, 0, 1, 2};
         System.out.println("Result: " + Arrays.toString(sneakyNums.getSneakyNumbers(nums)));
+
+        // 167
+        StrIsAcronymOfWords saw = new StrIsAcronymOfWords();
+        // Check easy problem 2828
+
+
     }
 }
