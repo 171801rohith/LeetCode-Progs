@@ -839,13 +839,19 @@ public class MainSolution {
         // System.out.println("Result: " + decode.decodeMessage(key, msg));
 
         // 166
-        TwoSneakyNums sneakyNums = new TwoSneakyNums();
-        int[] nums = {0, 1, 0, 1, 2};
-        System.out.println("Result: " + Arrays.toString(sneakyNums.getSneakyNumbers(nums)));
-
+        // TwoSneakyNums sneakyNums = new TwoSneakyNums();
+        // int[] nums = {0, 1, 0, 1, 2};
+        // System.out.println("Result: " + Arrays.toString(sneakyNums.getSneakyNumbers(nums)));
+        
         // 167
-        StrIsAcronymOfWords saw = new StrIsAcronymOfWords();
+        // StrIsAcronymOfWords saw = new StrIsAcronymOfWords();
         // Check easy problem 2828
+        
+        // 168
+        CommonElementsIn2Arr commonElementsIn2Arr = new CommonElementsIn2Arr();
+        int[] nums1 = {2, 3, 2};
+        int[] nums2 = {1, 2};
+        System.out.println("Result: " + Arrays.toString(commonElementsIn2Arr.findIntersectionValues(nums1, nums2)));
 
 
     }
