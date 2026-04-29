@@ -848,11 +848,14 @@ public class MainSolution {
         // Check easy problem 2828
         
         // 168
-        CommonElementsIn2Arr commonElementsIn2Arr = new CommonElementsIn2Arr();
-        int[] nums1 = {2, 3, 2};
-        int[] nums2 = {1, 2};
-        System.out.println("Result: " + Arrays.toString(commonElementsIn2Arr.findIntersectionValues(nums1, nums2)));
+        // CommonElementsIn2Arr commonElementsIn2Arr = new CommonElementsIn2Arr();
+        // int[] nums1 = {2, 3, 2};
+        // int[] nums2 = {1, 2};
+        // System.out.println("Result: " + Arrays.toString(commonElementsIn2Arr.findIntersectionValues(nums1, nums2)));
 
+        // 169
+        ReplaceDigitsWithChar rdc = new ReplaceDigitsWithChar();
+        System.out.println("Result: " + rdc.replaceDigits("a1b1c1"));
 
     }
 }
