@@ -854,8 +854,12 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(commonElementsIn2Arr.findIntersectionValues(nums1, nums2)));
 
         // 169
-        ReplaceDigitsWithChar rdc = new ReplaceDigitsWithChar();
-        System.out.println("Result: " + rdc.replaceDigits("a1b1c1"));
+        // ReplaceDigitsWithChar rdc = new ReplaceDigitsWithChar();
+        // System.out.println("Result: " + rdc.replaceDigits("a1b1c1"));
 
+        // 170
+        FindMissingElements fme = new FindMissingElements();
+        int[] nums = {1, 2, 4, 5, 6};
+        System.out.println("Result: " + fme.findMissingElements(nums));
     }
 }
