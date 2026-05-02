@@ -858,8 +858,12 @@ public class MainSolution {
         // System.out.println("Result: " + rdc.replaceDigits("a1b1c1"));
 
         // 170
-        FindMissingElements fme = new FindMissingElements();
-        int[] nums = {1, 2, 4, 5, 6};
-        System.out.println("Result: " + fme.findMissingElements(nums));
+        // FindMissingElements fme = new FindMissingElements();
+        // int[] nums = {1, 2, 4, 5, 6};
+        // System.out.println("Result: " + fme.findMissingElements(nums));
+
+        // 171
+        MaxWordsWithBrokenKeyboard mbk = new MaxWordsWithBrokenKeyboard();
+        System.out.println("Result: " + mbk.canBeTypedWords("leet code", "lt"));
     }
 }
