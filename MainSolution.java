@@ -863,7 +863,12 @@ public class MainSolution {
         // System.out.println("Result: " + fme.findMissingElements(nums));
 
         // 171
-        MaxWordsWithBrokenKeyboard mbk = new MaxWordsWithBrokenKeyboard();
-        System.out.println("Result: " + mbk.canBeTypedWords("leet code", "lt"));
+        // MaxWordsWithBrokenKeyboard mbk = new MaxWordsWithBrokenKeyboard();
+        // System.out.println("Result: " + mbk.canBeTypedWords("leet code", "lt"));
+
+        // 1172
+        FirstPalindromeInArr fpa = new FirstPalindromeInArr();
+        String[] words = {"abc","car","ada","racecar","cool"};
+        System.out.println("Result: " + fpa.firstPalindrome(words));
     }
 }
