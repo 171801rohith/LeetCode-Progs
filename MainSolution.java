@@ -866,9 +866,13 @@ public class MainSolution {
         // MaxWordsWithBrokenKeyboard mbk = new MaxWordsWithBrokenKeyboard();
         // System.out.println("Result: " + mbk.canBeTypedWords("leet code", "lt"));
 
-        // 1172
-        FirstPalindromeInArr fpa = new FirstPalindromeInArr();
-        String[] words = {"abc","car","ada","racecar","cool"};
-        System.out.println("Result: " + fpa.firstPalindrome(words));
+        // 172
+        // FirstPalindromeInArr fpa = new FirstPalindromeInArr();
+        // String[] words = {"abc","car","ada","racecar","cool"};
+        // System.out.println("Result: " + fpa.firstPalindrome(words));
+
+        // 173
+        SortVowelsInStr sVInStr = new SortVowelsInStr();
+        System.out.println("Result: " + sVInStr.sortVowels("lEetcOde")); 
     }
 }
