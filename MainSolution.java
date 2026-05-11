@@ -872,7 +872,11 @@ public class MainSolution {
         // System.out.println("Result: " + fpa.firstPalindrome(words));
 
         // 173
-        SortVowelsInStr sVInStr = new SortVowelsInStr();
-        System.out.println("Result: " + sVInStr.sortVowels("lEetcOde")); 
+        // SortVowelsInStr sVInStr = new SortVowelsInStr();
+        // System.out.println("Result: " + sVInStr.sortVowels("lEetcOde")); 
+
+        // 174
+        RingsNRods rnr = new RingsNRods();
+        System.out.println("Result: " + rnr.countPoints("B0R0G0R9R0B0G0"));
     }
 }
