@@ -880,8 +880,13 @@ public class MainSolution {
         // System.out.println("Result: " + rnr.countPoints("B0R0G0R9R0B0G0"));
 
         // 175
-        NoOfSeniorCitizens nOfSeniors = new NoOfSeniorCitizens();
-        String[] details = {"7868190130M7522","5303914400F9211","9273338290F4010"};
-        System.out.println("Result: " + nOfSeniors.countSeniors(details));
+        // NoOfSeniorCitizens nOfSeniors = new NoOfSeniorCitizens();
+        // String[] details = {"7868190130M7522","5303914400F9211","9273338290F4010"};
+        // System.out.println("Result: " + nOfSeniors.countSeniors(details));
+
+        // 176
+        TransformArrByParity tp = new TransformArrByParity();
+        int[] arr = {1, 2, 4, 5, 6, 7};
+        System.out.println("Result: " + Arrays.toString(tp.transformArray(arr)));
     }
 }
