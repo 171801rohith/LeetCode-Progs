@@ -885,8 +885,12 @@ public class MainSolution {
         // System.out.println("Result: " + nOfSeniors.countSeniors(details));
 
         // 176
-        TransformArrByParity tp = new TransformArrByParity();
-        int[] arr = {1, 2, 4, 5, 6, 7};
-        System.out.println("Result: " + Arrays.toString(tp.transformArray(arr)));
+        // TransformArrByParity tp = new TransformArrByParity();
+        // int[] arr = {1, 2, 4, 5, 6, 7};
+        // System.out.println("Result: " + Arrays.toString(tp.transformArray(arr)));
+
+        // 177
+        IsSentencePanagaram senPan = new IsSentencePanagaram();
+        System.out.println("Result: " + senPan.checkIfPangram("qwertyuiopasdfghjklzxcvbnm"));
     }
 }
