@@ -890,7 +890,12 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(tp.transformArray(arr)));
 
         // 177
-        IsSentencePanagaram senPan = new IsSentencePanagaram();
-        System.out.println("Result: " + senPan.checkIfPangram("qwertyuiopasdfghjklzxcvbnm"));
+        // IsSentencePanagaram senPan = new IsSentencePanagaram();
+        // System.out.println("Result: " + senPan.checkIfPangram("qwertyuiopasdfghjklzxcvbnm"));
+
+        // 178
+        CountWordsWithPrefix cwp = new CountWordsWithPrefix();
+        String[] words = {"pay","attention","practice","attend"};
+        System.out.println("Result: " + cwp.prefixCount(words, "at"));
     }
 }
