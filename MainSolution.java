@@ -894,8 +894,12 @@ public class MainSolution {
         // System.out.println("Result: " + senPan.checkIfPangram("qwertyuiopasdfghjklzxcvbnm"));
 
         // 178
-        CountWordsWithPrefix cwp = new CountWordsWithPrefix();
-        String[] words = {"pay","attention","practice","attend"};
-        System.out.println("Result: " + cwp.prefixCount(words, "at"));
+        // CountWordsWithPrefix cwp = new CountWordsWithPrefix();
+        // String[] words = {"pay","attention","practice","attend"};
+        // System.out.println("Result: " + cwp.prefixCount(words, "at"));
+
+        // 179
+        MaxSubstrWithDistinctStart mStart = new MaxSubstrWithDistinctStart();
+        System.out.println("Result: " + mStart.maxDistinct("ababax"));
     }
 }
