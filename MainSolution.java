@@ -899,7 +899,12 @@ public class MainSolution {
         // System.out.println("Result: " + cwp.prefixCount(words, "at"));
 
         // 179
-        MaxSubstrWithDistinctStart mStart = new MaxSubstrWithDistinctStart();
-        System.out.println("Result: " + mStart.maxDistinct("ababax"));
+        // MaxSubstrWithDistinctStart mStart = new MaxSubstrWithDistinctStart();
+        // System.out.println("Result: " + mStart.maxDistinct("ababax"));
+        
+        // 180
+        ClearDigits cd = new ClearDigits();
+        System.out.println("Result: " + cd.clearDigits("cba34"));
+        
     }
 }
