@@ -907,9 +907,13 @@ public class MainSolution {
         // System.out.println("Result: " + cd.clearDigits("cba34"));
 
         // 181
-        FindDegOfEachVertex fdv = new FindDegOfEachVertex();
-        int[][] matrix = {{0, 1, 1}, {1, 0, 0}, {1, 1, 1}};
-        System.out.println("Result: " + Arrays.toString(fdv.findDegrees(matrix)));
+        // FindDegOfEachVertex fdv = new FindDegOfEachVertex();
+        // int[][] matrix = {{0, 1, 1}, {1, 0, 0}, {1, 1, 1}};
+        // System.out.println("Result: " + Arrays.toString(fdv.findDegrees(matrix)));
         
+        // 182
+        NoOfEmpsMetTarget empsMetTarget = new NoOfEmpsMetTarget();
+        int[] hours = {2, 3, 4, 6,2};
+        System.out.println("Result: " + empsMetTarget.numberOfEmployeesWhoMetTarget(hours, 4));
     }
 }
