@@ -795,14 +795,15 @@ public class MainSolution {
         // RichestPersonWealth rpw = new RichestPersonWealth();
         // int[][] accounts = { { 2, 8, 7 }, { 7, 1, 3 }, { 1, 9, 5 } };
         // System.out.println("Result: " + rpw.maximumWealth(accounts));
-        
+
         // 155
         // MostFreqVnC vnc = new MostFreqVnC();
         // System.out.println("Result: " + vnc.maxFreqSum("successes"));
 
         // 156
         // TruncateSentence ts = new TruncateSentence();
-        // System.out.println("Result: " + ts.truncateSentence("What is the solution to this problem", 4));
+        // System.out.println("Result: " + ts.truncateSentence("What is the solution to
+        // this problem", 4));
 
         // 157
         // PairsSumLessThanTarget pst = new PairsSumLessThanTarget();
@@ -817,10 +818,11 @@ public class MainSolution {
         // String[] ppl = {"abc", "def", "ghi"};
         // int[] height = {1, 2, 3};
         // System.out.println("Result: " + Arrays.toString(sp.sortPeople(ppl, height)));
-        
+
         // 161
         // MaxWordsInSentences maxWords = new MaxWordsInSentences();
-        // String[] sentences = {"alice and bob love leetcode", "i think so too", "this is great thanks very much"};
+        // String[] sentences = {"alice and bob love leetcode", "i think so too", "this
+        // is great thanks very much"};
         // System.out.println("Result: " + maxWords.mostWordsFound(sentences));
 
         // 163
@@ -831,27 +833,31 @@ public class MainSolution {
         // 164
         // ArrStateAfterKMul arrKMul = new ArrStateAfterKMul();
         // int[] nums = {1, 2, 4, 5};
-        // System.out.println("Result: " + Arrays.toString(arrKMul.getFinalState(nums, 3, 3)));
+        // System.out.println("Result: " + Arrays.toString(arrKMul.getFinalState(nums,
+        // 3, 3)));
 
         // 165
         // DecodeMsg decode = new DecodeMsg();
-        // String msg = "zwx hnfx lqantp mnoeius ycgk vcnjrdb", key = "eljuxhpwnyrdgtqkviszcfmabo";
+        // String msg = "zwx hnfx lqantp mnoeius ycgk vcnjrdb", key =
+        // "eljuxhpwnyrdgtqkviszcfmabo";
         // System.out.println("Result: " + decode.decodeMessage(key, msg));
 
         // 166
         // TwoSneakyNums sneakyNums = new TwoSneakyNums();
         // int[] nums = {0, 1, 0, 1, 2};
-        // System.out.println("Result: " + Arrays.toString(sneakyNums.getSneakyNumbers(nums)));
-        
+        // System.out.println("Result: " +
+        // Arrays.toString(sneakyNums.getSneakyNumbers(nums)));
+
         // 167
         // StrIsAcronymOfWords saw = new StrIsAcronymOfWords();
         // Check easy problem 2828
-        
+
         // 168
         // CommonElementsIn2Arr commonElementsIn2Arr = new CommonElementsIn2Arr();
         // int[] nums1 = {2, 3, 2};
         // int[] nums2 = {1, 2};
-        // System.out.println("Result: " + Arrays.toString(commonElementsIn2Arr.findIntersectionValues(nums1, nums2)));
+        // System.out.println("Result: " +
+        // Arrays.toString(commonElementsIn2Arr.findIntersectionValues(nums1, nums2)));
 
         // 169
         // ReplaceDigitsWithChar rdc = new ReplaceDigitsWithChar();
@@ -873,7 +879,7 @@ public class MainSolution {
 
         // 173
         // SortVowelsInStr sVInStr = new SortVowelsInStr();
-        // System.out.println("Result: " + sVInStr.sortVowels("lEetcOde")); 
+        // System.out.println("Result: " + sVInStr.sortVowels("lEetcOde"));
 
         // 174
         // RingsNRods rnr = new RingsNRods();
@@ -891,7 +897,8 @@ public class MainSolution {
 
         // 177
         // IsSentencePanagaram senPan = new IsSentencePanagaram();
-        // System.out.println("Result: " + senPan.checkIfPangram("qwertyuiopasdfghjklzxcvbnm"));
+        // System.out.println("Result: " +
+        // senPan.checkIfPangram("qwertyuiopasdfghjklzxcvbnm"));
 
         // 178
         // CountWordsWithPrefix cwp = new CountWordsWithPrefix();
@@ -901,7 +908,7 @@ public class MainSolution {
         // 179
         // MaxSubstrWithDistinctStart mStart = new MaxSubstrWithDistinctStart();
         // System.out.println("Result: " + mStart.maxDistinct("ababax"));
-        
+
         // 180
         // ClearDigits cd = new ClearDigits();
         // System.out.println("Result: " + cd.clearDigits("cba34"));
@@ -910,10 +917,16 @@ public class MainSolution {
         // FindDegOfEachVertex fdv = new FindDegOfEachVertex();
         // int[][] matrix = {{0, 1, 1}, {1, 0, 0}, {1, 1, 1}};
         // System.out.println("Result: " + Arrays.toString(fdv.findDegrees(matrix)));
-        
+
         // 182
-        NoOfEmpsMetTarget empsMetTarget = new NoOfEmpsMetTarget();
-        int[] hours = {2, 3, 4, 6,2};
-        System.out.println("Result: " + empsMetTarget.numberOfEmployeesWhoMetTarget(hours, 4));
+        // NoOfEmpsMetTarget empsMetTarget = new NoOfEmpsMetTarget();
+        // int[] hours = {2, 3, 4, 6,2};
+        // System.out.println("Result: " +
+        // empsMetTarget.numberOfEmployeesWhoMetTarget(hours, 4));
+
+        // 183
+        PartitionArrAccPivot pArrAccPivot = new PartitionArrAccPivot();
+        int[] nums = { 9, 12, 5, 10, 14, 3, 10 };
+        System.out.println("Result: " + Arrays.toString(pArrAccPivot.pivotArray(nums, 10)));
     }
 }
