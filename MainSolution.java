@@ -925,8 +925,14 @@ public class MainSolution {
         // empsMetTarget.numberOfEmployeesWhoMetTarget(hours, 4));
 
         // 183
-        PartitionArrAccPivot pArrAccPivot = new PartitionArrAccPivot();
-        int[] nums = { 9, 12, 5, 10, 14, 3, 10 };
-        System.out.println("Result: " + Arrays.toString(pArrAccPivot.pivotArray(nums, 10)));
+        // PartitionArrAccPivot pArrAccPivot = new PartitionArrAccPivot();
+        // int[] nums = { 9, 12, 5, 10, 14, 3, 10 };
+        // System.out.println("Result: " + Arrays.toString(pArrAccPivot.pivotArray(nums,
+        // 10)));
+
+        // 184
+        KidsWithGreatestNoOfCandies kCandies = new KidsWithGreatestNoOfCandies();
+        int[] candies = { 2, 3, 5, 1, 3 };
+        System.out.println("Result: " + kCandies.kidsWithCandies(candies, 3));
     }
 }
