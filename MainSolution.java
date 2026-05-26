@@ -931,8 +931,13 @@ public class MainSolution {
         // 10)));
 
         // 184
-        KidsWithGreatestNoOfCandies kCandies = new KidsWithGreatestNoOfCandies();
-        int[] candies = { 2, 3, 5, 1, 3 };
-        System.out.println("Result: " + kCandies.kidsWithCandies(candies, 3));
+        // KidsWithGreatestNoOfCandies kCandies = new KidsWithGreatestNoOfCandies();
+        // int[] candies = { 2, 3, 5, 1, 3 };
+        // System.out.println("Result: " + kCandies.kidsWithCandies(candies, 3));
+
+        // 185
+        OrginalArrOfPrefixArr og = new OrginalArrOfPrefixArr();
+        int[] pref = { 5, 2, 0, 3, 1 };
+        System.out.println("Result: " + Arrays.toString(og.findArray(pref)));
     }
 }
