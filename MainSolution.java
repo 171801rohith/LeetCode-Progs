@@ -936,8 +936,14 @@ public class MainSolution {
         // System.out.println("Result: " + kCandies.kidsWithCandies(candies, 3));
 
         // 185
-        OrginalArrOfPrefixArr og = new OrginalArrOfPrefixArr();
-        int[] pref = { 5, 2, 0, 3, 1 };
-        System.out.println("Result: " + Arrays.toString(og.findArray(pref)));
+        // OrginalArrOfPrefixArr og = new OrginalArrOfPrefixArr();
+        // int[] pref = { 5, 2, 0, 3, 1 };
+        // System.out.println("Result: " + Arrays.toString(og.findArray(pref)));
+        
+        // 186
+        SeperateTheDigitsOfArr sDigitsOfArr = new SeperateTheDigitsOfArr();
+        int[] nums = { 35, 42, 40, 223, 31 };
+        System.out.println("Result: " + Arrays.toString(sDigitsOfArr.separateDigits(nums)));
+
     }
 }
