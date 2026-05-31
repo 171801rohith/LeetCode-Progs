@@ -941,9 +941,14 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(og.findArray(pref)));
         
         // 186
-        SeperateTheDigitsOfArr sDigitsOfArr = new SeperateTheDigitsOfArr();
+        // SeperateTheDigitsOfArr sDigitsOfArr = new SeperateTheDigitsOfArr();
+        // int[] nums = { 35, 42, 40, 223, 31 };
+        // System.out.println("Result: " + Arrays.toString(sDigitsOfArr.separateDigits(nums)));
+        
+        // 187
+        CountDigitApperences countDigitApperences = new CountDigitApperences();
         int[] nums = { 35, 42, 40, 223, 31 };
-        System.out.println("Result: " + Arrays.toString(sDigitsOfArr.separateDigits(nums)));
+        System.out.println("Result: " + countDigitApperences.countDigitOccurrences(nums, 2));
 
     }
 }
