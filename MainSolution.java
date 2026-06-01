@@ -946,9 +946,13 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(sDigitsOfArr.separateDigits(nums)));
         
         // 187
-        CountDigitApperences countDigitApperences = new CountDigitApperences();
+        // CountDigitApperences countDigitApperences = new CountDigitApperences();
+        // int[] nums = { 35, 42, 40, 223, 31 };
+        // System.out.println("Result: " + countDigitApperences.countDigitOccurrences(nums, 2));
+        
+        // 188
+        ConcatArrWithReverse concat = new ConcatArrWithReverse();
         int[] nums = { 35, 42, 40, 223, 31 };
-        System.out.println("Result: " + countDigitApperences.countDigitOccurrences(nums, 2));
-
+        System.out.println("Result: " + Arrays.toString(concat.concatWithReverse(nums)));
     }
 }
