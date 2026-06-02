@@ -939,20 +939,29 @@ public class MainSolution {
         // OrginalArrOfPrefixArr og = new OrginalArrOfPrefixArr();
         // int[] pref = { 5, 2, 0, 3, 1 };
         // System.out.println("Result: " + Arrays.toString(og.findArray(pref)));
-        
+
         // 186
         // SeperateTheDigitsOfArr sDigitsOfArr = new SeperateTheDigitsOfArr();
         // int[] nums = { 35, 42, 40, 223, 31 };
-        // System.out.println("Result: " + Arrays.toString(sDigitsOfArr.separateDigits(nums)));
-        
+        // System.out.println("Result: " +
+        // Arrays.toString(sDigitsOfArr.separateDigits(nums)));
+
         // 187
         // CountDigitApperences countDigitApperences = new CountDigitApperences();
         // int[] nums = { 35, 42, 40, 223, 31 };
-        // System.out.println("Result: " + countDigitApperences.countDigitOccurrences(nums, 2));
-        
+        // System.out.println("Result: " +
+        // countDigitApperences.countDigitOccurrences(nums, 2));
+
         // 188
-        ConcatArrWithReverse concat = new ConcatArrWithReverse();
-        int[] nums = { 35, 42, 40, 223, 31 };
-        System.out.println("Result: " + Arrays.toString(concat.concatWithReverse(nums)));
+        // ConcatArrWithReverse concat = new ConcatArrWithReverse();
+        // int[] nums = { 35, 42, 40, 223, 31 };
+        // System.out.println("Result: " +
+        // Arrays.toString(concat.concatWithReverse(nums)));
+
+        // 189
+        TargetArrInGivenOrder tar = new TargetArrInGivenOrder();
+        int[] nums = { 0, 1, 2, 3, 4 };
+        int[] index = { 0, 1, 2, 2, 1 };
+        System.out.println("Result: " + Arrays.toString(tar.createTargetArray(nums, index)));
     }
 }
