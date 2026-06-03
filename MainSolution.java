@@ -959,9 +959,15 @@ public class MainSolution {
         // Arrays.toString(concat.concatWithReverse(nums)));
 
         // 189
-        TargetArrInGivenOrder tar = new TargetArrInGivenOrder();
-        int[] nums = { 0, 1, 2, 3, 4 };
-        int[] index = { 0, 1, 2, 2, 1 };
-        System.out.println("Result: " + Arrays.toString(tar.createTargetArray(nums, index)));
+        // TargetArrInGivenOrder tar = new TargetArrInGivenOrder();
+        // int[] nums = { 0, 1, 2, 3, 4 };
+        // int[] index = { 0, 1, 2, 2, 1 };
+        // System.out.println("Result: " + Arrays.toString(tar.createTargetArray(nums, index)));
+        
+        // 190
+        RearrangeBySign rBySign = new RearrangeBySign();
+        int[] nums = { 0, -1, -2, 3, 4, -7 };
+        System.out.println("Result: " + Arrays.toString(rBySign.rearrangeArray(nums)));
+
     }
 }
