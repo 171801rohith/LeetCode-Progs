@@ -965,9 +965,13 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(tar.createTargetArray(nums, index)));
         
         // 190
-        RearrangeBySign rBySign = new RearrangeBySign();
-        int[] nums = { 0, -1, -2, 3, 4, -7 };
-        System.out.println("Result: " + Arrays.toString(rBySign.rearrangeArray(nums)));
+        // RearrangeBySign rBySign = new RearrangeBySign();
+        // int[] nums = { 0, -1, -2, 3, 4, -7 };
+        // System.out.println("Result: " + Arrays.toString(rBySign.rearrangeArray(nums)));
 
+        // 191
+        CrawlerLogFolder cFolder = new CrawlerLogFolder();
+        String[] logs =  {"d1/","d2/","../","d21/","./"};
+        System.out.println("Result: " + cFolder.minOperations(logs));
     }
 }
