@@ -970,8 +970,13 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(rBySign.rearrangeArray(nums)));
 
         // 191
-        CrawlerLogFolder cFolder = new CrawlerLogFolder();
-        String[] logs =  {"d1/","d2/","../","d21/","./"};
-        System.out.println("Result: " + cFolder.minOperations(logs));
+        // CrawlerLogFolder cFolder = new CrawlerLogFolder();
+        // String[] logs =  {"d1/","d2/","../","d21/","./"};
+        // System.out.println("Result: " + cFolder.minOperations(logs));
+
+        // 192
+        MissingNRepeatedVal mRepeatedVal = new MissingNRepeatedVal();
+        int[][] nums = {{1, 2}, {3, 3}};
+        System.out.println("Result: " + Arrays.toString(mRepeatedVal.findMissingAndRepeatedValues(nums)));
     }
 }
