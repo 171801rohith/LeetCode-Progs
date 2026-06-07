@@ -975,8 +975,12 @@ public class MainSolution {
         // System.out.println("Result: " + cFolder.minOperations(logs));
 
         // 192
-        MissingNRepeatedVal mRepeatedVal = new MissingNRepeatedVal();
-        int[][] nums = {{1, 2}, {3, 3}};
-        System.out.println("Result: " + Arrays.toString(mRepeatedVal.findMissingAndRepeatedValues(nums)));
+        // MissingNRepeatedVal mRepeatedVal = new MissingNRepeatedVal();
+        // int[][] nums = {{1, 2}, {3, 3}};
+        // System.out.println("Result: " + Arrays.toString(mRepeatedVal.findMissingAndRepeatedValues(nums)));
+
+        // 193
+        DateToBinary dtb = new DateToBinary();
+        System.out.println("Result: " + dtb.convertDateToBinary("2005-11-01"));
     }
 }
