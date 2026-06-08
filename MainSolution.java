@@ -992,8 +992,11 @@ public class MainSolution {
         // System.out.println("Result: " + maxBin.maximumOddBinaryNumber("000000111"));
 
         // 196
-        RemoveStarFromStr rStr = new RemoveStarFromStr();
-        System.out.println("Result: " + rStr.removeStars("leet**co*de"));
+        // RemoveStarFromStr rStr = new RemoveStarFromStr();
+        // System.out.println("Result: " + rStr.removeStars("leet**co*de"));
 
+        // 197
+        AdjDigitDiff adj = new AdjDigitDiff();
+        System.out.println("Result: " + adj.isAdjacentDiffAtMostTwo("132"));
     }
 }
