@@ -984,7 +984,12 @@ public class MainSolution {
         // System.out.println("Result: " + dtb.convertDateToBinary("2005-11-01"));
 
         // 194
-        TrafficSignalColor tsc = new TrafficSignalColor();
-        System.out.println("Result: " + tsc.trafficSignal(90));
+        // TrafficSignalColor tsc = new TrafficSignalColor();
+        // System.out.println("Result: " + tsc.trafficSignal(90));
+        
+        // 195
+        MaxOddBinNum maxBin = new MaxOddBinNum();
+        System.out.println("Result: " + maxBin.maximumOddBinaryNumber("000000111"));
+
     }
 }
