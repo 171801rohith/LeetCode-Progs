@@ -988,8 +988,12 @@ public class MainSolution {
         // System.out.println("Result: " + tsc.trafficSignal(90));
         
         // 195
-        MaxOddBinNum maxBin = new MaxOddBinNum();
-        System.out.println("Result: " + maxBin.maximumOddBinaryNumber("000000111"));
+        // MaxOddBinNum maxBin = new MaxOddBinNum();
+        // System.out.println("Result: " + maxBin.maximumOddBinaryNumber("000000111"));
+
+        // 196
+        RemoveStarFromStr rStr = new RemoveStarFromStr();
+        System.out.println("Result: " + rStr.removeStars("leet**co*de"));
 
     }
 }
