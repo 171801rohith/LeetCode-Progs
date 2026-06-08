@@ -980,7 +980,11 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(mRepeatedVal.findMissingAndRepeatedValues(nums)));
 
         // 193
-        DateToBinary dtb = new DateToBinary();
-        System.out.println("Result: " + dtb.convertDateToBinary("2005-11-01"));
+        // DateToBinary dtb = new DateToBinary();
+        // System.out.println("Result: " + dtb.convertDateToBinary("2005-11-01"));
+
+        // 194
+        TrafficSignalColor tsc = new TrafficSignalColor();
+        System.out.println("Result: " + tsc.trafficSignal(90));
     }
 }
