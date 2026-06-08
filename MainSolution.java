@@ -996,7 +996,11 @@ public class MainSolution {
         // System.out.println("Result: " + rStr.removeStars("leet**co*de"));
 
         // 197
-        AdjDigitDiff adj = new AdjDigitDiff();
-        System.out.println("Result: " + adj.isAdjacentDiffAtMostTwo("132"));
+        // AdjDigitDiff adj = new AdjDigitDiff();
+        // System.out.println("Result: " + adj.isAdjacentDiffAtMostTwo("132"));
+
+        // 198
+        TrimTrailingVowels trailingVowels = new TrimTrailingVowels();
+        System.out.println("Result: " + trailingVowels.trimTrailingVowels("aeiobsdaeiou"));
     }
 }
