@@ -1000,7 +1000,11 @@ public class MainSolution {
         // System.out.println("Result: " + adj.isAdjacentDiffAtMostTwo("132"));
 
         // 198
-        TrimTrailingVowels trailingVowels = new TrimTrailingVowels();
-        System.out.println("Result: " + trailingVowels.trimTrailingVowels("aeiobsdaeiou"));
+        // TrimTrailingVowels trailingVowels = new TrimTrailingVowels();
+        // System.out.println("Result: " + trailingVowels.trimTrailingVowels("aeiobsdaeiou"));
+
+        // 199
+        FaultyKeyboard faultyKeyboard = new FaultyKeyboard();
+        System.out.println("Result: " + faultyKeyboard.finalString("Rohith"));
     }
 }
