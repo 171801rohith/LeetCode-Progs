@@ -1004,7 +1004,11 @@ public class MainSolution {
         // System.out.println("Result: " + trailingVowels.trimTrailingVowels("aeiobsdaeiou"));
 
         // 199
-        FaultyKeyboard faultyKeyboard = new FaultyKeyboard();
-        System.out.println("Result: " + faultyKeyboard.finalString("Rohith"));
+        // FaultyKeyboard faultyKeyboard = new FaultyKeyboard();
+        // System.out.println("Result: " + faultyKeyboard.finalString("Rohith"));
+
+        // 200
+        DigitFreqScore score = new DigitFreqScore();
+        System.out.println("Result: " + score.digitFrequencyScore(1234234));
     }
 }
