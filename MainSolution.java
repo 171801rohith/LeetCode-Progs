@@ -1016,7 +1016,12 @@ public class MainSolution {
         // System.out.println("Result: " + fbe.firstMatchingIndex("abc"));
 
         // 202
-        RemoveTrailingZeroFromStr rmz = new RemoveTrailingZeroFromStr();
-        System.out.println("Result: " + rmz.removeTrailingZeros("1230239200"));
+        // RemoveTrailingZeroFromStr rmz = new RemoveTrailingZeroFromStr();
+        // System.out.println("Result: " + rmz.removeTrailingZeros("1230239200"));
+        
+        // 203
+        NoOfChangingKeys noc = new NoOfChangingKeys();
+        System.out.println("Result: " + noc.countKeyChanges("aAbCCcB"));
+
     }
 }
