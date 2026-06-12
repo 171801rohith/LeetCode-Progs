@@ -1008,7 +1008,11 @@ public class MainSolution {
         // System.out.println("Result: " + faultyKeyboard.finalString("Rohith"));
 
         // 200
-        DigitFreqScore score = new DigitFreqScore();
-        System.out.println("Result: " + score.digitFrequencyScore(1234234));
+        // DigitFreqScore score = new DigitFreqScore();
+        // System.out.println("Result: " + score.digitFrequencyScore(1234234));
+
+        // 201
+        FirstMatchingFromBothEnds fbe = new FirstMatchingFromBothEnds();
+        System.out.println("Result: " + fbe.firstMatchingIndex("abc"));
     }
 }
