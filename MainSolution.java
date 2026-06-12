@@ -1012,7 +1012,11 @@ public class MainSolution {
         // System.out.println("Result: " + score.digitFrequencyScore(1234234));
 
         // 201
-        FirstMatchingFromBothEnds fbe = new FirstMatchingFromBothEnds();
-        System.out.println("Result: " + fbe.firstMatchingIndex("abc"));
+        // FirstMatchingFromBothEnds fbe = new FirstMatchingFromBothEnds();
+        // System.out.println("Result: " + fbe.firstMatchingIndex("abc"));
+
+        // 202
+        RemoveTrailingZeroFromStr rmz = new RemoveTrailingZeroFromStr();
+        System.out.println("Result: " + rmz.removeTrailingZeros("1230239200"));
     }
 }
