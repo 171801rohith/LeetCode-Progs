@@ -962,22 +962,25 @@ public class MainSolution {
         // TargetArrInGivenOrder tar = new TargetArrInGivenOrder();
         // int[] nums = { 0, 1, 2, 3, 4 };
         // int[] index = { 0, 1, 2, 2, 1 };
-        // System.out.println("Result: " + Arrays.toString(tar.createTargetArray(nums, index)));
-        
+        // System.out.println("Result: " + Arrays.toString(tar.createTargetArray(nums,
+        // index)));
+
         // 190
         // RearrangeBySign rBySign = new RearrangeBySign();
         // int[] nums = { 0, -1, -2, 3, 4, -7 };
-        // System.out.println("Result: " + Arrays.toString(rBySign.rearrangeArray(nums)));
+        // System.out.println("Result: " +
+        // Arrays.toString(rBySign.rearrangeArray(nums)));
 
         // 191
         // CrawlerLogFolder cFolder = new CrawlerLogFolder();
-        // String[] logs =  {"d1/","d2/","../","d21/","./"};
+        // String[] logs = {"d1/","d2/","../","d21/","./"};
         // System.out.println("Result: " + cFolder.minOperations(logs));
 
         // 192
         // MissingNRepeatedVal mRepeatedVal = new MissingNRepeatedVal();
         // int[][] nums = {{1, 2}, {3, 3}};
-        // System.out.println("Result: " + Arrays.toString(mRepeatedVal.findMissingAndRepeatedValues(nums)));
+        // System.out.println("Result: " +
+        // Arrays.toString(mRepeatedVal.findMissingAndRepeatedValues(nums)));
 
         // 193
         // DateToBinary dtb = new DateToBinary();
@@ -986,7 +989,7 @@ public class MainSolution {
         // 194
         // TrafficSignalColor tsc = new TrafficSignalColor();
         // System.out.println("Result: " + tsc.trafficSignal(90));
-        
+
         // 195
         // MaxOddBinNum maxBin = new MaxOddBinNum();
         // System.out.println("Result: " + maxBin.maximumOddBinaryNumber("000000111"));
@@ -1001,7 +1004,8 @@ public class MainSolution {
 
         // 198
         // TrimTrailingVowels trailingVowels = new TrimTrailingVowels();
-        // System.out.println("Result: " + trailingVowels.trimTrailingVowels("aeiobsdaeiou"));
+        // System.out.println("Result: " +
+        // trailingVowels.trimTrailingVowels("aeiobsdaeiou"));
 
         // 199
         // FaultyKeyboard faultyKeyboard = new FaultyKeyboard();
@@ -1018,10 +1022,15 @@ public class MainSolution {
         // 202
         // RemoveTrailingZeroFromStr rmz = new RemoveTrailingZeroFromStr();
         // System.out.println("Result: " + rmz.removeTrailingZeros("1230239200"));
-        
+
         // 203
-        NoOfChangingKeys noc = new NoOfChangingKeys();
-        System.out.println("Result: " + noc.countKeyChanges("aAbCCcB"));
+        // NoOfChangingKeys noc = new NoOfChangingKeys();
+        // System.out.println("Result: " + noc.countKeyChanges("aAbCCcB"));
+
+        // 204
+        NoOfLaserBeamsInBank beams = new NoOfLaserBeamsInBank();
+        String[] bank = { "000", "111", "000" };
+        System.out.println("Result: " + beams.numberOfBeams(bank));
 
     }
 }
