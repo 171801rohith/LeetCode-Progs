@@ -1028,9 +1028,14 @@ public class MainSolution {
         // System.out.println("Result: " + noc.countKeyChanges("aAbCCcB"));
 
         // 204
-        NoOfLaserBeamsInBank beams = new NoOfLaserBeamsInBank();
-        String[] bank = { "000", "111", "000" };
-        System.out.println("Result: " + beams.numberOfBeams(bank));
+        // NoOfLaserBeamsInBank beams = new NoOfLaserBeamsInBank();
+        // String[] bank = { "000", "111", "000" };
+        // System.out.println("Result: " + beams.numberOfBeams(bank));
+
+        // 205
+        ConvertArrInto2DWithConditions cvtarr = new ConvertArrInto2DWithConditions();
+        int[] arr = {1, 2, 3, 5, 6, 3, 1, 4};
+        System.out.println("Result: " + cvtarr.findMatrix(arr));
 
     }
 }
