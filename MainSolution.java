@@ -1033,9 +1033,13 @@ public class MainSolution {
         // System.out.println("Result: " + beams.numberOfBeams(bank));
 
         // 205
-        ConvertArrInto2DWithConditions cvtarr = new ConvertArrInto2DWithConditions();
-        int[] arr = {1, 2, 3, 5, 6, 3, 1, 4};
-        System.out.println("Result: " + cvtarr.findMatrix(arr));
+        // ConvertArrInto2DWithConditions cvtarr = new ConvertArrInto2DWithConditions();
+        // int[] arr = {1, 2, 3, 5, 6, 3, 1, 4};
+        // System.out.println("Result: " + cvtarr.findMatrix(arr));
+
+        // 206
+        StrEqualAfterOps1 s = new StrEqualAfterOps1();
+        System.out.println("Result: " + s.hasSameDigits("123436"));
 
     }
 }
