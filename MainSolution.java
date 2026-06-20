@@ -1038,8 +1038,11 @@ public class MainSolution {
         // System.out.println("Result: " + cvtarr.findMatrix(arr));
 
         // 206
-        StrEqualAfterOps1 s = new StrEqualAfterOps1();
-        System.out.println("Result: " + s.hasSameDigits("123436"));
+        // StrEqualAfterOps1 s = new StrEqualAfterOps1();
+        // System.out.println("Result: " + s.hasSameDigits("123436"));
+
+        // 207
+        // 2859 th easy some on leetcode
 
     }
 }
