@@ -1036,13 +1036,18 @@ public class MainSolution {
         // ConvertArrInto2DWithConditions cvtarr = new ConvertArrInto2DWithConditions();
         // int[] arr = {1, 2, 3, 5, 6, 3, 1, 4};
         // System.out.println("Result: " + cvtarr.findMatrix(arr));
-
+        
         // 206
         // StrEqualAfterOps1 s = new StrEqualAfterOps1();
         // System.out.println("Result: " + s.hasSameDigits("123436"));
-
+        
         // 207
         // 2859 th easy some on leetcode
-
+        
+        // 208
+        FindIntAddedToArr1 f = new FindIntAddedToArr1();
+        int[] nums1 = {2, 6, 4};
+        int[] nums2 = {9, 7, 5};
+        System.out.println("Result: " + f.addedInteger(nums1, nums2));
     }
 }
