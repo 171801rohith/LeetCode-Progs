@@ -1045,9 +1045,13 @@ public class MainSolution {
         // 2859 th easy some on leetcode
         
         // 208
-        FindIntAddedToArr1 f = new FindIntAddedToArr1();
-        int[] nums1 = {2, 6, 4};
-        int[] nums2 = {9, 7, 5};
-        System.out.println("Result: " + f.addedInteger(nums1, nums2));
+        // FindIntAddedToArr1 f = new FindIntAddedToArr1();
+        // int[] nums1 = {2, 6, 4};
+        // int[] nums2 = {9, 7, 5};
+        // System.out.println("Result: " + f.addedInteger(nums1, nums2));
+
+        // 209
+        EqualNoOfOccurancesInStr obj = new EqualNoOfOccurancesInStr();
+        System.out.println("Result: " + obj.areOccurrencesEqual("aabbcdcd"));
     }
 }
