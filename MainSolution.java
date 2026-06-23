@@ -1051,7 +1051,11 @@ public class MainSolution {
         // System.out.println("Result: " + f.addedInteger(nums1, nums2));
 
         // 209
-        EqualNoOfOccurancesInStr obj = new EqualNoOfOccurancesInStr();
-        System.out.println("Result: " + obj.areOccurrencesEqual("aabbcdcd"));
+        // EqualNoOfOccurancesInStr obj = new EqualNoOfOccurancesInStr();
+        // System.out.println("Result: " + obj.areOccurrencesEqual("aabbcdcd"));
+
+        // 210
+        HashDividedString hashDividedString = new HashDividedString();
+        System.out.println("Result: " + hashDividedString.stringHash("abcd", 2));
     }
 }
