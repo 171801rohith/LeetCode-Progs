@@ -1059,7 +1059,11 @@ public class MainSolution {
         // System.out.println("Result: " + hashDividedString.stringHash("abcd", 2));
 
         // 211
-        AddTwoNums add = new AddTwoNums();
+        // AddTwoNums add = new AddTwoNums();
         // Leetcode 2nd medium problem
+
+        // 212
+        ReverseInt revInt = new ReverseInt();
+        System.out.println("Result: " + revInt.reverse(-1233432));
     }
 }
