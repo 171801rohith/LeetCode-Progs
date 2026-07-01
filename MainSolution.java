@@ -1055,7 +1055,11 @@ public class MainSolution {
         // System.out.println("Result: " + obj.areOccurrencesEqual("aabbcdcd"));
 
         // 210
-        HashDividedString hashDividedString = new HashDividedString();
-        System.out.println("Result: " + hashDividedString.stringHash("abcd", 2));
+        // HashDividedString hashDividedString = new HashDividedString();
+        // System.out.println("Result: " + hashDividedString.stringHash("abcd", 2));
+
+        // 211
+        AddTwoNums add = new AddTwoNums();
+        // Leetcode 2nd medium problem
     }
 }
