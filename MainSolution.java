@@ -1067,7 +1067,12 @@ public class MainSolution {
         // System.out.println("Result: " + revInt.reverse(-1233432));
 
         // 213
-        BSTFromPreorder bst = new BSTFromPreorder();
+        // BSTFromPreorder bst = new BSTFromPreorder();
         // 1008th leetcode medium problem
+
+        // 214
+        MaxNoOfStrPairs max = new MaxNoOfStrPairs();
+        String[] words = {"cd","ac","dc","ca","zz"};
+        System.out.println("Result: " + max.maximumNumberOfStringPairs(words));
     }
 }
