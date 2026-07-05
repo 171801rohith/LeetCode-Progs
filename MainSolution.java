@@ -1071,8 +1071,12 @@ public class MainSolution {
         // 1008th leetcode medium problem
 
         // 214
-        MaxNoOfStrPairs max = new MaxNoOfStrPairs();
-        String[] words = {"cd","ac","dc","ca","zz"};
-        System.out.println("Result: " + max.maximumNumberOfStringPairs(words));
+        // MaxNoOfStrPairs max = new MaxNoOfStrPairs();
+        // String[] words = {"cd","ac","dc","ca","zz"};
+        // System.out.println("Result: " + max.maximumNumberOfStringPairs(words));
+
+        // 215
+        RevLettersThenSpecialCharInStr revStr = new RevLettersThenSpecialCharInStr();
+        System.out.println("Result: " + revStr.reverseByType(")ebc#da@f("));
     }
 }
