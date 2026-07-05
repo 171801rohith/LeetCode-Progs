@@ -1076,7 +1076,12 @@ public class MainSolution {
         // System.out.println("Result: " + max.maximumNumberOfStringPairs(words));
 
         // 215
-        RevLettersThenSpecialCharInStr revStr = new RevLettersThenSpecialCharInStr();
-        System.out.println("Result: " + revStr.reverseByType(")ebc#da@f("));
+        // RevLettersThenSpecialCharInStr revStr = new RevLettersThenSpecialCharInStr();
+        // System.out.println("Result: " + revStr.reverseByType(")ebc#da@f("));
+        
+        // 216
+        RemoveAllOccurancesOfSubstring rmStr = new RemoveAllOccurancesOfSubstring();
+        System.out.println("Result: " + rmStr.removeOccurrences("daabcbaabcbc", "abc"));
+        
     }
 }
