@@ -1080,8 +1080,12 @@ public class MainSolution {
         // System.out.println("Result: " + revStr.reverseByType(")ebc#da@f("));
         
         // 216
-        RemoveAllOccurancesOfSubstring rmStr = new RemoveAllOccurancesOfSubstring();
-        System.out.println("Result: " + rmStr.removeOccurrences("daabcbaabcbc", "abc"));
+        // RemoveAllOccurancesOfSubstring rmStr = new RemoveAllOccurancesOfSubstring();
+        // System.out.println("Result: " + rmStr.removeOccurrences("daabcbaabcbc", "abc"));
+
+        // 217
+        GenerateStrWithOddChar gen = new GenerateStrWithOddChar();
+        System.out.println("Result: " + gen.generateTheString(5));
         
     }
 }
