@@ -1084,8 +1084,11 @@ public class MainSolution {
         // System.out.println("Result: " + rmStr.removeOccurrences("daabcbaabcbc", "abc"));
 
         // 217
-        GenerateStrWithOddChar gen = new GenerateStrWithOddChar();
-        System.out.println("Result: " + gen.generateTheString(5));
+        // GenerateStrWithOddChar gen = new GenerateStrWithOddChar();
+        // System.out.println("Result: " + gen.generateTheString(5));
         
+        // 218
+        FurthestPointFromOrigin fOrigin = new FurthestPointFromOrigin();
+        System.out.println("Result: " + fOrigin.furthestDistanceFromOrigin("LL__RRL"));
     }
 }
