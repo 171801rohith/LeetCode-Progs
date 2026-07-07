@@ -1088,7 +1088,12 @@ public class MainSolution {
         // System.out.println("Result: " + gen.generateTheString(5));
         
         // 218
-        FurthestPointFromOrigin fOrigin = new FurthestPointFromOrigin();
-        System.out.println("Result: " + fOrigin.furthestDistanceFromOrigin("LL__RRL"));
+        // FurthestPointFromOrigin fOrigin = new FurthestPointFromOrigin();
+        // System.out.println("Result: " + fOrigin.furthestDistanceFromOrigin("LL__RRL"));
+
+        // 219
+        NoOfGoodPairs no = new NoOfGoodPairs();
+        int[] nums = {1, 1, 1, 1};
+        System.out.println("Result: " + no.numIdenticalPairs(nums));
     }
 }
