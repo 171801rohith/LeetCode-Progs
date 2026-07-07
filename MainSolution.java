@@ -1092,8 +1092,14 @@ public class MainSolution {
         // System.out.println("Result: " + fOrigin.furthestDistanceFromOrigin("LL__RRL"));
 
         // 219
-        NoOfGoodPairs no = new NoOfGoodPairs();
-        int[] nums = {1, 1, 1, 1};
-        System.out.println("Result: " + no.numIdenticalPairs(nums));
+        // NoOfGoodPairs no = new NoOfGoodPairs();
+        // int[] nums = {1, 1, 1, 1};
+        // System.out.println("Result: " + no.numIdenticalPairs(nums));
+        
+        // 220
+        NoOfGoodPairs1 no = new NoOfGoodPairs1();
+        int[] nums = {1, 2, 3};
+        System.out.println("Result: " + no.numberOfPairs(nums, nums, 1));
+
     }
 }
