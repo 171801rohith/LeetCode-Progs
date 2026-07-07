@@ -1097,9 +1097,15 @@ public class MainSolution {
         // System.out.println("Result: " + no.numIdenticalPairs(nums));
         
         // 220
-        NoOfGoodPairs1 no = new NoOfGoodPairs1();
-        int[] nums = {1, 2, 3};
-        System.out.println("Result: " + no.numberOfPairs(nums, nums, 1));
+        // NoOfGoodPairs1 no = new NoOfGoodPairs1();
+        // int[] nums = {1, 2, 3};
+        // System.out.println("Result: " + no.numberOfPairs(nums, nums, 1));
+        
+        // 221
+        DiffOf2Arr diff = new DiffOf2Arr();
+        int[] nums1 = {1, 2, 3};
+        int[] nums2 = {4, 2, 5};
+        System.out.println("Result: " + diff.findDifference(nums1, nums2));
 
     }
 }
