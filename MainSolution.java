@@ -1110,9 +1110,13 @@ public class MainSolution {
         // System.out.println("Result: " + diff.findDifference(nums1, nums2));
 
         // 222
-        WeightedWordMapping wordMap = new WeightedWordMapping();
-        String[] words = { "abcd", "def", "xyz" };
-        int[] weights = { 5, 3, 12, 14, 1, 2, 3, 2, 10, 6, 6, 9, 7, 8, 7, 10, 8, 9, 6, 9, 9, 8, 3, 7, 7, 2 };
-        System.out.println("Result: " + wordMap.mapWordWeights(words, weights));
+        // WeightedWordMapping wordMap = new WeightedWordMapping();
+        // String[] words = { "abcd", "def", "xyz" };
+        // int[] weights = { 5, 3, 12, 14, 1, 2, 3, 2, 10, 6, 6, 9, 7, 8, 7, 10, 8, 9, 6, 9, 9, 8, 3, 7, 7, 2 };
+        // System.out.println("Result: " + wordMap.mapWordWeights(words, weights));
+
+        // 223
+        SeqOfStrAppearedOnScreen seqScreen = new SeqOfStrAppearedOnScreen();
+        System.out.println("Result: " + seqScreen.stringSequence("abc"));
     }
 }
