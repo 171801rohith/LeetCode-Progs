@@ -1036,14 +1036,14 @@ public class MainSolution {
         // ConvertArrInto2DWithConditions cvtarr = new ConvertArrInto2DWithConditions();
         // int[] arr = {1, 2, 3, 5, 6, 3, 1, 4};
         // System.out.println("Result: " + cvtarr.findMatrix(arr));
-        
+
         // 206
         // StrEqualAfterOps1 s = new StrEqualAfterOps1();
         // System.out.println("Result: " + s.hasSameDigits("123436"));
-        
+
         // 207
         // 2859 th easy some on leetcode
-        
+
         // 208
         // FindIntAddedToArr1 f = new FindIntAddedToArr1();
         // int[] nums1 = {2, 6, 4};
@@ -1078,34 +1078,41 @@ public class MainSolution {
         // 215
         // RevLettersThenSpecialCharInStr revStr = new RevLettersThenSpecialCharInStr();
         // System.out.println("Result: " + revStr.reverseByType(")ebc#da@f("));
-        
+
         // 216
         // RemoveAllOccurancesOfSubstring rmStr = new RemoveAllOccurancesOfSubstring();
-        // System.out.println("Result: " + rmStr.removeOccurrences("daabcbaabcbc", "abc"));
+        // System.out.println("Result: " + rmStr.removeOccurrences("daabcbaabcbc",
+        // "abc"));
 
         // 217
         // GenerateStrWithOddChar gen = new GenerateStrWithOddChar();
         // System.out.println("Result: " + gen.generateTheString(5));
-        
+
         // 218
         // FurthestPointFromOrigin fOrigin = new FurthestPointFromOrigin();
-        // System.out.println("Result: " + fOrigin.furthestDistanceFromOrigin("LL__RRL"));
+        // System.out.println("Result: " +
+        // fOrigin.furthestDistanceFromOrigin("LL__RRL"));
 
         // 219
         // NoOfGoodPairs no = new NoOfGoodPairs();
         // int[] nums = {1, 1, 1, 1};
         // System.out.println("Result: " + no.numIdenticalPairs(nums));
-        
+
         // 220
         // NoOfGoodPairs1 no = new NoOfGoodPairs1();
         // int[] nums = {1, 2, 3};
         // System.out.println("Result: " + no.numberOfPairs(nums, nums, 1));
-        
-        // 221
-        DiffOf2Arr diff = new DiffOf2Arr();
-        int[] nums1 = {1, 2, 3};
-        int[] nums2 = {4, 2, 5};
-        System.out.println("Result: " + diff.findDifference(nums1, nums2));
 
+        // 221
+        // DiffOf2Arr diff = new DiffOf2Arr();
+        // int[] nums1 = {1, 2, 3};
+        // int[] nums2 = {4, 2, 5};
+        // System.out.println("Result: " + diff.findDifference(nums1, nums2));
+
+        // 222
+        WeightedWordMapping wordMap = new WeightedWordMapping();
+        String[] words = { "abcd", "def", "xyz" };
+        int[] weights = { 5, 3, 12, 14, 1, 2, 3, 2, 10, 6, 6, 9, 7, 8, 7, 10, 8, 9, 6, 9, 9, 8, 3, 7, 7, 2 };
+        System.out.println("Result: " + wordMap.mapWordWeights(words, weights));
     }
 }
