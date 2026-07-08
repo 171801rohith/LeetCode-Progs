@@ -1116,7 +1116,12 @@ public class MainSolution {
         // System.out.println("Result: " + wordMap.mapWordWeights(words, weights));
 
         // 223
-        SeqOfStrAppearedOnScreen seqScreen = new SeqOfStrAppearedOnScreen();
-        System.out.println("Result: " + seqScreen.stringSequence("abc"));
+        // SeqOfStrAppearedOnScreen seqScreen = new SeqOfStrAppearedOnScreen();
+        // System.out.println("Result: " + seqScreen.stringSequence("abc"));
+
+        // 224
+        CountEleWithMaxFreq maxf = new CountEleWithMaxFreq();
+        int[] nums = {1, 2, 3, 4, 5, 6};
+        System.out.println("Result: " + maxf.maxFrequencyElements(nums));
     }
 }
