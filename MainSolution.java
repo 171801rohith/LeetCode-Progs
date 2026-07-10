@@ -1126,9 +1126,15 @@ public class MainSolution {
         // System.out.println("Result: " + maxf.maxFrequencyElements(nums));
 
         // 225
-        SortByIncreasingFreq sortFreq = new SortByIncreasingFreq();
+        // SortByIncreasingFreq sortFreq = new SortByIncreasingFreq();
+        // int[] nums = { 1, 1, 2, 2, 2, 3, 4, 5, 6 };
+        // System.out.println("Result: " +
+        // Arrays.toString(sortFreq.frequencySort(nums)));
+
+        // 226
+        CountPairsWithAbsDiffK cd = new CountPairsWithAbsDiffK();
         int[] nums = { 1, 1, 2, 2, 2, 3, 4, 5, 6 };
-        System.out.println("Result: " + Arrays.toString(sortFreq.frequencySort(nums)));
+        System.out.println("Result: " + cd.countKDifference(nums, 2));
 
     }
 }
