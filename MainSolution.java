@@ -1132,9 +1132,13 @@ public class MainSolution {
         // Arrays.toString(sortFreq.frequencySort(nums)));
 
         // 226
-        CountPairsWithAbsDiffK cd = new CountPairsWithAbsDiffK();
-        int[] nums = { 1, 1, 2, 2, 2, 3, 4, 5, 6 };
-        System.out.println("Result: " + cd.countKDifference(nums, 2));
+        // CountPairsWithAbsDiffK cd = new CountPairsWithAbsDiffK();
+        // int[] nums = { 1, 1, 2, 2, 2, 3, 4, 5, 6 };
+        // System.out.println("Result: " + cd.countKDifference(nums, 2));
 
+        // 227
+        CountNoOfDistinctIntAfterRevOp revOp = new CountNoOfDistinctIntAfterRevOp();
+        int[] nums = { 1, 13, 10, 12, 31 };
+        System.out.println("Result: " + revOp.countDistinctIntegers(nums));
     }
 }
