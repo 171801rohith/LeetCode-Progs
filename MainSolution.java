@@ -1137,8 +1137,13 @@ public class MainSolution {
         // System.out.println("Result: " + cd.countKDifference(nums, 2));
 
         // 227
-        CountNoOfDistinctIntAfterRevOp revOp = new CountNoOfDistinctIntAfterRevOp();
-        int[] nums = { 1, 13, 10, 12, 31 };
-        System.out.println("Result: " + revOp.countDistinctIntegers(nums));
+        // CountNoOfDistinctIntAfterRevOp revOp = new CountNoOfDistinctIntAfterRevOp();
+        // int[] nums = { 1, 13, 10, 12, 31 };
+        // System.out.println("Result: " + revOp.countDistinctIntegers(nums));
+
+        // 228
+        XORofNumAppearTwice xor = new XORofNumAppearTwice();
+        int[] nums = {1, 1, 2, 3};
+        System.out.println("Result: " + xor.duplicateNumbersXOR(nums));
     }
 }
