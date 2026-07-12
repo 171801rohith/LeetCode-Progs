@@ -1145,11 +1145,15 @@ public class MainSolution {
         // XORofNumAppearTwice xor = new XORofNumAppearTwice();
         // int[] nums = {1, 1, 2, 3};
         // System.out.println("Result: " + xor.duplicateNumbersXOR(nums));
-        
-        // 229
-        SumOfUniqueElements sum = new SumOfUniqueElements();
-        int[] nums = {1, 1, 2, 3};
-        System.out.println("Result: " + sum.sumOfUnique(nums));
 
+        // 229
+        // SumOfUniqueElements sum = new SumOfUniqueElements();
+        // int[] nums = {1, 1, 2, 3};
+        // System.out.println("Result: " + sum.sumOfUnique(nums));
+
+        // 230
+        FindNReplacePattern fnp = new FindNReplacePattern();
+        String[] words = { "abc", "deq", "mee", "aqq", "dkd", "ccc" };
+        System.out.println("Result: " + fnp.findAndReplacePattern(words, "abb"));
     }
 }
