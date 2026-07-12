@@ -1142,8 +1142,14 @@ public class MainSolution {
         // System.out.println("Result: " + revOp.countDistinctIntegers(nums));
 
         // 228
-        XORofNumAppearTwice xor = new XORofNumAppearTwice();
+        // XORofNumAppearTwice xor = new XORofNumAppearTwice();
+        // int[] nums = {1, 1, 2, 3};
+        // System.out.println("Result: " + xor.duplicateNumbersXOR(nums));
+        
+        // 229
+        SumOfUniqueElements sum = new SumOfUniqueElements();
         int[] nums = {1, 1, 2, 3};
-        System.out.println("Result: " + xor.duplicateNumbersXOR(nums));
+        System.out.println("Result: " + sum.sumOfUnique(nums));
+
     }
 }
