@@ -1152,8 +1152,12 @@ public class MainSolution {
         // System.out.println("Result: " + sum.sumOfUnique(nums));
 
         // 230
-        FindNReplacePattern fnp = new FindNReplacePattern();
-        String[] words = { "abc", "deq", "mee", "aqq", "dkd", "ccc" };
-        System.out.println("Result: " + fnp.findAndReplacePattern(words, "abb"));
+        // FindNReplacePattern fnp = new FindNReplacePattern();
+        // String[] words = { "abc", "deq", "mee", "aqq", "dkd", "ccc" };
+        // System.out.println("Result: " + fnp.findAndReplacePattern(words, "abb"));
+
+        // 231
+        SequentialDigits seqDigit = new SequentialDigits();
+        System.out.println("Result: " + seqDigit.sequentialDigits(1000, 3000));
     }
 }
