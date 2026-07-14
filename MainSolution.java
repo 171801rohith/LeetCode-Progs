@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.List;
 
 public class MainSolution {
     public static void main(String[] args) {
@@ -1157,7 +1156,13 @@ public class MainSolution {
         // System.out.println("Result: " + fnp.findAndReplacePattern(words, "abb"));
 
         // 231
-        SequentialDigits seqDigit = new SequentialDigits();
-        System.out.println("Result: " + seqDigit.sequentialDigits(1000, 3000));
+        // SequentialDigits seqDigit = new SequentialDigits();
+        // System.out.println("Result: " + seqDigit.sequentialDigits(1000, 3000));
+
+        // 232
+        PrefixCommonArrOf2Arr pre2arr = new PrefixCommonArrOf2Arr();
+        int[] A = {1, 2, 3};
+        int[] B = {3, 1, 2};
+        System.out.println("Result: " + Arrays.toString(pre2arr.findThePrefixCommonArray(A, B)));
     }
 }
