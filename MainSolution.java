@@ -1166,7 +1166,11 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(pre2arr.findThePrefixCommonArray(A, B)));
 
         // 233
-        GCDEvenOddSum gcd = new GCDEvenOddSum();
-        System.out.println("Result: " + gcd.gcdOfOddEvenSums(6));
+        // GCDEvenOddSum gcd = new GCDEvenOddSum();
+        // System.out.println("Result: " + gcd.gcdOfOddEvenSums(6));
+
+        // 234
+        SubarrDistinctElementsSumSq sub = new SubarrDistinctElementsSumSq();
+        // 2913th leetcode easy problem
     }
 }
