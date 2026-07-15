@@ -1160,9 +1160,13 @@ public class MainSolution {
         // System.out.println("Result: " + seqDigit.sequentialDigits(1000, 3000));
 
         // 232
-        PrefixCommonArrOf2Arr pre2arr = new PrefixCommonArrOf2Arr();
-        int[] A = {1, 2, 3};
-        int[] B = {3, 1, 2};
-        System.out.println("Result: " + Arrays.toString(pre2arr.findThePrefixCommonArray(A, B)));
+        // PrefixCommonArrOf2Arr pre2arr = new PrefixCommonArrOf2Arr();
+        // int[] A = {1, 2, 3};
+        // int[] B = {3, 1, 2};
+        // System.out.println("Result: " + Arrays.toString(pre2arr.findThePrefixCommonArray(A, B)));
+
+        // 233
+        GCDEvenOddSum gcd = new GCDEvenOddSum();
+        System.out.println("Result: " + gcd.gcdOfOddEvenSums(6));
     }
 }
