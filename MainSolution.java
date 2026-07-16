@@ -1163,7 +1163,8 @@ public class MainSolution {
         // PrefixCommonArrOf2Arr pre2arr = new PrefixCommonArrOf2Arr();
         // int[] A = {1, 2, 3};
         // int[] B = {3, 1, 2};
-        // System.out.println("Result: " + Arrays.toString(pre2arr.findThePrefixCommonArray(A, B)));
+        // System.out.println("Result: " +
+        // Arrays.toString(pre2arr.findThePrefixCommonArray(A, B)));
 
         // 233
         // GCDEvenOddSum gcd = new GCDEvenOddSum();
@@ -1174,8 +1175,14 @@ public class MainSolution {
         // 2913th leetcode easy problem
 
         // 235
-        NRepeatedElementIn2NArr nrep = new NRepeatedElementIn2NArr();
-        int[] nums = {1, 2, 2, 3};
-        System.out.println("Result: " + nrep.repeatedNTimes(nums));
+        // NRepeatedElementIn2NArr nrep = new NRepeatedElementIn2NArr();
+        // int[] nums = {1, 2, 2, 3};
+        // System.out.println("Result: " + nrep.repeatedNTimes(nums));
+        
+        // 236
+        SumElementsWithFreqDivisibleByK sum = new SumElementsWithFreqDivisibleByK();
+        int[] nums = { 1, 2, 2, 3, 3, 3, 3, 4 };
+        System.out.println("Result: " + sum.sumDivisibleByK(nums, 2));
+
     }
 }
