@@ -1170,7 +1170,12 @@ public class MainSolution {
         // System.out.println("Result: " + gcd.gcdOfOddEvenSums(6));
 
         // 234
-        SubarrDistinctElementsSumSq sub = new SubarrDistinctElementsSumSq();
+        // SubarrDistinctElementsSumSq sub = new SubarrDistinctElementsSumSq();
         // 2913th leetcode easy problem
+
+        // 235
+        NRepeatedElementIn2NArr nrep = new NRepeatedElementIn2NArr();
+        int[] nums = {1, 2, 2, 3};
+        System.out.println("Result: " + nrep.repeatedNTimes(nums));
     }
 }
