@@ -1180,9 +1180,14 @@ public class MainSolution {
         // System.out.println("Result: " + nrep.repeatedNTimes(nums));
         
         // 236
-        SumElementsWithFreqDivisibleByK sum = new SumElementsWithFreqDivisibleByK();
-        int[] nums = { 1, 2, 2, 3, 3, 3, 3, 4 };
-        System.out.println("Result: " + sum.sumDivisibleByK(nums, 2));
+        // SumElementsWithFreqDivisibleByK sum = new SumElementsWithFreqDivisibleByK();
+        // int[] nums = { 1, 2, 2, 3, 3, 3, 3, 4 };
+        // System.out.println("Result: " + sum.sumDivisibleByK(nums, 2));
+
+        // 237
+        KthDistinctStringInArr kstr = new KthDistinctStringInArr();
+        String[] s = {"aaa", "a", "aa"};
+        System.out.println("Result: " + kstr.kthDistinct(s, 3));
 
     }
 }
