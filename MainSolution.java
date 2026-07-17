@@ -1178,7 +1178,7 @@ public class MainSolution {
         // NRepeatedElementIn2NArr nrep = new NRepeatedElementIn2NArr();
         // int[] nums = {1, 2, 2, 3};
         // System.out.println("Result: " + nrep.repeatedNTimes(nums));
-        
+
         // 236
         // SumElementsWithFreqDivisibleByK sum = new SumElementsWithFreqDivisibleByK();
         // int[] nums = { 1, 2, 2, 3, 3, 3, 3, 4 };
@@ -1190,7 +1190,15 @@ public class MainSolution {
         // System.out.println("Result: " + kstr.kthDistinct(s, 3));
 
         // 238
-        UncommonWordsFrom2Sentences un = new UncommonWordsFrom2Sentences();
-        System.out.println("Result: " + Arrays.toString(un.uncommonFromSentences("this apple is sour", "this apple is sweet")));
+        // UncommonWordsFrom2Sentences un = new UncommonWordsFrom2Sentences();
+        // System.out.println("Result: " +
+        // Arrays.toString(un.uncommonFromSentences("this apple is sour", "this apple is
+        // sweet")));
+
+        // 239
+        NextGreaterElementI next = new NextGreaterElementI();
+        int[] nums1 = { 4, 1, 2 };
+        int[] nums2 = { 1, 3, 4, 2 };
+        System.out.println("Result: " + Arrays.toString(next.nextGreaterElement(nums1, nums2)));
     }
 }
