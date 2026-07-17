@@ -1185,9 +1185,12 @@ public class MainSolution {
         // System.out.println("Result: " + sum.sumDivisibleByK(nums, 2));
 
         // 237
-        KthDistinctStringInArr kstr = new KthDistinctStringInArr();
-        String[] s = {"aaa", "a", "aa"};
-        System.out.println("Result: " + kstr.kthDistinct(s, 3));
+        // KthDistinctStringInArr kstr = new KthDistinctStringInArr();
+        // String[] s = {"aaa", "a", "aa"};
+        // System.out.println("Result: " + kstr.kthDistinct(s, 3));
 
+        // 238
+        UncommonWordsFrom2Sentences un = new UncommonWordsFrom2Sentences();
+        System.out.println("Result: " + Arrays.toString(un.uncommonFromSentences("this apple is sour", "this apple is sweet")));
     }
 }
