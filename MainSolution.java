@@ -1202,9 +1202,15 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(next.nextGreaterElement(nums1, nums2)));
         
         // 240
-        GCDofArr gcda = new GCDofArr();
-        int[] arr = { 1, 3, 4, 2 };
-        System.out.println("Result: " + gcda.findGCD(arr));
+        // GCDofArr gcda = new GCDofArr();
+        // int[] arr = { 1, 3, 4, 2 };
+        // System.out.println("Result: " + gcda.findGCD(arr));
+        
+        // 241
+        SumOfSqOfSpecialEle sum = new SumOfSqOfSpecialEle();
+        int[] arr = { 1, 2, 3, 4};
+        System.out.println("Result: " + sum.sumOfSquares(arr));
+
 
     }
 }
