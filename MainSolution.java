@@ -1207,9 +1207,14 @@ public class MainSolution {
         // System.out.println("Result: " + gcda.findGCD(arr));
         
         // 241
-        SumOfSqOfSpecialEle sum = new SumOfSqOfSpecialEle();
-        int[] arr = { 1, 2, 3, 4};
-        System.out.println("Result: " + sum.sumOfSquares(arr));
+        // SumOfSqOfSpecialEle sum = new SumOfSqOfSpecialEle();
+        // int[] arr = { 1, 2, 3, 4};
+        // System.out.println("Result: " + sum.sumOfSquares(arr));
+
+        // 242
+        UniqueMorseCodeStrs morse = new UniqueMorseCodeStrs();
+        String[] s = {"gin", "a", "zen"};
+        System.out.println("Result: " + morse.uniqueMorseRepresentations(s));
 
 
     }
