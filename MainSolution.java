@@ -1212,9 +1212,13 @@ public class MainSolution {
         // System.out.println("Result: " + sum.sumOfSquares(arr));
 
         // 242
-        UniqueMorseCodeStrs morse = new UniqueMorseCodeStrs();
-        String[] s = {"gin", "a", "zen"};
-        System.out.println("Result: " + morse.uniqueMorseRepresentations(s));
+        // UniqueMorseCodeStrs morse = new UniqueMorseCodeStrs();
+        // String[] s = {"gin", "a", "zen"};
+        // System.out.println("Result: " + morse.uniqueMorseRepresentations(s));
+
+        // 243
+        ColorOfChessboardSquare chess = new ColorOfChessboardSquare();
+        System.out.println("Result: " + chess.squareIsWhite("a3"));
 
 
     }
