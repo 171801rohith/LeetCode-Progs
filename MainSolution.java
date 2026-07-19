@@ -1199,13 +1199,14 @@ public class MainSolution {
         // NextGreaterElementI next = new NextGreaterElementI();
         // int[] nums1 = { 4, 1, 2 };
         // int[] nums2 = { 1, 3, 4, 2 };
-        // System.out.println("Result: " + Arrays.toString(next.nextGreaterElement(nums1, nums2)));
-        
+        // System.out.println("Result: " +
+        // Arrays.toString(next.nextGreaterElement(nums1, nums2)));
+
         // 240
         // GCDofArr gcda = new GCDofArr();
         // int[] arr = { 1, 3, 4, 2 };
         // System.out.println("Result: " + gcda.findGCD(arr));
-        
+
         // 241
         // SumOfSqOfSpecialEle sum = new SumOfSqOfSpecialEle();
         // int[] arr = { 1, 2, 3, 4};
@@ -1217,9 +1218,12 @@ public class MainSolution {
         // System.out.println("Result: " + morse.uniqueMorseRepresentations(s));
 
         // 243
-        ColorOfChessboardSquare chess = new ColorOfChessboardSquare();
-        System.out.println("Result: " + chess.squareIsWhite("a3"));
+        // ColorOfChessboardSquare chess = new ColorOfChessboardSquare();
+        // System.out.println("Result: " + chess.squareIsWhite("a3"));
 
-
+        // 244
+        CountPrefixNSuffixPairsI pspairs = new CountPrefixNSuffixPairsI();
+        String[] s = { "pa", "papa", "ma", "mama" };
+        System.out.println("Result: " + pspairs.countPrefixSuffixPairs(s));
     }
 }
