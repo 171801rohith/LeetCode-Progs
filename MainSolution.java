@@ -1222,8 +1222,17 @@ public class MainSolution {
         // System.out.println("Result: " + chess.squareIsWhite("a3"));
 
         // 244
-        CountPrefixNSuffixPairsI pspairs = new CountPrefixNSuffixPairsI();
-        String[] s = { "pa", "papa", "ma", "mama" };
-        System.out.println("Result: " + pspairs.countPrefixSuffixPairs(s));
+        // CountPrefixNSuffixPairsI pspairs = new CountPrefixNSuffixPairsI();
+        // String[] s = { "pa", "papa", "ma", "mama" };
+        // System.out.println("Result: " + pspairs.countPrefixSuffixPairs(s));
+
+        // 245
+        // SortCharsByfreq sort = new SortCharsByfreq();
+        // System.out.println("Result: " + sort.frequencySort("rteee"));
+
+        // 246
+        LuckyIntegerInArr luck = new LuckyIntegerInArr();
+        int[] n = {2, 2, 1, 4};
+        System.out.println("Result: " + luck.findLucky(n));
     }
 }
