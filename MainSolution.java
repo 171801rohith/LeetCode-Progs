@@ -1261,7 +1261,11 @@ public class MainSolution {
         // // 102nd leetcode problem
 
         // 252
-        BinaryTreeLevelOrderTraversalII bint = new BinaryTreeLevelOrderTraversalII();
+        // BinaryTreeLevelOrderTraversalII bint = new BinaryTreeLevelOrderTraversalII();
         // // 107th leetcode problem
+
+        // 253
+        MaxDepthBinaryTree maxb = new MaxDepthBinaryTree();
+        // // 104th leetcode problem
     }
 }
