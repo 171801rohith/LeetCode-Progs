@@ -1231,8 +1231,15 @@ public class MainSolution {
         // System.out.println("Result: " + sort.frequencySort("rteee"));
 
         // 246
-        LuckyIntegerInArr luck = new LuckyIntegerInArr();
-        int[] n = {2, 2, 1, 4};
-        System.out.println("Result: " + luck.findLucky(n));
+        // LuckyIntegerInArr luck = new LuckyIntegerInArr();
+        // int[] n = {2, 2, 1, 4};
+        // System.out.println("Result: " + luck.findLucky(n));
+
+        // 247
+        MaxScoreWordsFormedByLetters max = new MaxScoreWordsFormedByLetters();
+        String[] words = { "dog", "cat", "dad", "good" };
+        int[] score = { 1, 0, 9, 5, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+        char[] letters = { 'a', 'a', 'c', 'd', 'd', 'd', 'g', 'o', 'o' };
+        System.out.println("Result: " + max.maxScoreWords(words, letters, score));
     }
 }
