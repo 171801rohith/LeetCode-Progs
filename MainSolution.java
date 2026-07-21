@@ -1252,8 +1252,12 @@ public class MainSolution {
         // System.out.println("Result: " + ft.repeatedCharacter("ababccc"));
 
         // 250
-        TwoOutOfThree tot = new TwoOutOfThree();
-        int[] nums1 = { 1, 1, 3, 2 }, nums2 = { 2, 3 }, nums3 = { 3 };
-        System.out.println("Result: " + tot.twoOutOfThree(nums1, nums2, nums3));
+        // TwoOutOfThree tot = new TwoOutOfThree();
+        // int[] nums1 = { 1, 1, 3, 2 }, nums2 = { 2, 3 }, nums3 = { 3 };
+        // System.out.println("Result: " + tot.twoOutOfThree(nums1, nums2, nums3));
+
+        // 251
+        BinaryTreeLevelOrderTraversal bint = new BinaryTreeLevelOrderTraversal();
+        // 102nd leetcode problem
     }
 }
