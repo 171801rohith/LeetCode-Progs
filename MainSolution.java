@@ -1243,7 +1243,11 @@ public class MainSolution {
         // System.out.println("Result: " + max.maxScoreWords(words, letters, score));
 
         // 248
-        PasswordStrength passwordStrength = new PasswordStrength();
-        System.out.println("Result: " + passwordStrength.passwordStrength("aA1!"));
+        // PasswordStrength passwordStrength = new PasswordStrength();
+        // System.out.println("Result: " + passwordStrength.passwordStrength("aA1!"));
+
+        // 249
+        FirstLetterToAppearTwice ft = new FirstLetterToAppearTwice();
+        System.out.println("Result: " + ft.repeatedCharacter("ababccc"));
     }
 }
