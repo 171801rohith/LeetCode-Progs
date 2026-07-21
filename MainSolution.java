@@ -1238,7 +1238,8 @@ public class MainSolution {
         // 247
         // MaxScoreWordsFormedByLetters max = new MaxScoreWordsFormedByLetters();
         // String[] words = { "dog", "cat", "dad", "good" };
-        // int[] score = { 1, 0, 9, 5, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+        // int[] score = { 1, 0, 9, 5, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0,
+        // 0, 0, 0, 0, 0, 0 };
         // char[] letters = { 'a', 'a', 'c', 'd', 'd', 'd', 'g', 'o', 'o' };
         // System.out.println("Result: " + max.maxScoreWords(words, letters, score));
 
@@ -1247,7 +1248,12 @@ public class MainSolution {
         // System.out.println("Result: " + passwordStrength.passwordStrength("aA1!"));
 
         // 249
-        FirstLetterToAppearTwice ft = new FirstLetterToAppearTwice();
-        System.out.println("Result: " + ft.repeatedCharacter("ababccc"));
+        // FirstLetterToAppearTwice ft = new FirstLetterToAppearTwice();
+        // System.out.println("Result: " + ft.repeatedCharacter("ababccc"));
+
+        // 250
+        TwoOutOfThree tot = new TwoOutOfThree();
+        int[] nums1 = { 1, 1, 3, 2 }, nums2 = { 2, 3 }, nums3 = { 3 };
+        System.out.println("Result: " + tot.twoOutOfThree(nums1, nums2, nums3));
     }
 }
