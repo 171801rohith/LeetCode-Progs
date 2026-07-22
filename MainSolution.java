@@ -1300,8 +1300,12 @@ public class MainSolution {
         // System.out.println("Result: " + rot.orangesRotting(grid));
 
         // 258
-        Matrix01 mat = new Matrix01();
-        int[][] m = { { 0, 0, 0 }, { 0, 1, 0 }, { 1, 1, 1 } };
-        System.out.println("Result: " + Arrays.deepToString(mat.updateMatrix(m)));
+        // Matrix01 mat = new Matrix01();
+        // int[][] m = { { 0, 0, 0 }, { 0, 1, 0 }, { 1, 1, 1 } };
+        // System.out.println("Result: " + Arrays.deepToString(mat.updateMatrix(m)));
+
+        // 259
+        MaxDepthNaryTree max = new MaxDepthNaryTree();
+        // 559th leetcode prob
     }
 }
