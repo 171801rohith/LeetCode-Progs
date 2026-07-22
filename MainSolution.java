@@ -1265,7 +1265,13 @@ public class MainSolution {
         // // 107th leetcode problem
 
         // 253
-        MaxDepthBinaryTree maxb = new MaxDepthBinaryTree();
+        // MaxDepthBinaryTree maxb = new MaxDepthBinaryTree();
         // // 104th leetcode problem
+
+        // 254
+        NoOfIslands no = new NoOfIslands();
+        char[][] grid = { { '1', '1', '1', '1', '0' }, { '1', '1', '0', '1', '0' }, { '1', '1', '0', '0', '0' },
+                { '0', '0', '0', '0', '0' } };
+        System.out.println("Result: " + no.numIslands(grid));
     }
 }
