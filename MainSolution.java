@@ -1269,9 +1269,16 @@ public class MainSolution {
         // // 104th leetcode problem
 
         // 254
-        NoOfIslands no = new NoOfIslands();
-        char[][] grid = { { '1', '1', '1', '1', '0' }, { '1', '1', '0', '1', '0' }, { '1', '1', '0', '0', '0' },
-                { '0', '0', '0', '0', '0' } };
-        System.out.println("Result: " + no.numIslands(grid));
+        // NoOfIslands no = new NoOfIslands();
+        // char[][] grid = { { '1', '1', '1', '1', '0' }, { '1', '1', '0', '1', '0' }, {
+        // '1', '1', '0', '0', '0' },
+        // { '0', '0', '0', '0', '0' } };
+        // System.out.println("Result: " + no.numIslands(grid));
+
+        // 255
+        FloodFill fill = new FloodFill();
+        int[][] image = { { 1, 1, 1 }, { 1, 1, 0 }, { 1, 0, 1 } };
+        int sr = 1, sc = 1, color = 2;
+        System.out.println("Result: " + Arrays.deepToString(fill.floodFill(image, sr, sc, color)));
     }
 }
