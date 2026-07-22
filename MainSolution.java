@@ -1276,9 +1276,18 @@ public class MainSolution {
         // System.out.println("Result: " + no.numIslands(grid));
 
         // 255
-        FloodFill fill = new FloodFill();
-        int[][] image = { { 1, 1, 1 }, { 1, 1, 0 }, { 1, 0, 1 } };
-        int sr = 1, sc = 1, color = 2;
-        System.out.println("Result: " + Arrays.deepToString(fill.floodFill(image, sr, sc, color)));
+        // FloodFill fill = new FloodFill();
+        // int[][] image = { { 1, 1, 1 }, { 1, 1, 0 }, { 1, 0, 1 } };
+        // int sr = 1, sc = 1, color = 2;
+        // System.out.println("Result: " + Arrays.deepToString(fill.floodFill(image, sr,
+        // sc, color)));
+
+        // 256
+        MaxAreaOfIsland maxArea = new MaxAreaOfIsland();
+        int[][] grid = { { 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0 },
+                { 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0 }, { 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0 },
+                { 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0 },
+                { 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0 } };
+        System.out.println("Result: " + maxArea.maxAreaOfIsland(grid));
     }
 }
