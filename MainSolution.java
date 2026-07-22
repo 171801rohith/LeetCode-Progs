@@ -1295,8 +1295,13 @@ public class MainSolution {
         // System.out.println("Result: " + maxArea.maxAreaOfIsland(grid));
 
         // 257
-        RottingOranges rot = new RottingOranges();
-        int[][] grid = { { 2, 1, 1 }, { 1, 1, 0 }, { 0, 1, 1 } };
-        System.out.println("Result: " + rot.orangesRotting(grid));
+        // RottingOranges rot = new RottingOranges();
+        // int[][] grid = { { 2, 1, 1 }, { 1, 1, 0 }, { 0, 1, 1 } };
+        // System.out.println("Result: " + rot.orangesRotting(grid));
+
+        // 258
+        Matrix01 mat = new Matrix01();
+        int[][] m = { { 0, 0, 0 }, { 0, 1, 0 }, { 1, 1, 1 } };
+        System.out.println("Result: " + Arrays.deepToString(mat.updateMatrix(m)));
     }
 }
