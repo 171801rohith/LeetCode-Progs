@@ -1283,11 +1283,20 @@ public class MainSolution {
         // sc, color)));
 
         // 256
-        MaxAreaOfIsland maxArea = new MaxAreaOfIsland();
-        int[][] grid = { { 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0 },
-                { 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0 }, { 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0 },
-                { 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0 },
-                { 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0 } };
-        System.out.println("Result: " + maxArea.maxAreaOfIsland(grid));
+        // MaxAreaOfIsland maxArea = new MaxAreaOfIsland();
+        // int[][] grid = { { 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0 }, { 0, 0, 0, 0, 0,
+        // 0, 0, 1, 1, 1, 0, 0, 0 },
+        // { 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0 }, { 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1,
+        // 0, 0 },
+        // { 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,
+        // 0, 0 },
+        // { 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0 }, { 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0,
+        // 0, 0 } };
+        // System.out.println("Result: " + maxArea.maxAreaOfIsland(grid));
+
+        // 257
+        RottingOranges rot = new RottingOranges();
+        int[][] grid = { { 2, 1, 1 }, { 1, 1, 0 }, { 0, 1, 1 } };
+        System.out.println("Result: " + rot.orangesRotting(grid));
     }
 }
