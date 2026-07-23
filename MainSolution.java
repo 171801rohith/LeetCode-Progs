@@ -1325,8 +1325,13 @@ public class MainSolution {
         // 124th leetcode problem
 
         // 265
-        LowestCommonAncestorBinTree low = new LowestCommonAncestorBinTree();
-        // 236 leetcode problem
+        // LowestCommonAncestorBinTree low = new LowestCommonAncestorBinTree();
+        // 236th leetcode problem
+        
+        // 266
+        NoOfProvinces nop = new NoOfProvinces();
+        //  547th leetcode problem
+
 
     }
 }
