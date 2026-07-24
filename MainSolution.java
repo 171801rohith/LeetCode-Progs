@@ -1307,11 +1307,11 @@ public class MainSolution {
         // 259
         // MaxDepthNaryTree max = new MaxDepthNaryTree();
         // 559th leetcode problem
-        
+
         // 260
         // MinDepthBinaryTree min = new MinDepthBinaryTree();
         // 111st leetcode problem
-        
+
         // 261
         // DiameterOfBinaryTree dBinaryTree = new DiameterOfBinaryTree();
         // 543rd leetcode problem
@@ -1327,14 +1327,19 @@ public class MainSolution {
         // 265
         // LowestCommonAncestorBinTree low = new LowestCommonAncestorBinTree();
         // 236th leetcode problem
-        
+
         // 266
         // NoOfProvinces nop = new NoOfProvinces();
-        //  547th leetcode problem
+        // 547th leetcode problem
 
         // 267
-        FindIfPathExistsGraph find = new FindIfPathExistsGraph();
+        // FindIfPathExistsGraph find = new FindIfPathExistsGraph();
         // 1971th leetcode problem
+
+        // 268
+        RedundantConnection redundantConnection = new RedundantConnection();
+        int[][] edges = { { 1, 2 }, { 1, 3 }, { 2, 3 } };
+        System.out.println("Result: " + Arrays.toString(redundantConnection.findRedundantConnection(edges)));
 
     }
 }
