@@ -1337,9 +1337,13 @@ public class MainSolution {
         // 1971th leetcode problem
 
         // 268
-        RedundantConnection redundantConnection = new RedundantConnection();
-        int[][] edges = { { 1, 2 }, { 1, 3 }, { 2, 3 } };
-        System.out.println("Result: " + Arrays.toString(redundantConnection.findRedundantConnection(edges)));
+        // RedundantConnection redundantConnection = new RedundantConnection();
+        // int[][] edges = { { 1, 2 }, { 1, 3 }, { 2, 3 } };
+        // System.out.println("Result: " + Arrays.toString(redundantConnection.findRedundantConnection(edges)));
+
+        // 269
+        MaxProductOf2Digits max = new MaxProductOf2Digits();
+        System.out.println("Result: " + max.maxProduct(4532));
 
     }
 }
