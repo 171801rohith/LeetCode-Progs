@@ -1346,8 +1346,12 @@ public class MainSolution {
         // System.out.println("Result: " + max.maxProduct(4532));
 
         // 270
-        DeepestLeavesSum deep = new DeepestLeavesSum();
+        // DeepestLeavesSum deep = new DeepestLeavesSum();
         // 1302nd leetcode problem
+
+        // 271
+        MaxProductOf3Nums max = new MaxProductOf3Nums();
+        System.out.println("Result: " + max.maximumProduct(new int[] {100, -10, -1, 4}));
 
     }
 }
