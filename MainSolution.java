@@ -1354,9 +1354,12 @@ public class MainSolution {
         // System.out.println("Result: " + max.maximumProduct(new int[] {100, -10, -1, 4}));
 
         // 272
-        WordSearch search = new WordSearch();
-        char[][] board = {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}}; 
-        System.out.println("Result: " + search.exist(board, "ABCCED"));
+        // WordSearch search = new WordSearch();
+        // char[][] board = {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}}; 
+        // System.out.println("Result: " + search.exist(board, "ABCCED"));
 
+        // 272
+        BalancedBinaryTree bbt = new BalancedBinaryTree();
+        // 110th leetcode problem
     }
 }
