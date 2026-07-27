@@ -1350,8 +1350,13 @@ public class MainSolution {
         // 1302nd leetcode problem
 
         // 271
-        MaxProductOf3Nums max = new MaxProductOf3Nums();
-        System.out.println("Result: " + max.maximumProduct(new int[] {100, -10, -1, 4}));
+        // MaxProductOf3Nums max = new MaxProductOf3Nums();
+        // System.out.println("Result: " + max.maximumProduct(new int[] {100, -10, -1, 4}));
+
+        // 272
+        WordSearch search = new WordSearch();
+        char[][] board = {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}}; 
+        System.out.println("Result: " + search.exist(board, "ABCCED"));
 
     }
 }
