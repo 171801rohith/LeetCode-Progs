@@ -1363,7 +1363,11 @@ public class MainSolution {
         // 110th leetcode problem
 
         // 273
-        ValidBST bst = new ValidBST();
+        // ValidBST bst = new ValidBST();
         // 98th leetcode problem
+
+        // 274
+        SmallestPalindromicRearrangementI pal = new SmallestPalindromicRearrangementI();
+        System.out.println("Result: " + pal.smallestPalindrome("babab"));
     }
 }
