@@ -1366,8 +1366,12 @@ public class MainSolution {
         // ValidBST bst = new ValidBST();
         // 98th leetcode problem
 
-        // 274
-        SmallestPalindromicRearrangementI pal = new SmallestPalindromicRearrangementI();
-        System.out.println("Result: " + pal.smallestPalindrome("babab"));
+        // // 274
+        // SmallestPalindromicRearrangementI pal = new SmallestPalindromicRearrangementI();
+        // System.out.println("Result: " + pal.smallestPalindrome("babab"));
+
+        // 275
+        FlattenBinaryTreeToLinkedList ll = new FlattenBinaryTreeToLinkedList();
+        // 114th leetcode problem
     }
 }
