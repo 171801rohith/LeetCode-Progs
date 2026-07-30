@@ -1371,7 +1371,11 @@ public class MainSolution {
         // System.out.println("Result: " + pal.smallestPalindrome("babab"));
 
         // 275
-        FlattenBinaryTreeToLinkedList ll = new FlattenBinaryTreeToLinkedList();
+        // FlattenBinaryTreeToLinkedList ll = new FlattenBinaryTreeToLinkedList();
         // 114th leetcode problem
+
+        // 276
+        NaryProrderTraversal nary = new NaryProrderTraversal();
+        // 589th leetcode problem 
     }
 }
