@@ -1375,7 +1375,12 @@ public class MainSolution {
         // 114th leetcode problem
 
         // 276
-        NaryProrderTraversal nary = new NaryProrderTraversal();
+        // NaryPreOrderTraversal nary = new NaryPreOrderTraversal();
         // 589th leetcode problem 
+        
+        // 277
+        NaryPostOrderTraversal nary = new NaryPostOrderTraversal();
+        // 590th leetcode problem 
+
     }
 }
