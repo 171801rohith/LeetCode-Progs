@@ -1398,9 +1398,12 @@ public class MainSolution {
         // 19th leetcode problem
 
         // 280
-        ContainerWithMostWater con = new ContainerWithMostWater();
-        int[] height = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
-        System.out.println("Result: " + con.maxArea(height));
+        // ContainerWithMostWater con = new ContainerWithMostWater();
+        // int[] height = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
+        // System.out.println("Result: " + con.maxArea(height));
 
+        // 281
+        ClimbingStairs stairs = new ClimbingStairs();
+        System.out.println("Result: " + stairs.climbStairs(45));
     }
 }
