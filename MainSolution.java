@@ -1339,7 +1339,8 @@ public class MainSolution {
         // 268
         // RedundantConnection redundantConnection = new RedundantConnection();
         // int[][] edges = { { 1, 2 }, { 1, 3 }, { 2, 3 } };
-        // System.out.println("Result: " + Arrays.toString(redundantConnection.findRedundantConnection(edges)));
+        // System.out.println("Result: " +
+        // Arrays.toString(redundantConnection.findRedundantConnection(edges)));
 
         // 269
         // MaxProductOf2Digits max = new MaxProductOf2Digits();
@@ -1351,11 +1352,12 @@ public class MainSolution {
 
         // 271
         // MaxProductOf3Nums max = new MaxProductOf3Nums();
-        // System.out.println("Result: " + max.maximumProduct(new int[] {100, -10, -1, 4}));
+        // System.out.println("Result: " + max.maximumProduct(new int[] {100, -10, -1,
+        // 4}));
 
         // 272
         // WordSearch search = new WordSearch();
-        // char[][] board = {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}}; 
+        // char[][] board = {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}};
         // System.out.println("Result: " + search.exist(board, "ABCCED"));
 
         // 272
@@ -1367,7 +1369,8 @@ public class MainSolution {
         // 98th leetcode problem
 
         // // 274
-        // SmallestPalindromicRearrangementI pal = new SmallestPalindromicRearrangementI();
+        // SmallestPalindromicRearrangementI pal = new
+        // SmallestPalindromicRearrangementI();
         // System.out.println("Result: " + pal.smallestPalindrome("babab"));
 
         // 275
@@ -1376,11 +1379,11 @@ public class MainSolution {
 
         // 276
         // NaryPreOrderTraversal nary = new NaryPreOrderTraversal();
-        // 589th leetcode problem 
-        
+        // 589th leetcode problem
+
         // 277
         // NaryPostOrderTraversal nary = new NaryPostOrderTraversal();
-        // 590th leetcode problem 
+        // 590th leetcode problem
 
         // 277
         // CloneGraph clone = new CloneGraph();
@@ -1391,8 +1394,13 @@ public class MainSolution {
         // 841st leetcode problem
 
         // 279
-        RemoveNthNodeFromEndOfList rm = new RemoveNthNodeFromEndOfList();
+        // RemoveNthNodeFromEndOfList rm = new RemoveNthNodeFromEndOfList();
         // 19th leetcode problem
+
+        // 280
+        ContainerWithMostWater con = new ContainerWithMostWater();
+        int[] height = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
+        System.out.println("Result: " + con.maxArea(height));
 
     }
 }
