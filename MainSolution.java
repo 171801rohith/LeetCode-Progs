@@ -1417,8 +1417,13 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.deepToString(mergeArr.mergeArrays(nums1, nums2)));
 
         // 284
-        DivideArrIntoEqualPairs divArrP = new DivideArrIntoEqualPairs();
-        int[] nums = {3, 3, 2, 2, 2 ,2};
-        System.out.println("Result: " + divArrP.divideArray(nums));
+        // DivideArrIntoEqualPairs divArrP = new DivideArrIntoEqualPairs();
+        // int[] nums = {3, 3, 2, 2, 2 ,2};
+        // System.out.println("Result: " + divArrP.divideArray(nums));
+
+        // 285
+        MergeSimilarItems mergeArr = new MergeSimilarItems();
+        int[][] nums1 = { { 2, 4 }, { 3, 6 }, { 5, 5 } }, nums2 = { { 1, 3 }, { 4, 3 } };
+        System.out.println("Result: " + mergeArr.mergeSimilarItems(nums1, nums2));
     }
 }
