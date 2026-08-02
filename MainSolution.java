@@ -1422,8 +1422,12 @@ public class MainSolution {
         // System.out.println("Result: " + divArrP.divideArray(nums));
 
         // 285
-        MergeSimilarItems mergeArr = new MergeSimilarItems();
-        int[][] nums1 = { { 2, 4 }, { 3, 6 }, { 5, 5 } }, nums2 = { { 1, 3 }, { 4, 3 } };
-        System.out.println("Result: " + mergeArr.mergeSimilarItems(nums1, nums2));
+        // MergeSimilarItems mergeArr = new MergeSimilarItems();
+        // int[][] nums1 = { { 2, 4 }, { 3, 6 }, { 5, 5 } }, nums2 = { { 1, 3 }, { 4, 3 } };
+        // System.out.println("Result: " + mergeArr.mergeSimilarItems(nums1, nums2));
+
+        // 286
+        NoOfSpecialCharsI no = new NoOfSpecialCharsI();
+        System.out.println("Result: " + no.numberOfSpecialChars("aAabBs"));
     }
 }
