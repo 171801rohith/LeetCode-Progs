@@ -1407,8 +1407,13 @@ public class MainSolution {
         // System.out.println("Result: " + stairs.climbStairs(45));
 
         // 282
-        KeyboardRow row = new KeyboardRow();
-        String[] words = {"Hello","Alaska","Dad","Peace"};
-        System.out.println("Result: " + Arrays.toString(row.findWords(words)));
+        // KeyboardRow row = new KeyboardRow();
+        // String[] words = {"Hello","Alaska","Dad","Peace"};
+        // System.out.println("Result: " + Arrays.toString(row.findWords(words)));
+
+        // 283
+        Merge2DArrBySummingVal mergeArr = new Merge2DArrBySummingVal();
+        int[][] nums1 = { { 2, 4 }, { 3, 6 }, { 5, 5 } }, nums2 = { { 1, 3 }, { 4, 3 } };
+        System.out.println("Result: " + Arrays.deepToString(mergeArr.mergeArrays(nums1, nums2)));
     }
 }
