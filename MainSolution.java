@@ -1403,7 +1403,12 @@ public class MainSolution {
         // System.out.println("Result: " + con.maxArea(height));
 
         // 281
-        ClimbingStairs stairs = new ClimbingStairs();
-        System.out.println("Result: " + stairs.climbStairs(45));
+        // ClimbingStairs stairs = new ClimbingStairs();
+        // System.out.println("Result: " + stairs.climbStairs(45));
+
+        // 282
+        KeyboardRow row = new KeyboardRow();
+        String[] words = {"Hello","Alaska","Dad","Peace"};
+        System.out.println("Result: " + Arrays.toString(row.findWords(words)));
     }
 }
