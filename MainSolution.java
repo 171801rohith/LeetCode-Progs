@@ -1413,8 +1413,10 @@ public class MainSolution {
 
         // 283
         // Merge2DArrBySummingVal mergeArr = new Merge2DArrBySummingVal();
-        // int[][] nums1 = { { 2, 4 }, { 3, 6 }, { 5, 5 } }, nums2 = { { 1, 3 }, { 4, 3 } };
-        // System.out.println("Result: " + Arrays.deepToString(mergeArr.mergeArrays(nums1, nums2)));
+        // int[][] nums1 = { { 2, 4 }, { 3, 6 }, { 5, 5 } }, nums2 = { { 1, 3 }, { 4, 3
+        // } };
+        // System.out.println("Result: " +
+        // Arrays.deepToString(mergeArr.mergeArrays(nums1, nums2)));
 
         // 284
         // DivideArrIntoEqualPairs divArrP = new DivideArrIntoEqualPairs();
@@ -1423,7 +1425,8 @@ public class MainSolution {
 
         // 285
         // MergeSimilarItems mergeArr = new MergeSimilarItems();
-        // int[][] nums1 = { { 2, 4 }, { 3, 6 }, { 5, 5 } }, nums2 = { { 1, 3 }, { 4, 3 } };
+        // int[][] nums1 = { { 2, 4 }, { 3, 6 }, { 5, 5 } }, nums2 = { { 1, 3 }, { 4, 3
+        // } };
         // System.out.println("Result: " + mergeArr.mergeSimilarItems(nums1, nums2));
 
         // 286
@@ -1435,7 +1438,12 @@ public class MainSolution {
         // System.out.println("Result: " + m69n.maximum69Number(999696696));
 
         // 288
-        MinNoOfPushesToTypeWordI min = new MinNoOfPushesToTypeWordI();
-        System.out.println("Result: " + min.minimumPushes("qwertyuio"));
+        // MinNoOfPushesToTypeWordI min = new MinNoOfPushesToTypeWordI();
+        // System.out.println("Result: " + min.minimumPushes("qwertyuio"));
+
+        // 299
+        CanPlaceFlower can = new CanPlaceFlower();
+        int[] arr = { 0, 0, 0, 1, 0, 1, 0 };
+        System.out.println("Result: " + can.canPlaceFlowers(arr, 1));
     }
 }
