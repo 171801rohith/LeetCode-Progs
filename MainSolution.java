@@ -1465,7 +1465,14 @@ public class MainSolution {
         // System.out.println("Result: " + min.minimumOperations(arr));
 
         // 294
-        ConvertTemperature cvtTemp = new ConvertTemperature();
-        System.out.println("Result: " + Arrays.toString(cvtTemp.convertTemperature(17.0)));
+        // ConvertTemperature cvtTemp = new ConvertTemperature();
+        // System.out.println("Result: " +
+        // Arrays.toString(cvtTemp.convertTemperature(17.0)));
+
+        // 295
+        MinElementAfterReplacementWithDigitSum min = new MinElementAfterReplacementWithDigitSum();
+        int[] arr = { 10, 22, 33, 44 };
+        System.out.println("Reusult: " + min.minElement(arr));
+
     }
 }
