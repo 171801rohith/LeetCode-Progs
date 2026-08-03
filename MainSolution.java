@@ -1470,9 +1470,13 @@ public class MainSolution {
         // Arrays.toString(cvtTemp.convertTemperature(17.0)));
 
         // 295
-        MinElementAfterReplacementWithDigitSum min = new MinElementAfterReplacementWithDigitSum();
-        int[] arr = { 10, 22, 33, 44 };
-        System.out.println("Reusult: " + min.minElement(arr));
+        // MinElementAfterReplacementWithDigitSum min = new MinElementAfterReplacementWithDigitSum();
+        // int[] arr = { 10, 22, 33, 44 };
+        // System.out.println("Reusult: " + min.minElement(arr));
+
+        // 297
+        XOROpInArr xor = new XOROpInArr();
+        System.out.println("Result: " + xor.xorOperation(5, 0));
 
     }
 }
