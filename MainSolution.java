@@ -1460,8 +1460,12 @@ public class MainSolution {
         // 2807th leetcode problem
 
         // 293
-        MinOpsToMakeAllItemsDivBy3 min = new MinOpsToMakeAllItemsDivBy3();
-        int[] arr = {1, 2, 3, 4};
-        System.out.println("Result: " + min.minimumOperations(arr));
+        // MinOpsToMakeAllItemsDivBy3 min = new MinOpsToMakeAllItemsDivBy3();
+        // int[] arr = {1, 2, 3, 4};
+        // System.out.println("Result: " + min.minimumOperations(arr));
+
+        // 294
+        ConvertTemperature cvtTemp = new ConvertTemperature();
+        System.out.println("Result: " + Arrays.toString(cvtTemp.convertTemperature(17.0)));
     }
 }
