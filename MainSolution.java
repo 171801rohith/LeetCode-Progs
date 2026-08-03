@@ -1441,9 +1441,13 @@ public class MainSolution {
         // MinNoOfPushesToTypeWordI min = new MinNoOfPushesToTypeWordI();
         // System.out.println("Result: " + min.minimumPushes("qwertyuio"));
 
-        // 299
-        CanPlaceFlower can = new CanPlaceFlower();
-        int[] arr = { 0, 0, 0, 1, 0, 1, 0 };
-        System.out.println("Result: " + can.canPlaceFlowers(arr, 1));
+        // 289
+        // CanPlaceFlower can = new CanPlaceFlower();
+        // int[] arr = { 0, 0, 0, 1, 0, 1, 0 };
+        // System.out.println("Result: " + can.canPlaceFlowers(arr, 1));
+
+        // 290
+        SymmetricTree symTree = new SymmetricTree();
+        // 101st leetcode problem
     }
 }
