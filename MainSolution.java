@@ -1431,7 +1431,11 @@ public class MainSolution {
         // System.out.println("Result: " + no.numberOfSpecialChars("aAabBs"));
 
         // 287
-        Max69Num m69n = new Max69Num();
-        System.out.println("Result: " + m69n.maximum69Number(999696696));
+        // Max69Num m69n = new Max69Num();
+        // System.out.println("Result: " + m69n.maximum69Number(999696696));
+
+        // 288
+        MinNoOfPushesToTypeWordI min = new MinNoOfPushesToTypeWordI();
+        System.out.println("Result: " + min.minimumPushes("qwertyuio"));
     }
 }
