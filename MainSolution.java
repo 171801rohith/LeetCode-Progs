@@ -1447,7 +1447,12 @@ public class MainSolution {
         // System.out.println("Result: " + can.canPlaceFlowers(arr, 1));
 
         // 290
-        SymmetricTree symTree = new SymmetricTree();
+        // SymmetricTree symTree = new SymmetricTree();
         // 101st leetcode problem
+
+        // 291
+        MinOpsToDivArrSumByK min = new MinOpsToDivArrSumByK();
+        int[] arr = {3, 9, 7};
+        System.out.println("Result: " + min.minOperations(arr, 5));
     }
 }
