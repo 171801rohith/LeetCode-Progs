@@ -1475,8 +1475,12 @@ public class MainSolution {
         // System.out.println("Reusult: " + min.minElement(arr));
 
         // 297
-        XOROpInArr xor = new XOROpInArr();
-        System.out.println("Result: " + xor.xorOperation(5, 0));
+        // XOROpInArr xor = new XOROpInArr();
+        // System.out.println("Result: " + xor.xorOperation(5, 0));
+
+        // 298
+        SumMultiples sm = new SumMultiples();
+        System.out.println("Result: " + sm.sumOfMultiples(9));
 
     }
 }
