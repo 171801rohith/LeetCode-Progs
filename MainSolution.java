@@ -1456,7 +1456,12 @@ public class MainSolution {
         // System.out.println("Result: " + min.minOperations(arr, 5));
 
         // 292
-        InsertGCDInLL in = new InsertGCDInLL();
+        // InsertGCDInLL in = new InsertGCDInLL();
         // 2807th leetcode problem
+
+        // 293
+        MinOpsToMakeAllItemsDivBy3 min = new MinOpsToMakeAllItemsDivBy3();
+        int[] arr = {1, 2, 3, 4};
+        System.out.println("Result: " + min.minimumOperations(arr));
     }
 }
