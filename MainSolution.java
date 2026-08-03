@@ -1451,8 +1451,12 @@ public class MainSolution {
         // 101st leetcode problem
 
         // 291
-        MinOpsToDivArrSumByK min = new MinOpsToDivArrSumByK();
-        int[] arr = {3, 9, 7};
-        System.out.println("Result: " + min.minOperations(arr, 5));
+        // MinOpsToDivArrSumByK min = new MinOpsToDivArrSumByK();
+        // int[] arr = {3, 9, 7};
+        // System.out.println("Result: " + min.minOperations(arr, 5));
+
+        // 292
+        InsertGCDInLL in = new InsertGCDInLL();
+        // 2807th leetcode problem
     }
 }
