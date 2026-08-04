@@ -1491,7 +1491,11 @@ public class MainSolution {
         // System.out.println("Result: " + mirror.mirrorDistance(25));
 
         // 301
-        LettersCombinationOfPhoneNum com = new LettersCombinationOfPhoneNum();
-        System.out.println("Result: " + com.letterCombinations("23"));
+        // LettersCombinationOfPhoneNum com = new LettersCombinationOfPhoneNum();
+        // System.out.println("Result: " + com.letterCombinations("23"));
+
+        // 302
+        SwapNodePairs swap = new SwapNodePairs();
+        // 24th leetcode problem
     }
 }
