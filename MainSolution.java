@@ -1505,9 +1505,15 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.deepToString(merge.merge(intervals)));
 
         // 304
-        InsertInterval insert = new InsertInterval();
-        int[][] intervals = { { 1, 2 }, { 3, 5 }, { 6, 7 }, { 8, 10 }, { 12, 16 } };
-        int[] newInterval = { 4, 8 };
-        System.out.println("Result: " + Arrays.deepToString(insert.insert(intervals, newInterval)));
+        // InsertInterval insert = new InsertInterval();
+        // int[][] intervals = { { 1, 2 }, { 3, 5 }, { 6, 7 }, { 8, 10 }, { 12, 16 } };
+        // int[] newInterval = { 4, 8 };
+        // System.out.println("Result: " + Arrays.deepToString(insert.insert(intervals,
+        // newInterval)));
+
+        // 305
+        LongestConsecutiveSeq longseq = new LongestConsecutiveSeq();
+        int[] nums = { 0, 3, 7, 2, 5, 8, 4, 6, 0, 1 };
+        System.out.println("Result: " + longseq.longestConsecutive(nums));
     }
 }
