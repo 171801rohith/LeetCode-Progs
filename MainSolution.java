@@ -1483,7 +1483,11 @@ public class MainSolution {
         // System.out.println("Result: " + sm.sumOfMultiples(9));
 
         // 299
-        DivNonDivSumDiff dnd = new DivNonDivSumDiff();
-        System.out.println("Result: " + dnd.differenceOfSums(5, 1));
+        // DivNonDivSumDiff dnd = new DivNonDivSumDiff();
+        // System.out.println("Result: " + dnd.differenceOfSums(5, 1));
+
+        // 300
+        MirrorDistOfInt mirror = new MirrorDistOfInt();
+        System.out.println("Result: " + mirror.mirrorDistance(25));
     }
 }
