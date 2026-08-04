@@ -1,0 +1,371 @@
+problem id,title,solved by me?,solved by frnd?
+1,Two Sum,Yes,No
+2,Add Two Numbers,Yes,Yes
+3,Longest Substring Without Repeating Characters,Yes,Yes
+4,Median of Two Sorted Arrays,Yes,No
+7,Reverse Integer,Yes,No
+8,String to Integer (atoi),Yes,No
+9,Palindrome Number,Yes,No
+11,Container With Most Water,Yes,Yes
+13,Roman to Integer,Yes,No
+14,Longest Common Prefix,Yes,No
+15,3Sum,Yes,Yes
+16,3Sum Closest,Yes,No
+17,Letter Combinations of a Phone Number,No,Yes
+18,4Sum,Yes,Yes
+19,Remove Nth Node From End of List,Yes,Yes
+20,Valid Parentheses,Yes,No
+21,Merge Two Sorted Lists,Yes,No
+23,Merge k Sorted Lists,Yes,No
+24,Swap Nodes in Pairs,No,Yes
+26,Remove Duplicates from Sorted Array,Yes,No
+27,Remove Element,Yes,No
+28,Find the Index of the First Occurrence in a String,Yes,No
+33,Search in Rotated Sorted Array,Yes,No
+34,Find First and Last Position of Element in Sorted Array,Yes,No
+35,Search Insert Position,Yes,No
+41,First Missing Positive,Yes,No
+48,Rotate Image,Yes,Yes
+49,Group Anagrams,Yes,No
+50,"Pow(x, n)",Yes,No
+56,Merge Intervals,No,Yes
+57,Insert Interval,No,Yes
+58,Length of Last Word,Yes,No
+61,Rotate List,Yes,Yes
+66,Plus One,Yes,No
+67,Add Binary,Yes,No
+69,Sqrt(x),Yes,No
+70,Climbing Stairs,Yes,No
+73,Set Matrix Zeroes,Yes,Yes
+74,Search a 2D Matrix,Yes,Yes
+75,Sort Colors,Yes,No
+79,Word Search,Yes,No
+82,Remove Duplicates from Sorted List II,Yes,No
+83,Remove Duplicates from Sorted List,Yes,No
+88,Merge Sorted Array,Yes,No
+92,Reverse Linked List II,No,Yes
+94,Binary Tree Inorder Traversal,Yes,No
+98,Validate Binary Search Tree,Yes,Yes
+99,Recover Binary Search Tree,No,Yes
+100,Same Tree,Yes,No
+101,Symmetric Tree,Yes,No
+102,Binary Tree Level Order Traversal,Yes,Yes
+103,Binary Tree Zigzag Level Order Traversal,No,Yes
+104,Maximum Depth of Binary Tree,Yes,No
+105,Construct Binary Tree from Preorder and Inorder Traversal,No,Yes
+106,Construct Binary Tree from Inorder and Postorder Traversal,No,Yes
+107,Binary Tree Level Order Traversal II,Yes,No
+110,Balanced Binary Tree,Yes,No
+111,Minimum Depth of Binary Tree,Yes,No
+112,Path Sum,Yes,No
+114,Flatten Binary Tree to Linked List,Yes,Yes
+121,Best Time to Buy and Sell Stock,Yes,No
+124,Binary Tree Maximum Path Sum,Yes,Yes
+125,Valid Palindrome,Yes,No
+128,Longest Consecutive Sequence,No,Yes
+133,Clone Graph,Yes,Yes
+136,Single Number,Yes,No
+141,Linked List Cycle,Yes,No
+143,Reorder List,No,Yes
+144,Binary Tree Preorder Traversal,Yes,No
+145,Binary Tree Postorder Traversal,Yes,No
+148,Sort List,Yes,Yes
+150,Evaluate Reverse Polish Notation,Yes,Yes
+151,Reverse Words in a String,Yes,Yes
+155,Min Stack,Yes,Yes
+160,Intersection of Two Linked Lists,Yes,No
+162,Find Peak Element,Yes,No
+169,Majority Element,Yes,No
+175,Combine Two Tables,Yes,No
+176,Second Highest Salary,Yes,No
+177,Nth Highest Salary,Yes,No
+178,Rank Scores,Yes,No
+180,Consecutive Numbers,Yes,No
+181,Employees Earning More Than Their Managers,Yes,No
+182,Duplicate Emails,Yes,No
+183,Customers Who Never Order,Yes,No
+184,Department Highest Salary,Yes,No
+185,Department Top Three Salaries,Yes,No
+189,Rotate Array,Yes,Yes
+195,Tenth Line,Yes,No
+196,Delete Duplicate Emails,Yes,No
+197,Rising Temperature,Yes,No
+200,Number of Islands,Yes,Yes
+202,Happy Number,Yes,No
+203,Remove Linked List Elements,Yes,No
+205,Isomorphic Strings,Yes,No
+206,Reverse Linked List,Yes,No
+207,Course Schedule,No,Yes
+210,Course Schedule II,No,Yes
+215,Kth Largest Element in an Array,No,Yes
+217,Contains Duplicate,Yes,No
+219,Contains Duplicate II,Yes,No
+225,Implement Stack using Queues,Yes,No
+228,Summary Ranges,Yes,No
+229,Majority Element II,Yes,Yes
+230,Kth Smallest Element in a BST,No,Yes
+231,Power of Two,Yes,No
+232,Implement Queue using Stacks,Yes,No
+234,Palindrome Linked List,Yes,No
+235,Lowest Common Ancestor of a Binary Search Tree,No,Yes
+236,Lowest Common Ancestor of a Binary Tree,No,Yes
+242,Valid Anagram,Yes,No
+258,Add Digits,Yes,No
+268,Missing Number,Yes,No
+278,First Bad Version,Yes,No
+283,Move Zeroes,Yes,No
+287,Find the Duplicate Number,Yes,Yes
+290,Word Pattern,Yes,No
+299,Bulls and Cows,Yes,No
+303,Range Sum Query - Immutable,Yes,No
+326,Power of Three,Yes,No
+338,Counting Bits,Yes,No
+342,Power of Four,Yes,No
+344,Reverse String,Yes,No
+345,Reverse Vowels of a String,Yes,No
+347,Top K Frequent Elements,No,Yes
+349,Intersection of Two Arrays,Yes,No
+350,Intersection of Two Arrays II,Yes,No
+367,Valid Perfect Square,Yes,No
+374,Guess Number Higher or Lower,Yes,No
+383,Ransom Note,Yes,No
+387,First Unique Character in a String,Yes,No
+389,Find the Difference,Yes,No
+392,Is Subsequence,Yes,No
+402,Remove K Digits,No,Yes
+410,Split Array Largest Sum,Yes,No
+412,Fizz Buzz,Yes,No
+414,Third Maximum Number,Yes,No
+415,Add Strings,Yes,No
+434,Number of Segments in a String,Yes,No
+441,Arranging Coins,Yes,No
+442,Find All Duplicates in an Array,Yes,No
+448,Find All Numbers Disappeared in an Array,Yes,No
+451,Sort Characters By Frequency,Yes,No
+455,Assign Cookies,Yes,No
+485,Max Consecutive Ones,Yes,No
+496,Next Greater Element I,Yes,No
+500,Keyboard Row,Yes,No
+509,Fibonacci Number,Yes,No
+511,Game Play Analysis I,Yes,No
+542,01 Matrix,Yes,Yes
+543,Diameter of Binary Tree,Yes,No
+547,Number of Provinces,Yes,Yes
+557,Reverse Words in a String III,Yes,No
+559,Maximum Depth of N-ary Tree,Yes,No
+566,Reshape the Matrix,Yes,No
+577,Employee Bonus,Yes,No
+584,Find Customer Referee,Yes,No
+586,Customer Placing the Largest Number of Orders,Yes,No
+589,N-ary Tree Preorder Traversal,Yes,No
+590,N-ary Tree Postorder Traversal,Yes,No
+595,Big Countries,Yes,No
+596,Classes With at Least 5 Students,Yes,No
+602,Friend Requests II: Who Has the Most Friends,Yes,No
+605,Can Place Flowers,Yes,No
+607,Sales Person,Yes,No
+619,Biggest Single Number,Yes,No
+620,Not Boring Movies,Yes,No
+622,Design Circular Queue,Yes,Yes
+627,Swap Sex of Employees,Yes,No
+628,Maximum Product of Three Numbers,Yes,No
+645,Set Mismatch,Yes,No
+657,Robot Return to Origin,Yes,No
+682,Baseball Game,Yes,No
+684,Redundant Connection,Yes,Yes
+686,Repeated String Match,Yes,No
+692,Top K Frequent Words,No,Yes
+695,Max Area of Island,Yes,Yes
+700,Search in a Binary Search Tree,Yes,No
+704,Binary Search,Yes,No
+709,To Lower Case,Yes,No
+733,Flood Fill,Yes,No
+739,Daily Temperatures,No,Yes
+744,Find Smallest Letter Greater Than Target,Yes,No
+766,Toeplitz Matrix,Yes,No
+771,Jewels and Stones,Yes,No
+785,Is Graph Bipartite?,No,Yes
+804,Unique Morse Code Words,Yes,No
+832,Flipping an Image,Yes,No
+841,Keys and Rooms,Yes,Yes
+844,Backspace String Compare,Yes,No
+848,Shifting Letters,Yes,No
+852,Peak Index in a Mountain Array,Yes,No
+867,Transpose Matrix,Yes,No
+884,Uncommon Words from Two Sentences,Yes,No
+890,Find and Replace Pattern,Yes,Yes
+905,Sort Array By Parity,Yes,No
+917,Reverse Only Letters,Yes,No
+961,N-Repeated Element in Size 2N Array,Yes,No
+973,K Closest Points to Origin,No,Yes
+977,Squares of a Sorted Array,Yes,No
+994,Rotting Oranges,Yes,Yes
+1008,Construct Binary Search Tree from Preorder Traversal,Yes,Yes
+1050,Actors and Directors Who Cooperated At Least Three Times,Yes,No
+1051,Height Checker,Yes,No
+1068,Product Sales Analysis I,Yes,No
+1075,Project Employees I,Yes,No
+1084,Sales Analysis III,Yes,No
+1089,Duplicate Zeros,Yes,No
+1095,Find in Mountain Array,Yes,No
+1108,Defanging an IP Address,Yes,No
+1141,User Activity for the Past 30 Days I,Yes,No
+1148,Article Views I,Yes,No
+1179,Reformat Department Table,Yes,No
+1207,Unique Number of Occurrences,Yes,No
+1211,Queries Quality and Percentage,Yes,No
+1251,Average Selling Price,Yes,No
+1255,Maximum Score Words Formed by Letters,Yes,No
+1291,Sequential Digits,Yes,No
+1302,Deepest Leaves Sum,Yes,Yes
+1309,Decrypt String from Alphabet to Integer Mapping,Yes,No
+1323,Maximum 69 Number,Yes,No
+1327,List the Products Ordered in a Period,Yes,No
+1342,Number of Steps to Reduce a Number to Zero,Yes,No
+1365,How Many Numbers Are Smaller Than the Current Number,Yes,No
+1374,Generate a String With Characters That Have Odd Counts,Yes,No
+1378,Replace Employee ID With The Unique Identifier,Yes,No
+1389,Create Target Array in the Given Order,Yes,No
+1393,Capital Gain/Loss,Yes,No
+1394,Find Lucky Integer in an Array,Yes,No
+1431,Kids With the Greatest Number of Candies,Yes,No
+1441,Build an Array With Stack Operations,Yes,No
+1464,Maximum Product of Two Elements in an Array,Yes,No
+1470,Shuffle the Array,Yes,No
+1480,Running Sum of 1d Array,Yes,No
+1484,Group Sold Products By The Date,Yes,No
+1486,XOR Operation in an Array,Yes,No
+1491,Average Salary Excluding the Minimum and Maximum Salary,Yes,No
+1512,Number of Good Pairs,Yes,No
+1527,Patients With a Condition,Yes,No
+1528,Shuffle String,Yes,No
+1572,Matrix Diagonal Sum,Yes,No
+1576,Replace All ?'s to Avoid Consecutive Repeating Characters,Yes,No
+1587,Bank Account Summary II,Yes,No
+1598,Crawler Log Folder,Yes,No
+1636,Sort Array by Increasing Frequency,Yes,No
+1662,Check If Two String Arrays are Equivalent,Yes,No
+1668,Maximum Repeating Substring,Yes,No
+1672,Richest Customer Wealth,Yes,No
+1678,Goal Parser Interpretation,Yes,No
+1683,Invalid Tweets,Yes,No
+1684,Count the Number of Consistent Strings,Yes,No
+1693,Daily Leads and Partners,Yes,No
+1704,Determine if String Halves Are Alike,Yes,No
+1741,Find Total Time Spent by Each Employee,Yes,No
+1748,Sum of Unique Elements,Yes,No
+1752,Check if Array Is Sorted and Rotated,Yes,No
+1757,Recyclable and Low Fat Products,Yes,No
+1768,Merge Strings Alternately,Yes,No
+1773,Count Items Matching a Rule,Yes,No
+1784,Check if Binary String Has at Most One Segment of Ones,Yes,No
+1795,Rearrange Products Table,Yes,No
+1796,Second Largest Digit in a String,Yes,No
+1812,Determine Color of a Chessboard Square,Yes,No
+1816,Truncate Sentence,Yes,No
+1832,Check if the Sentence Is Pangram,Yes,No
+1844,Replace All Digits with Characters,Yes,No
+1859,Sorting the Sentence,Yes,No
+1890,The Latest Login in 2020,Yes,No
+1910,Remove All Occurrences of a Substring,Yes,Yes
+1929,Concatenation of Array,Yes,No
+1935,Maximum Number of Words You Can Type,Yes,No
+1941,Check if All Characters Have Equal Number of Occurrences,Yes,No
+1945,Sum of Digits of String After Convert,Yes,No
+1967,Number of Strings That Appear as Substrings in Word,Yes,No
+1971,Find if Path Exists in Graph,Yes,No
+1979,Find Greatest Common Divisor of Array,Yes,No
+2000,Reverse Prefix of Word,Yes,No
+2006,Count Number of Pairs With Absolute Difference K,Yes,No
+2011,Final Value of Variable After Performing Operations,Yes,No
+2032,Two Out of Three,Yes,No
+2053,Kth Distinct String in an Array,Yes,No
+2103,Rings and Rods,Yes,No
+2108,Find First Palindromic String in the Array,Yes,No
+2114,Maximum Number of Words Found in Sentences,Yes,No
+2125,Number of Laser Beams in a Bank,Yes,No
+2149,Rearrange Array Elements by Sign,Yes,Yes
+2161,Partition Array According to Given Pivot,Yes,Yes
+2185,Counting Words With a Given Prefix,Yes,No
+2206,Divide Array Into Equal Pairs,Yes,No
+2215,Find the Difference of Two Arrays,Yes,No
+2325,Decode the Message,Yes,No
+2351,First Letter to Appear Twice,Yes,No
+2356,Number of Unique Subjects Taught by Each Teacher,Yes,No
+2363,Merge Similar Items,Yes,No
+2390,Removing Stars From a String,Yes,Yes
+2413,Smallest Even Multiple,Yes,No
+2418,Sort the People,Yes,No
+2433,Find The Original Array of Prefix Xor,Yes,No
+2442,Count Number of Distinct Integers After Reverse Operations,Yes,Yes
+2469,Convert the Temperature,Yes,No
+2487,Remove Nodes From Linked List,No,Yes
+2553,Separate the Digits in an Array,Yes,No
+2570,Merge Two 2D Arrays by Summing Values,Yes,No
+2574,Left and Right Sum Differences,Yes,No
+2610,Convert an Array Into a 2D Array With Conditions,Yes,Yes
+2652,Sum Multiples,Yes,No
+2657,Find the Prefix Common Array of Two Arrays,Yes,No
+2678,Number of Senior Citizens,Yes,No
+2710,Remove Trailing Zeros From a String,Yes,No
+2733,Neither Minimum nor Maximum,Yes,No
+2744,Find Maximum Number of String Pairs,Yes,No
+2778,Sum of Squares of Special Elements ,Yes,No
+2785,Sort Vowels in a String,Yes,No
+2798,Number of Employees Who Met the Target,Yes,No
+2807,Insert Greatest Common Divisors in Linked List,Yes,Yes
+2810,Faulty Keyboard,Yes,No
+2824,Count Pairs Whose Sum is Less than Target,Yes,No
+2828,Check if a String Is an Acronym of Words,Yes,No
+2833,Furthest Point From Origin,Yes,No
+2859,Sum of Values at Indices With K Set Bits,Yes,No
+2864,Maximum Odd Binary Number,Yes,No
+2894,Divisible and Non-divisible Sums Difference,Yes,No
+2913,Subarrays Distinct Element Sum of Squares I,Yes,No
+2942,Find Words Containing Character,Yes,No
+2956,Find Common Elements Between Two Arrays,Yes,No
+2965,Find Missing and Repeated Values,Yes,No
+3005,Count Elements With Maximum Frequency,Yes,No
+3014,Minimum Number of Pushes to Type Word I,Yes,No
+3019,Number of Changing Keys,Yes,No
+3042,Count Prefix and Suffix Pairs I,Yes,No
+3110,Score of a String,Yes,No
+3120,Count the Number of Special Characters I,Yes,No
+3131,Find the Integer Added to Array I,Yes,No
+3158,Find the XOR of Numbers Which Appear Twice,Yes,No
+3162,Find the Number of Good Pairs I,Yes,No
+3174,Clear Digits,Yes,No
+3190,Find Minimum Operations to Make All Elements Divisible by Three,Yes,No
+3264,Final Array State After K Multiplication Operations I,Yes,No
+3271,Hash Divided String,Yes,No
+3280,Convert Date to Binary,Yes,No
+3289,The Two Sneaky Numbers of Digitville,Yes,No
+3300,Minimum Element After Replacement With Digit Sum,Yes,No
+3324,Find the Sequence of Strings Appeared on the Screen,Yes,No
+3461,Check If Digits Are Equal in String After Operations I,Yes,No
+3467,Transform Array by Parity,Yes,No
+3498,Reverse Degree of a String,Yes,No
+3512,Minimum Operations to Make Array Sum Divisible by K,Yes,No
+3516,Find Closest Person,Yes,No
+3517,Smallest Palindromic Rearrangement I,Yes,No
+3536,Maximum Product of Two Digits,Yes,No
+3541,Find Most Frequent Vowel and Consonant,Yes,No
+3658,GCD of Odd and Even Sums,Yes,No
+3668,Restore Finishing Order,Yes,No
+3701,Compute Alternating Sum,Yes,No
+3712,Sum of Elements With Frequency Divisible by K,Yes,No
+3731,Find Missing Elements,Yes,No
+3760,Maximum Substrings With Distinct Start,Yes,No
+3783,Mirror Distance of an Integer,Yes,No
+3794,Reverse String Prefix,Yes,No
+3823,Reverse Letters Then Special Characters in a String,Yes,No
+3838,Weighted Word Mapping,Yes,No
+3856,Trim Trailing Vowels,Yes,No
+3884,First Matching Character From Both Ends,Yes,No
+3894,Traffic Signal Color,Yes,No
+3895,Count Digit Appearances,Yes,No
+3898,Find the Degree of Each Vertex,Yes,No
+3925,Concatenate Array With Reverse,Yes,No
+3931,Check Adjacent Digit Differences,Yes,No
+3941,Password Strength,Yes,No
+3945,Digit Frequency Score,Yes,No

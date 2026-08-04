@@ -1487,7 +1487,11 @@ public class MainSolution {
         // System.out.println("Result: " + dnd.differenceOfSums(5, 1));
 
         // 300
-        MirrorDistOfInt mirror = new MirrorDistOfInt();
-        System.out.println("Result: " + mirror.mirrorDistance(25));
+        // MirrorDistOfInt mirror = new MirrorDistOfInt();
+        // System.out.println("Result: " + mirror.mirrorDistance(25));
+
+        // 301
+        LettersCombinationOfPhoneNum com = new LettersCombinationOfPhoneNum();
+        System.out.println("Result: " + com.letterCombinations("23"));
     }
 }
