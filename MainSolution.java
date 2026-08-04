@@ -1499,9 +1499,15 @@ public class MainSolution {
         // SwapNodePairs swap = new SwapNodePairs();
         // 24th leetcode problem
 
-        // 301
-        MergeIntervals merge = new MergeIntervals();
-        int[][] intervals = { { 1, 3 }, { 2, 6 }, { 8, 10 }, { 15, 18 } };
-        System.out.println("Result: " + Arrays.deepToString(merge.merge(intervals)));
+        // 303
+        // MergeIntervals merge = new MergeIntervals();
+        // int[][] intervals = { { 1, 3 }, { 2, 6 }, { 8, 10 }, { 15, 18 } };
+        // System.out.println("Result: " + Arrays.deepToString(merge.merge(intervals)));
+
+        // 304
+        InsertInterval insert = new InsertInterval();
+        int[][] intervals = { { 1, 2 }, { 3, 5 }, { 6, 7 }, { 8, 10 }, { 12, 16 } };
+        int[] newInterval = { 4, 8 };
+        System.out.println("Result: " + Arrays.deepToString(insert.insert(intervals, newInterval)));
     }
 }
