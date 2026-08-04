@@ -1470,7 +1470,8 @@ public class MainSolution {
         // Arrays.toString(cvtTemp.convertTemperature(17.0)));
 
         // 295
-        // MinElementAfterReplacementWithDigitSum min = new MinElementAfterReplacementWithDigitSum();
+        // MinElementAfterReplacementWithDigitSum min = new
+        // MinElementAfterReplacementWithDigitSum();
         // int[] arr = { 10, 22, 33, 44 };
         // System.out.println("Reusult: " + min.minElement(arr));
 
@@ -1495,7 +1496,12 @@ public class MainSolution {
         // System.out.println("Result: " + com.letterCombinations("23"));
 
         // 302
-        SwapNodePairs swap = new SwapNodePairs();
+        // SwapNodePairs swap = new SwapNodePairs();
         // 24th leetcode problem
+
+        // 301
+        MergeIntervals merge = new MergeIntervals();
+        int[][] intervals = { { 1, 3 }, { 2, 6 }, { 8, 10 }, { 15, 18 } };
+        System.out.println("Result: " + Arrays.deepToString(merge.merge(intervals)));
     }
 }
