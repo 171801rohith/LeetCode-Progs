@@ -1512,8 +1512,14 @@ public class MainSolution {
         // newInterval)));
 
         // 305
-        LongestConsecutiveSeq longseq = new LongestConsecutiveSeq();
-        int[] nums = { 0, 3, 7, 2, 5, 8, 4, 6, 0, 1 };
-        System.out.println("Result: " + longseq.longestConsecutive(nums));
+        // LongestConsecutiveSeq longseq = new LongestConsecutiveSeq();
+        // int[] nums = { 0, 3, 7, 2, 5, 8, 4, 6, 0, 1 };
+        // System.out.println("Result: " + longseq.longestConsecutive(nums));
+
+        // 306
+        TopKFreqWords topK = new TopKFreqWords();
+        String[] words = { "the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is" };
+        System.out.println("Result: " + topK.topKFrequent(words, 4));
+
     }
 }
