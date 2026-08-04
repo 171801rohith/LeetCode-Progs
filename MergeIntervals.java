@@ -11,36 +11,39 @@
 // Output: [[1,5]]
 // Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 
-import java.util.ArrayList;
+import java.util.Arrays;
 
 public class MergeIntervals {
-    public int[][] merge(int[][] intervals) {
-        ArrayList<Integer> list = new ArrayList<>();
-        for (int i = 0; i < intervals.length; i++) {
-            int starti = intervals[i][0];
-            int endi = intervals[i][1];
-            if (list.size() != 0 && starti <= list.get(list.size() - 1))
-                continue;
-            for (int j = i + 1; j < intervals.length; j++) {
-                int startj = intervals[j][0];
-                int endj = intervals[j][1];
-                if (endi >= startj)
-                    endi = endj;
-                if (startj < starti)
-                    starti = startj;
+       public int[][] merge(int[][] intervals) {
+        int n = intervals.length, m = intervals[0].length;
 
-            }
-            list.add(starti);
-            list.add(endi);
-        }
-        System.out.println(list);
-        int[][] result = new int[list.size() / 2][2];
+        Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
+
+        // for (int i = 0; i < n; i++){
+        //     int minIdx = i;
+        //     for (int j = i + 1; j < n; j++) 
+        //         if (intervals[minIdx][0] > intervals[j][0]) minIdx = j;
+            
+        //     if (minIdx != i) {
+        //         int[] temp = intervals[i];
+        //         intervals[i] = intervals[minIdx];
+        //         intervals[minIdx] = temp;
+        //     }
+        // }
+        
+        int[][] arr = new int[n][m];
         int k = 0;
-        for (int i = 0; i < result.length; i++) {
-            for (int j = 0; j < result[i].length; j++) {
-                result[i][j] = list.get(k++);
+
+        int[] cur = intervals[0];
+        for (int i = 1; i < n; i++) {
+            if (cur[1] >= intervals[i][0]) cur[1] = Math.max(cur[1], intervals[i][1]);
+            else {
+                arr[k++] = cur;
+                cur = intervals[i];
             }
-        }
-        return result;
-    }
+        }        
+        arr[k++] = cur;
+
+        return Arrays.copyOf(arr, k);
+    }  
 }
