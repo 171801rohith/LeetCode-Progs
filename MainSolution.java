@@ -1479,8 +1479,11 @@ public class MainSolution {
         // System.out.println("Result: " + xor.xorOperation(5, 0));
 
         // 298
-        SumMultiples sm = new SumMultiples();
-        System.out.println("Result: " + sm.sumOfMultiples(9));
+        // SumMultiples sm = new SumMultiples();
+        // System.out.println("Result: " + sm.sumOfMultiples(9));
 
+        // 299
+        DivNonDivSumDiff dnd = new DivNonDivSumDiff();
+        System.out.println("Result: " + dnd.differenceOfSums(5, 1));
     }
 }
