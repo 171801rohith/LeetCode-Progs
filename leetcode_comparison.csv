@@ -11,13 +11,13 @@ problem id,title,solved by me?,solved by frnd?
 14,Longest Common Prefix,Yes,No
 15,3Sum,Yes,Yes
 16,3Sum Closest,Yes,No
-17,Letter Combinations of a Phone Number,No,Yes
+17,Letter Combinations of a Phone Number,Yes,Yes
 18,4Sum,Yes,Yes
 19,Remove Nth Node From End of List,Yes,Yes
 20,Valid Parentheses,Yes,No
 21,Merge Two Sorted Lists,Yes,No
 23,Merge k Sorted Lists,Yes,No
-24,Swap Nodes in Pairs,No,Yes
+24,Swap Nodes in Pairs,Yes,Yes
 26,Remove Duplicates from Sorted Array,Yes,No
 27,Remove Element,Yes,No
 28,Find the Index of the First Occurrence in a String,Yes,No
@@ -28,8 +28,8 @@ problem id,title,solved by me?,solved by frnd?
 48,Rotate Image,Yes,Yes
 49,Group Anagrams,Yes,No
 50,"Pow(x, n)",Yes,No
-56,Merge Intervals,No,Yes
-57,Insert Interval,No,Yes
+56,Merge Intervals,Yes,Yes
+57,Insert Interval,Yes,Yes
 58,Length of Last Word,Yes,No
 61,Rotate List,Yes,Yes
 66,Plus One,Yes,No
@@ -62,7 +62,7 @@ problem id,title,solved by me?,solved by frnd?
 121,Best Time to Buy and Sell Stock,Yes,No
 124,Binary Tree Maximum Path Sum,Yes,Yes
 125,Valid Palindrome,Yes,No
-128,Longest Consecutive Sequence,No,Yes
+128,Longest Consecutive Sequence,Yes,Yes
 133,Clone Graph,Yes,Yes
 136,Single Number,Yes,No
 141,Linked List Cycle,Yes,No
@@ -174,7 +174,7 @@ problem id,title,solved by me?,solved by frnd?
 682,Baseball Game,Yes,No
 684,Redundant Connection,Yes,Yes
 686,Repeated String Match,Yes,No
-692,Top K Frequent Words,No,Yes
+692,Top K Frequent Words,Yes,Yes
 695,Max Area of Island,Yes,Yes
 700,Search in a Binary Search Tree,Yes,No
 704,Binary Search,Yes,No

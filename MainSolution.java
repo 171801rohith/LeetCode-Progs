@@ -1517,9 +1517,13 @@ public class MainSolution {
         // System.out.println("Result: " + longseq.longestConsecutive(nums));
 
         // 306
-        TopKFreqWords topK = new TopKFreqWords();
-        String[] words = { "the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is" };
-        System.out.println("Result: " + topK.topKFrequent(words, 4));
+        // TopKFreqWords topK = new TopKFreqWords();
+        // String[] words = { "the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is" };
+        // System.out.println("Result: " + topK.topKFrequent(words, 4));
 
+        // 307
+        KthLargestElementInArr k = new KthLargestElementInArr();
+        int[] nums = {3,2,1,5,6,4};
+        System.out.println("Result: " + k.findKthLargest(nums, 2));
     }
 }
