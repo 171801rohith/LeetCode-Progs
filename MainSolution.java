@@ -1537,7 +1537,11 @@ public class MainSolution {
         // 230th leetcode problem
 
         // 310
-        LCAofBST lca = new LCAofBST();
+        // LCAofBST lca = new LCAofBST();
         // 235th leetcode problem
+
+        // 311
+        LCAofBT lca = new LCAofBT();
+        // 236th leetcode problem
     }
 }
