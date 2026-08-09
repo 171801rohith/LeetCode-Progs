@@ -1541,8 +1541,12 @@ public class MainSolution {
         // 235th leetcode problem
 
         // 311
-        ZigZagTraversal zz = new ZigZagTraversal();
+        // ZigZagTraversal zz = new ZigZagTraversal();
         // 103rd leetcode problem
+
+        // 312
+        BinaryTreeFromPreorderAndInorderTraversal pi = new BinaryTreeFromPreorderAndInorderTraversal();
+        // 105th leetcode problem
 
     }
 }
