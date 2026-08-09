@@ -1545,8 +1545,13 @@ public class MainSolution {
         // 103rd leetcode problem
 
         // 312
-        BinaryTreeFromPreorderAndInorderTraversal pi = new BinaryTreeFromPreorderAndInorderTraversal();
+        // BinaryTreeFromPreorderAndInorderTraversal pi = new BinaryTreeFromPreorderAndInorderTraversal();
         // 105th leetcode problem
+        
+        // 313
+        BinaryTreeFromPostorderAndInorderTraversal pi = new BinaryTreeFromPostorderAndInorderTraversal();
+        // 106th leetcode problem
+
 
     }
 }
