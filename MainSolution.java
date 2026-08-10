@@ -1545,11 +1545,13 @@ public class MainSolution {
         // 103rd leetcode problem
 
         // 312
-        // BinaryTreeFromPreorderAndInorderTraversal pi = new BinaryTreeFromPreorderAndInorderTraversal();
+        // BinaryTreeFromPreorderAndInorderTraversal pi = new
+        // BinaryTreeFromPreorderAndInorderTraversal();
         // 105th leetcode problem
-        
+
         // 313
-        // BinaryTreeFromPostorderAndInorderTraversal pi = new BinaryTreeFromPostorderAndInorderTraversal();
+        // BinaryTreeFromPostorderAndInorderTraversal pi = new
+        // BinaryTreeFromPostorderAndInorderTraversal();
         // 106th leetcode problem
 
         // 314
@@ -1557,8 +1559,16 @@ public class MainSolution {
         // 99th leetcode problem
 
         // 315
-        CourseScheduler cs = new CourseScheduler();
-        // 207th leetcode problem
+        // CourseScheduler cs = new CourseScheduler();
+        // int numCourses = 4;
+        // int[][] prerequisites = { { 1, 0 }, { 2, 0 }, { 3, 1 }, { 3, 2 } };
+        // System.out.println("Result: " + cs.canFinish(numCourses, prerequisites));
+
+        // 316
+        CourseScheduleII cs = new CourseScheduleII();
+        int numCourses = 4;
+        int[][] prerequisites = { { 1, 0 }, { 2, 0 }, { 3, 1 }, { 3, 2 } };
+        System.out.println("Result: " + Arrays.toString(cs.findOrder(numCourses, prerequisites)));
 
     }
 }

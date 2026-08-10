@@ -21,7 +21,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class CourseScheduler {
+public class CourseSchedule {
     private boolean dfs(int i, List<List<Integer>> graph, int[] state) {
         if (state[i] == 1) return false;
         if (state[i] == 2) return true;
