@@ -1581,8 +1581,12 @@ public class MainSolution {
         // 92nd leetcode problem
 
         // 319
-        ReorderList rl = new ReorderList();
+        // ReorderList rl = new ReorderList();
         // 143rd leetcode problem
+
+        // 320
+        RemoveNodeFromLinkedList rm = new RemoveNodeFromLinkedList();
+        // 2487th leetcode  problem
 
     }
 }
