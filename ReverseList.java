@@ -15,18 +15,20 @@
 
 public class ReverseList {
     public ListNode reverseList(ListNode head) {
-        if (head == null) {
-            return head;
-        }
+        if (head == null) return null;
+
+        ListNode prev = null;
         ListNode cur = head;
-        ListNode next = head.next;
-        while (cur.next != null) {
-            System.out.println(next.val);
-            cur.next = next.next;
-            next.next = head;
-            head = next;
+        ListNode next;
+
+        while (cur != null) {
             next = cur.next;
+            cur.next = prev;
+            prev = cur;
+            cur = next;
         }
-        return head;
+
+        head = prev;
+        return prev;
     }
 }

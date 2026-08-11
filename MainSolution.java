@@ -1572,9 +1572,13 @@ public class MainSolution {
         // prerequisites)));
 
         // 317
-        IsGraphBipartite igb = new IsGraphBipartite();
-        int[][] graph = { { 1, 3 }, { 0, 2 }, { 1, 3 }, { 0, 2 } };
-        System.out.println("Result: " + igb.isBipartite(graph));
+        // IsGraphBipartite igb = new IsGraphBipartite();
+        // int[][] graph = { { 1, 3 }, { 0, 2 }, { 1, 3 }, { 0, 2 } };
+        // System.out.println("Result: " + igb.isBipartite(graph));
+
+        // 318
+        ReverseLinkedListII rLL = new ReverseLinkedListII();
+        // 92nd leetcode problem
 
     }
 }
