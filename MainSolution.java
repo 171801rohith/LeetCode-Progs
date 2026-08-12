@@ -1602,9 +1602,13 @@ public class MainSolution {
         // KthLargest kth = new KthLargest(2, nums);
         
         // 324
-        LastStoneWeight lsw = new LastStoneWeight();
-        int[] nums = {2,7,4,1,8,1};
-        System.out.println("Result: " + lsw.lastStoneWeight(nums));
+        // LastStoneWeight lsw = new LastStoneWeight();
+        // int[] nums = {2,7,4,1,8,1};
+        // System.out.println("Result: " + lsw.lastStoneWeight(nums));
 
+        // 325
+        KClosestPointsToOrigin ko = new KClosestPointsToOrigin();
+        int[][] points = {{3,3},{5,-1},{-2,4}};
+        System.out.println("Result: " + Arrays.deepToString(ko.kClosest(points, 2)));
     }
 }
