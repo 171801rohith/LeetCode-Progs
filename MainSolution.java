@@ -1594,7 +1594,11 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(dt.dailyTemperatures(temperatures)));
 
         // 322
-        RemoveKDigits kDigits = new RemoveKDigits();
-        System.out.println("Result: " + kDigits.removeKdigits("12345678", 4));
+        // RemoveKDigits kDigits = new RemoveKDigits();
+        // System.out.println("Result: " + kDigits.removeKdigits("12345678", 4));
+
+        // 323
+        int[] nums = {1, 2, 4,5, 6};
+        KthLargest kth = new KthLargest(2, nums);
     }
 }
