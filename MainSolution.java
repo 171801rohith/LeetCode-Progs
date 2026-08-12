@@ -1589,9 +1589,12 @@ public class MainSolution {
         // 2487th leetcode  problem
 
         // 321
-        DailyTemperature dt = new DailyTemperature();
-        int[] temperatures = {73,74,75,71,69,72,76,73};
-        System.out.println("Result: " + Arrays.toString(dt.dailyTemperatures(temperatures)));
+        // DailyTemperature dt = new DailyTemperature();
+        // int[] temperatures = {73,74,75,71,69,72,76,73};
+        // System.out.println("Result: " + Arrays.toString(dt.dailyTemperatures(temperatures)));
 
+        // 322
+        RemoveKDigits kDigits = new RemoveKDigits();
+        System.out.println("Result: " + kDigits.removeKdigits("12345678", 4));
     }
 }
