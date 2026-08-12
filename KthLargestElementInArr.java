@@ -10,9 +10,19 @@
 // Example 2:
 // Input: nums = [3,2,3,1,2,4,5,5,6], k = 4
 // Output: 4
- 
+
+import java.util.PriorityQueue;
 
 public class KthLargestElementInArr {
+     public int findKthLargest(int[] nums, int k) {
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+        for (int num: nums) {
+            minHeap.offer(num);
+            if (minHeap.size() > k) minHeap.poll();
+        }
+        return minHeap.peek();
+    }
+
     private int quickSelect(int[] nums, int l, int r, int target) {
         if (l == r) return nums[l];
 
@@ -44,7 +54,7 @@ public class KthLargestElementInArr {
         nums[j] = temp;
     }
 
-    public int findKthLargest(int[] nums, int k) {
+    public int findKthLargestComplicated(int[] nums, int k) {
         int target = nums.length - k;
         return quickSelect(nums, 0, nums.length - 1, target);
     }
