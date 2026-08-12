@@ -1585,8 +1585,13 @@ public class MainSolution {
         // 143rd leetcode problem
 
         // 320
-        RemoveNodeFromLinkedList rm = new RemoveNodeFromLinkedList();
+        // RemoveNodeFromLinkedList rm = new RemoveNodeFromLinkedList();
         // 2487th leetcode  problem
+
+        // 321
+        DailyTemperature dt = new DailyTemperature();
+        int[] temperatures = {73,74,75,71,69,72,76,73};
+        System.out.println("Result: " + Arrays.toString(dt.dailyTemperatures(temperatures)));
 
     }
 }
