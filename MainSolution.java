@@ -1597,8 +1597,14 @@ public class MainSolution {
         // RemoveKDigits kDigits = new RemoveKDigits();
         // System.out.println("Result: " + kDigits.removeKdigits("12345678", 4));
 
-        // 323
-        int[] nums = {1, 2, 4,5, 6};
-        KthLargest kth = new KthLargest(2, nums);
+        // // 323
+        // int[] nums = {1, 2, 4,5, 6};
+        // KthLargest kth = new KthLargest(2, nums);
+        
+        // 324
+        LastStoneWeight lsw = new LastStoneWeight();
+        int[] nums = {2,7,4,1,8,1};
+        System.out.println("Result: " + lsw.lastStoneWeight(nums));
+
     }
 }
