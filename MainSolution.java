@@ -1586,12 +1586,13 @@ public class MainSolution {
 
         // 320
         // RemoveNodeFromLinkedList rm = new RemoveNodeFromLinkedList();
-        // 2487th leetcode  problem
+        // 2487th leetcode problem
 
         // 321
         // DailyTemperature dt = new DailyTemperature();
         // int[] temperatures = {73,74,75,71,69,72,76,73};
-        // System.out.println("Result: " + Arrays.toString(dt.dailyTemperatures(temperatures)));
+        // System.out.println("Result: " +
+        // Arrays.toString(dt.dailyTemperatures(temperatures)));
 
         // 322
         // RemoveKDigits kDigits = new RemoveKDigits();
@@ -1600,15 +1601,26 @@ public class MainSolution {
         // // 323
         // int[] nums = {1, 2, 4,5, 6};
         // KthLargest kth = new KthLargest(2, nums);
-        
+
         // 324
         // LastStoneWeight lsw = new LastStoneWeight();
         // int[] nums = {2,7,4,1,8,1};
         // System.out.println("Result: " + lsw.lastStoneWeight(nums));
 
         // 325
-        KClosestPointsToOrigin ko = new KClosestPointsToOrigin();
-        int[][] points = {{3,3},{5,-1},{-2,4}};
-        System.out.println("Result: " + Arrays.deepToString(ko.kClosest(points, 2)));
+        // KClosestPointsToOrigin ko = new KClosestPointsToOrigin();
+        // int[][] points = {{3,3},{5,-1},{-2,4}};
+        // System.out.println("Result: " + Arrays.deepToString(ko.kClosest(points, 2)));
+
+        // 326
+        // KWeakestRowInMatrix kw = new KWeakestRowInMatrix();
+        // int[][] mat = { { 1, 1, 0, 0, 0 }, { 1, 1, 1, 1, 0 }, { 1, 0, 0, 0, 0 }, { 1,
+        // 1, 0, 0, 0 }, { 1, 1, 1, 1, 1 } };
+        // System.out.println("Result: " + Arrays.toString(kw.kWeakestRows(mat, 3)));
+
+        // 327
+        KthSmallestElementInSortedMat kmat = new KthSmallestElementInSortedMat();
+        int[][] matrix = { { 1, 5, 9 }, { 10, 11, 13 }, { 12, 13, 15 } };
+        System.out.println("Result: " + kmat.kthSmallest(matrix, 8));
     }
 }
