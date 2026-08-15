@@ -1624,8 +1624,14 @@ public class MainSolution {
         // System.out.println("Result: " + kmat.kthSmallest(matrix, 8));
 
         // 328
-        ProductArrExceptSelf pro = new ProductArrExceptSelf();
+        // ProductArrExceptSelf pro = new ProductArrExceptSelf();
+        // int[] nums = {1, 2, 3, 4};
+        // System.out.println("Result: " + Arrays.toString(pro.productExceptSelf(nums)));
+        
+        // 329
+        MaxSubArr max = new MaxSubArr();
         int[] nums = {1, 2, 3, 4};
-        System.out.println("Result: " + Arrays.toString(pro.productExceptSelf(nums)));
+        System.out.println("Result: " + max.maxSubArray(nums));
+
     }
 }
