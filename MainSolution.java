@@ -1619,8 +1619,13 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(kw.kWeakestRows(mat, 3)));
 
         // 327
-        KthSmallestElementInSortedMat kmat = new KthSmallestElementInSortedMat();
-        int[][] matrix = { { 1, 5, 9 }, { 10, 11, 13 }, { 12, 13, 15 } };
-        System.out.println("Result: " + kmat.kthSmallest(matrix, 8));
+        // KthSmallestElementInSortedMat kmat = new KthSmallestElementInSortedMat();
+        // int[][] matrix = { { 1, 5, 9 }, { 10, 11, 13 }, { 12, 13, 15 } };
+        // System.out.println("Result: " + kmat.kthSmallest(matrix, 8));
+
+        // 328
+        ProductArrExceptSelf pro = new ProductArrExceptSelf();
+        int[] nums = {1, 2, 3, 4};
+        System.out.println("Result: " + Arrays.toString(pro.productExceptSelf(nums)));
     }
 }
