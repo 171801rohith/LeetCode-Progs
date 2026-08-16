@@ -1626,27 +1626,35 @@ public class MainSolution {
         // 328
         // ProductArrExceptSelf pro = new ProductArrExceptSelf();
         // int[] nums = {1, 2, 3, 4};
-        // System.out.println("Result: " + Arrays.toString(pro.productExceptSelf(nums)));
-        
+        // System.out.println("Result: " +
+        // Arrays.toString(pro.productExceptSelf(nums)));
+
         // 329
         // MaxSubArr max = new MaxSubArr();
         // int[] nums = {1, 2, 3, 4};
         // System.out.println("Result: " + max.maxSubArray(nums));
-        
+
         // 330
         // MaxProductSubArr max = new MaxProductSubArr();
         // int[] nums = {1, 2, 3, 4};
         // System.out.println("Result: " + max.maxProduct(nums));
-        
+
         // 331
         // SubarrSumEqK eqk = new SubarrSumEqK();
         // int[] nums = {1, 2, 3, 4};
         // System.out.println("Result: " + eqk.subarraySum(nums, 3));
 
         // 332
-        ContiguousArray obj = new ContiguousArray();
-        int[] nums = {1, 0, 1, 0, 1, 0};
-        System.out.println("Result: " + obj.findMaxLength(nums));
+        // ContiguousArray obj = new ContiguousArray();
+        // int[] nums = {1, 0, 1, 0, 1, 0};
+        // System.out.println("Result: " + obj.findMaxLength(nums));
+
+        // 333
+        RandomizedSet obj = new RandomizedSet();
+        boolean param_1 = obj.insert(100);
+        boolean param_2 = obj.remove(10);
+        int param_3 = obj.getRandom();
+        
 
     }
 }
