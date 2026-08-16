@@ -1634,8 +1634,14 @@ public class MainSolution {
         // System.out.println("Result: " + max.maxSubArray(nums));
         
         // 330
-        MaxProductSubArr max = new MaxProductSubArr();
+        // MaxProductSubArr max = new MaxProductSubArr();
+        // int[] nums = {1, 2, 3, 4};
+        // System.out.println("Result: " + max.maxProduct(nums));
+        
+        // 331
+        SubarrSumEqK eqk = new SubarrSumEqK();
         int[] nums = {1, 2, 3, 4};
-        System.out.println("Result: " + max.maxProduct(nums));
+        System.out.println("Result: " + eqk.subarraySum(nums, 3));
+
     }
 }
