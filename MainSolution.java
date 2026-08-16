@@ -1639,9 +1639,14 @@ public class MainSolution {
         // System.out.println("Result: " + max.maxProduct(nums));
         
         // 331
-        SubarrSumEqK eqk = new SubarrSumEqK();
-        int[] nums = {1, 2, 3, 4};
-        System.out.println("Result: " + eqk.subarraySum(nums, 3));
+        // SubarrSumEqK eqk = new SubarrSumEqK();
+        // int[] nums = {1, 2, 3, 4};
+        // System.out.println("Result: " + eqk.subarraySum(nums, 3));
+
+        // 332
+        ContiguousArray obj = new ContiguousArray();
+        int[] nums = {1, 0, 1, 0, 1, 0};
+        System.out.println("Result: " + obj.findMaxLength(nums));
 
     }
 }
