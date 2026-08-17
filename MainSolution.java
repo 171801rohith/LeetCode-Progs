@@ -1650,11 +1650,19 @@ public class MainSolution {
         // System.out.println("Result: " + obj.findMaxLength(nums));
 
         // 333
-        RandomizedSet obj = new RandomizedSet();
-        boolean param_1 = obj.insert(100);
-        boolean param_2 = obj.remove(10);
-        int param_3 = obj.getRandom();
-        
+        // RandomizedSet obj = new RandomizedSet();
+        // boolean param_1 = obj.insert(100);
+        // boolean param_2 = obj.remove(10);
+        // int param_3 = obj.getRandom();
+
+        // 334
+        ValidSudoku valid = new ValidSudoku();
+        char[][] board = { { '5', '3', '.', '.', '7', '.', '.', '.', '.' },
+                { '6', '.', '.', '1', '9', '5', '.', '.', '.' }, { '.', '9', '8', '.', '.', '.', '.', '6', '.' },
+                { '8', '.', '.', '.', '6', '.', '.', '.', '3' }, { '4', '.', '.', '8', '.', '3', '.', '.', '1' },
+                { '7', '.', '.', '.', '2', '.', '.', '.', '6' }, { '.', '6', '.', '.', '.', '.', '2', '8', '.' },
+                { '.', '.', '.', '4', '1', '9', '.', '.', '5' }, { '.', '.', '.', '.', '8', '.', '.', '7', '9' } };
+        System.out.println("Result: " + valid.isValidSudoku(board));
 
     }
 }
