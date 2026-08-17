@@ -1670,8 +1670,12 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(sum.twoSum(nums, 6)));
 
         // 336
-        LongestRepeatingCharReplacement lo = new LongestRepeatingCharReplacement();
-        System.out.println("Result: " + lo.characterReplacement("ABAB", 2));
+        // LongestRepeatingCharReplacement lo = new LongestRepeatingCharReplacement();
+        // System.out.println("Result: " + lo.characterReplacement("ABAB", 2));
+
+        // 337
+        PermutationInStr per = new PermutationInStr();
+        System.out.println("Result: " + per.checkInclusion("ab", "babasdsa"));
 
     }
 }
