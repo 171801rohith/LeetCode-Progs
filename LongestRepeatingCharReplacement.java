@@ -24,7 +24,7 @@ public class LongestRepeatingCharReplacement {
             freq[s.charAt(r) - 'A']++;
             maxFreq = Math.max(maxFreq, freq[s.charAt(r) - 'A']);
 
-            while ((r - l + 1) - maxFreq > k && l < s.length()) {
+            while ((r - l + 1) - maxFreq > k) {
                 freq[s.charAt(l) - 'A']--;
                 l++;
             }

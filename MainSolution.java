@@ -1674,8 +1674,13 @@ public class MainSolution {
         // System.out.println("Result: " + lo.characterReplacement("ABAB", 2));
 
         // 337
-        PermutationInStr per = new PermutationInStr();
-        System.out.println("Result: " + per.checkInclusion("ab", "babasdsa"));
+        // PermutationInStr per = new PermutationInStr();
+        // System.out.println("Result: " + per.checkInclusion("ab", "babasdsa"));
+
+        // 338
+        MaxConsecutiveOnesIII max = new MaxConsecutiveOnesIII();
+        int[] nums = {1, 1, 1, 1, 1, 0};
+        System.out.println("Result: " + max.longestOnes(nums, 1));
 
     }
 }
