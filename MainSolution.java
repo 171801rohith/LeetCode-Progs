@@ -1665,9 +1665,13 @@ public class MainSolution {
         // System.out.println("Result: " + valid.isValidSudoku(board));
 
         // 335
-        TwoSumII sum = new TwoSumII();
-        int[] nums = {2, 3, 4};
-        System.out.println("Result: " + Arrays.toString(sum.twoSum(nums, 6)));
+        // TwoSumII sum = new TwoSumII();
+        // int[] nums = {2, 3, 4};
+        // System.out.println("Result: " + Arrays.toString(sum.twoSum(nums, 6)));
+
+        // 336
+        LongestRepeatingCharReplacement lo = new LongestRepeatingCharReplacement();
+        System.out.println("Result: " + lo.characterReplacement("ABAB", 2));
 
     }
 }
