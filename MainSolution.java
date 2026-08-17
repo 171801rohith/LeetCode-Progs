@@ -1678,9 +1678,12 @@ public class MainSolution {
         // System.out.println("Result: " + per.checkInclusion("ab", "babasdsa"));
 
         // 338
-        MaxConsecutiveOnesIII max = new MaxConsecutiveOnesIII();
-        int[] nums = {1, 1, 1, 1, 1, 0};
-        System.out.println("Result: " + max.longestOnes(nums, 1));
+        // MaxConsecutiveOnesIII max = new MaxConsecutiveOnesIII();
+        // int[] nums = {1, 1, 1, 1, 1, 0};
+        // System.out.println("Result: " + max.longestOnes(nums, 1));
 
+        // 339
+        MinWindowSubstr sub = new MinWindowSubstr();
+        System.out.println("Result: " + sub.minWindow("null", "n"));
     }
 }
