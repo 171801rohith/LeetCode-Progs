@@ -1683,7 +1683,11 @@ public class MainSolution {
         // System.out.println("Result: " + max.longestOnes(nums, 1));
 
         // 339
-        MinWindowSubstr sub = new MinWindowSubstr();
-        System.out.println("Result: " + sub.minWindow("null", "n"));
+        // MinWindowSubstr sub = new MinWindowSubstr();
+        // System.out.println("Result: " + sub.minWindow("null", "n"));
+
+        // 340
+        ReverseStrII rev = new ReverseStrII();
+        System.out.println("Result: " + rev.reverseStr("rohith", 2));
     }
 }
