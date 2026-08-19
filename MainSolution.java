@@ -1687,7 +1687,11 @@ public class MainSolution {
         // System.out.println("Result: " + sub.minWindow("null", "n"));
 
         // 340
-        ReverseStrII rev = new ReverseStrII();
-        System.out.println("Result: " + rev.reverseStr("rohith", 2));
+        // ReverseStrII rev = new ReverseStrII();
+        // System.out.println("Result: " + rev.reverseStr("rohith", 2));
+
+        // 341
+        RepeatedDNASequences dna = new RepeatedDNASequences();
+        System.out.println("Result: " + dna.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"));
     }
 }
