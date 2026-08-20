@@ -1691,7 +1691,17 @@ public class MainSolution {
         // System.out.println("Result: " + rev.reverseStr("rohith", 2));
 
         // 341
-        RepeatedDNASequences dna = new RepeatedDNASequences();
-        System.out.println("Result: " + dna.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"));
+        // RepeatedDNASequences dna = new RepeatedDNASequences();
+        // System.out.println("Result: " + dna.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"));
+
+        // 342
+        // SlidingWindowMax swm = new SlidingWindowMax();
+        // int[] nums = {1, 2, 3, 4, 5, 6 ,7};
+        // System.out.println("Result: " + Arrays.toString(swm.maxSlidingWindow(nums, 3)));
+
+        // 343
+        MinInRotatedArr min = new MinInRotatedArr();
+        int[] nums = {4, 5, 6, 7, 1, 2, 3};
+        System.out.println("Result: " + min.findMin(nums));
     }
 }
