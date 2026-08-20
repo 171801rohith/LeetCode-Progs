@@ -1658,10 +1658,14 @@ public class MainSolution {
         // 334
         // ValidSudoku valid = new ValidSudoku();
         // char[][] board = { { '5', '3', '.', '.', '7', '.', '.', '.', '.' },
-        //         { '6', '.', '.', '1', '9', '5', '.', '.', '.' }, { '.', '9', '8', '.', '.', '.', '.', '6', '.' },
-        //         { '8', '.', '.', '.', '6', '.', '.', '.', '3' }, { '4', '.', '.', '8', '.', '3', '.', '.', '1' },
-        //         { '7', '.', '.', '.', '2', '.', '.', '.', '6' }, { '.', '6', '.', '.', '.', '.', '2', '8', '.' },
-        //         { '.', '.', '.', '4', '1', '9', '.', '.', '5' }, { '.', '.', '.', '.', '8', '.', '.', '7', '9' } };
+        // { '6', '.', '.', '1', '9', '5', '.', '.', '.' }, { '.', '9', '8', '.', '.',
+        // '.', '.', '6', '.' },
+        // { '8', '.', '.', '.', '6', '.', '.', '.', '3' }, { '4', '.', '.', '8', '.',
+        // '3', '.', '.', '1' },
+        // { '7', '.', '.', '.', '2', '.', '.', '.', '6' }, { '.', '6', '.', '.', '.',
+        // '.', '2', '8', '.' },
+        // { '.', '.', '.', '4', '1', '9', '.', '.', '5' }, { '.', '.', '.', '.', '8',
+        // '.', '.', '7', '9' } };
         // System.out.println("Result: " + valid.isValidSudoku(board));
 
         // 335
@@ -1692,16 +1696,23 @@ public class MainSolution {
 
         // 341
         // RepeatedDNASequences dna = new RepeatedDNASequences();
-        // System.out.println("Result: " + dna.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"));
+        // System.out.println("Result: " +
+        // dna.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"));
 
         // 342
         // SlidingWindowMax swm = new SlidingWindowMax();
         // int[] nums = {1, 2, 3, 4, 5, 6 ,7};
-        // System.out.println("Result: " + Arrays.toString(swm.maxSlidingWindow(nums, 3)));
+        // System.out.println("Result: " + Arrays.toString(swm.maxSlidingWindow(nums,
+        // 3)));
 
         // 343
-        MinInRotatedArr min = new MinInRotatedArr();
-        int[] nums = {4, 5, 6, 7, 1, 2, 3};
-        System.out.println("Result: " + min.findMin(nums));
+        // MinInRotatedArr min = new MinInRotatedArr();
+        // int[] nums = {4, 5, 6, 7, 1, 2, 3};
+        // System.out.println("Result: " + min.findMin(nums));
+
+        // 344
+        KokoEatingBanana koko = new KokoEatingBanana();
+        int[] piles = { 3, 5, 3, 6, 43, 12, 55, 5 };
+        System.out.println("Result: " + koko.minEatingSpeed(piles, 9));
     }
 }
