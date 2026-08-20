@@ -1711,8 +1711,13 @@ public class MainSolution {
         // System.out.println("Result: " + min.findMin(nums));
 
         // 344
-        KokoEatingBanana koko = new KokoEatingBanana();
-        int[] piles = { 3, 5, 3, 6, 43, 12, 55, 5 };
-        System.out.println("Result: " + koko.minEatingSpeed(piles, 9));
+        // KokoEatingBanana koko = new KokoEatingBanana();
+        // int[] piles = { 3, 5, 3, 6, 43, 12, 55, 5 };
+        // System.out.println("Result: " + koko.minEatingSpeed(piles, 9));
+
+        // 345
+        DistributeElementsInto2ArrsI dis = new DistributeElementsInto2ArrsI();
+        int[] nums = { 3, 5, 3, 6, 43, 12, 55, 5 };
+        System.out.println("Result: " + Arrays.toString(dis.resultArray(nums)));
     }
 }
