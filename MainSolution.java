@@ -1716,8 +1716,14 @@ public class MainSolution {
         // System.out.println("Result: " + koko.minEatingSpeed(piles, 9));
 
         // 345
-        DistributeElementsInto2ArrsI dis = new DistributeElementsInto2ArrsI();
-        int[] nums = { 3, 5, 3, 6, 43, 12, 55, 5 };
-        System.out.println("Result: " + Arrays.toString(dis.resultArray(nums)));
+        // DistributeElementsInto2ArrsI dis = new DistributeElementsInto2ArrsI();
+        // int[] nums = { 3, 5, 3, 6, 43, 12, 55, 5 };
+        // System.out.println("Result: " + Arrays.toString(dis.resultArray(nums)));
+        
+        // 346
+        CapacityToShipPackagesWithinDDays cap = new CapacityToShipPackagesWithinDDays();
+        int[] weights = { 3, 5, 3, 6, 43, 12, 55, 5 };
+        System.out.println("Result: " + cap.shipWithinDays(weights, 1));
+
     }
 }
