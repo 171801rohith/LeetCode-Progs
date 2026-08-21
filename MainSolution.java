@@ -1732,8 +1732,12 @@ public class MainSolution {
         // System.out.println("Result: " + min.minDays(bloomDay, 3, 2));
 
         // 348
-        CarPooling carPooling = new CarPooling();
-        int[][] trips = {{2,1,5},{3,3,7}};
-        System.out.println("Result: " + carPooling.carPooling(trips, 4));
+        // CarPooling carPooling = new CarPooling();
+        // int[][] trips = {{2,1,5},{3,3,7}};
+        // System.out.println("Result: " + carPooling.carPooling(trips, 4));
+
+        // 349
+        CopyListWithRandomPointer obj = new CopyListWithRandomPointer();
+        // 138th leetcode problem
     }
 }
