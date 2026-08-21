@@ -1721,9 +1721,15 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(dis.resultArray(nums)));
         
         // 346
-        CapacityToShipPackagesWithinDDays cap = new CapacityToShipPackagesWithinDDays();
-        int[] weights = { 3, 5, 3, 6, 43, 12, 55, 5 };
-        System.out.println("Result: " + cap.shipWithinDays(weights, 1));
+        // CapacityToShipPackagesWithinDDays cap = new CapacityToShipPackagesWithinDDays();
+        // int[] weights = { 3, 5, 3, 6, 43, 12, 55, 5 };
+        // System.out.println("Result: " + cap.shipWithinDays(weights, 1));
+        
+        
+        // 347
+        MinNoOfDaysToMakeMBouquets min = new MinNoOfDaysToMakeMBouquets();
+        int[] bloomDay = { 3, 5, 3, 6, 43, 12, 55, 5 };
+        System.out.println("Result: " + min.minDays(bloomDay, 3, 2));
 
     }
 }
