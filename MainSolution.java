@@ -1737,7 +1737,11 @@ public class MainSolution {
         // System.out.println("Result: " + carPooling.carPooling(trips, 4));
 
         // 349
-        CopyListWithRandomPointer obj = new CopyListWithRandomPointer();
+        // CopyListWithRandomPointer obj = new CopyListWithRandomPointer();
         // 138th leetcode problem
+
+        // 350
+        CheckDivisibilyByDigitSumNProduct obj = new CheckDivisibilyByDigitSumNProduct();
+        System.out.println("Result: " + obj.checkDivisibility(99));
     }
 }
