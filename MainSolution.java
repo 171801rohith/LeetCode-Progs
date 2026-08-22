@@ -1741,7 +1741,12 @@ public class MainSolution {
         // 138th leetcode problem
 
         // 350
-        CheckDivisibilyByDigitSumNProduct obj = new CheckDivisibilyByDigitSumNProduct();
-        System.out.println("Result: " + obj.checkDivisibility(99));
+        // CheckDivisibilyByDigitSumNProduct obj = new CheckDivisibilyByDigitSumNProduct();
+        // System.out.println("Result: " + obj.checkDivisibility(99));
+
+        // 351
+        SearchInRotatedArrII arr = new SearchInRotatedArrII();
+        int[] nums = {2,5,6,0,0,1,2};
+        System.out.println("Result: " + arr.search(nums, 0));
     }
 }
