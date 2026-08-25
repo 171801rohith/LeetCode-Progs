@@ -1761,8 +1761,13 @@ public class MainSolution {
         // System.out.println("Result: " + cc.coinChange(coins, 11));
         
         // 354
-        Subsets sub = new Subsets();
+        // Subsets sub = new Subsets();
+        // int[] nums = { 2, 7, 9, 3, 1 };
+        // System.out.println("Result: " + sub.subsets(nums));
+        
+        // 355
+        CombinationSum sum = new CombinationSum();
         int[] nums = { 2, 7, 9, 3, 1 };
-        System.out.println("Result: " + sub.subsets(nums));
+        System.out.println("Result: " + sum.combinationSum(nums, 10));
     }
 }
