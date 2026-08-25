@@ -1719,13 +1719,13 @@ public class MainSolution {
         // DistributeElementsInto2ArrsI dis = new DistributeElementsInto2ArrsI();
         // int[] nums = { 3, 5, 3, 6, 43, 12, 55, 5 };
         // System.out.println("Result: " + Arrays.toString(dis.resultArray(nums)));
-        
+
         // 346
-        // CapacityToShipPackagesWithinDDays cap = new CapacityToShipPackagesWithinDDays();
+        // CapacityToShipPackagesWithinDDays cap = new
+        // CapacityToShipPackagesWithinDDays();
         // int[] weights = { 3, 5, 3, 6, 43, 12, 55, 5 };
         // System.out.println("Result: " + cap.shipWithinDays(weights, 1));
-        
-        
+
         // 347
         // MinNoOfDaysToMakeMBouquets min = new MinNoOfDaysToMakeMBouquets();
         // int[] bloomDay = { 3, 5, 3, 6, 43, 12, 55, 5 };
@@ -1741,12 +1741,18 @@ public class MainSolution {
         // 138th leetcode problem
 
         // 350
-        // CheckDivisibilyByDigitSumNProduct obj = new CheckDivisibilyByDigitSumNProduct();
+        // CheckDivisibilyByDigitSumNProduct obj = new
+        // CheckDivisibilyByDigitSumNProduct();
         // System.out.println("Result: " + obj.checkDivisibility(99));
 
         // 351
-        SearchInRotatedArrII arr = new SearchInRotatedArrII();
-        int[] nums = {2,5,6,0,0,1,2};
-        System.out.println("Result: " + arr.search(nums, 0));
+        // SearchInRotatedArrII arr = new SearchInRotatedArrII();
+        // int[] nums = {2,5,6,0,0,1,2};
+        // System.out.println("Result: " + arr.search(nums, 0));
+
+        // 352
+        HouseRobber hr = new HouseRobber();
+        int[] h = { 2, 7, 9, 3, 1 };
+        System.out.println("Result: " + hr.rob(h));
     }
 }
