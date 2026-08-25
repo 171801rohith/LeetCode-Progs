@@ -1766,8 +1766,12 @@ public class MainSolution {
         // System.out.println("Result: " + sub.subsets(nums));
         
         // 355
-        CombinationSum sum = new CombinationSum();
-        int[] nums = { 2, 7, 9, 3, 1 };
-        System.out.println("Result: " + sum.combinationSum(nums, 10));
+        // CombinationSum sum = new CombinationSum();
+        // int[] nums = { 2, 7, 9, 3, 1 };
+        // System.out.println("Result: " + sum.combinationSum(nums, 10));
+
+        // 356
+        LongestPalindrome lp = new LongestPalindrome();
+        System.out.println("Result: " + lp.longestPalindrome("abdbdsabds"));
     }
 }
