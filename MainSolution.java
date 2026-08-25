@@ -1769,9 +1769,15 @@ public class MainSolution {
         // CombinationSum sum = new CombinationSum();
         // int[] nums = { 2, 7, 9, 3, 1 };
         // System.out.println("Result: " + sum.combinationSum(nums, 10));
-
+        
         // 356
-        LongestPalindrome lp = new LongestPalindrome();
-        System.out.println("Result: " + lp.longestPalindrome("abdbdsabds"));
+        // LongestPalindrome lp = new LongestPalindrome();
+        // System.out.println("Result: " + lp.longestPalindrome("abdbdsabds"));
+        
+        // 357
+        SmallestMissingMultipleOfK k = new SmallestMissingMultipleOfK();
+        int[] nums = { 2, 7, 9, 3, 1 };
+        System.out.println("Result: " + k.missingMultiple(nums, 3));
+        
     }
 }
