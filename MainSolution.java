@@ -1751,8 +1751,14 @@ public class MainSolution {
         // System.out.println("Result: " + arr.search(nums, 0));
 
         // 352
-        HouseRobber hr = new HouseRobber();
-        int[] h = { 2, 7, 9, 3, 1 };
-        System.out.println("Result: " + hr.rob(h));
+        // HouseRobber hr = new HouseRobber();
+        // int[] h = { 2, 7, 9, 3, 1 };
+        // System.out.println("Result: " + hr.rob(h));
+        
+        // 353
+        CoinChange cc = new CoinChange();
+        int[] coins = { 2, 7, 9, 3, 1 };
+        System.out.println("Result: " + cc.coinChange(coins, 11));
+
     }
 }
