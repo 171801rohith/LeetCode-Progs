@@ -1775,9 +1775,13 @@ public class MainSolution {
         // System.out.println("Result: " + lp.longestPalindrome("abdbdsabds"));
         
         // 357
-        SmallestMissingMultipleOfK k = new SmallestMissingMultipleOfK();
-        int[] nums = { 2, 7, 9, 3, 1 };
-        System.out.println("Result: " + k.missingMultiple(nums, 3));
+        // SmallestMissingMultipleOfK k = new SmallestMissingMultipleOfK();
+        // int[] nums = { 2, 7, 9, 3, 1 };
+        // System.out.println("Result: " + k.missingMultiple(nums, 3));
+
+        // 358
+        CvtSortedArrToBST bst = new CvtSortedArrToBST();
+        // 108th leetcode problem
         
     }
 }
