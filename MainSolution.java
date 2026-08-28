@@ -1793,9 +1793,13 @@ public class MainSolution {
         // System.out.println("Result: " + sets.subsetsWithDup(nums));
         
         // 361
-        WordSubsets sets = new WordSubsets();
-        String[] w1 = {"rohith", "abhishek", "karthik"}, w2 = {"hh", "i"};
-        System.out.println("Result: " + sets.wordSubsets(w1, w2));
+        // WordSubsets sets = new WordSubsets();
+        // String[] w1 = {"rohith", "abhishek", "karthik"}, w2 = {"hh", "i"};
+        // System.out.println("Result: " + sets.wordSubsets(w1, w2));
         
+        // 362
+        SumOfAllSubsetXORTotals sum = new SumOfAllSubsetXORTotals();
+        int[] nums = {1, 2, 3};
+        System.out.println("Result: " + sum.subsetXORSum(nums));
     }
 }
