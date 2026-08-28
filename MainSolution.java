@@ -1788,9 +1788,14 @@ public class MainSolution {
         // 109th leetcode problem
 
         // 360
-        SubsetsII sets = new SubsetsII();
-        int[] nums = {1, 2, 2};
-        System.out.println("Result: " + sets.subsetsWithDup(nums));
+        // SubsetsII sets = new SubsetsII();
+        // int[] nums = {1, 2, 2};
+        // System.out.println("Result: " + sets.subsetsWithDup(nums));
+        
+        // 361
+        WordSubsets sets = new WordSubsets();
+        String[] w1 = {"rohith", "abhishek", "karthik"}, w2 = {"hh", "i"};
+        System.out.println("Result: " + sets.wordSubsets(w1, w2));
         
     }
 }
