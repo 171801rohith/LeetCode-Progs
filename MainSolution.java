@@ -1784,8 +1784,13 @@ public class MainSolution {
         // 108th leetcode problem
 
         // 359
-        CvtSortedListToBST bst = new CvtSortedListToBST();
+        // CvtSortedListToBST bst = new CvtSortedListToBST();
         // 109th leetcode problem
+
+        // 360
+        SubsetsII sets = new SubsetsII();
+        int[] nums = {1, 2, 2};
+        System.out.println("Result: " + sets.subsetsWithDup(nums));
         
     }
 }
