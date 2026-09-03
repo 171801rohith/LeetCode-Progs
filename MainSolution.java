@@ -1812,9 +1812,14 @@ public class MainSolution {
         // System.out.println("Result: " + nc.findComplement(5));
         
         // 365
-        Permutations p = new Permutations();
+        // Permutations p = new Permutations();
+        // int[] nums = { 2, 3, 4, 5, 6 };
+        // System.out.println("Result: " + p.permute(nums));
+        
+        // 366
+        ConstructUniformParityArrII par = new ConstructUniformParityArrII();
         int[] nums = { 2, 3, 4, 5, 6 };
-        System.out.println("Result: " + p.permute(nums));
+        System.out.println("Result: " + par.uniformArray(nums));
 
     }
 }
