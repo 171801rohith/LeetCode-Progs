@@ -1754,26 +1754,26 @@ public class MainSolution {
         // HouseRobber hr = new HouseRobber();
         // int[] h = { 2, 7, 9, 3, 1 };
         // System.out.println("Result: " + hr.rob(h));
-        
+
         // 353
         // CoinChange cc = new CoinChange();
         // int[] coins = { 2, 7, 9, 3, 1 };
         // System.out.println("Result: " + cc.coinChange(coins, 11));
-        
+
         // 354
         // Subsets sub = new Subsets();
         // int[] nums = { 2, 7, 9, 3, 1 };
         // System.out.println("Result: " + sub.subsets(nums));
-        
+
         // 355
         // CombinationSum sum = new CombinationSum();
         // int[] nums = { 2, 7, 9, 3, 1 };
         // System.out.println("Result: " + sum.combinationSum(nums, 10));
-        
+
         // 356
         // LongestPalindrome lp = new LongestPalindrome();
         // System.out.println("Result: " + lp.longestPalindrome("abdbdsabds"));
-        
+
         // 357
         // SmallestMissingMultipleOfK k = new SmallestMissingMultipleOfK();
         // int[] nums = { 2, 7, 9, 3, 1 };
@@ -1791,12 +1791,12 @@ public class MainSolution {
         // SubsetsII sets = new SubsetsII();
         // int[] nums = {1, 2, 2};
         // System.out.println("Result: " + sets.subsetsWithDup(nums));
-        
+
         // 361
         // WordSubsets sets = new WordSubsets();
         // String[] w1 = {"rohith", "abhishek", "karthik"}, w2 = {"hh", "i"};
         // System.out.println("Result: " + sets.wordSubsets(w1, w2));
-        
+
         // 362
         // SumOfAllSubsetXORTotals sum = new SumOfAllSubsetXORTotals();
         // int[] nums = {1, 2, 3};
@@ -1808,7 +1808,13 @@ public class MainSolution {
         // System.out.println("Result: " + com.combine(5, 3));
 
         // 364
-        NumComplement nc = new NumComplement();
-        System.out.println("Result: " + nc.findComplement(5));
+        // NumComplement nc = new NumComplement();
+        // System.out.println("Result: " + nc.findComplement(5));
+        
+        // 365
+        Permutations p = new Permutations();
+        int[] nums = { 2, 3, 4, 5, 6 };
+        System.out.println("Result: " + p.permute(nums));
+
     }
 }
