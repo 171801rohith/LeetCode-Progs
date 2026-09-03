@@ -1803,8 +1803,12 @@ public class MainSolution {
         // System.out.println("Result: " + sum.subsetXORSum(nums));
 
         // 363
-        Combinations com = new Combinations();
-        int[] nums = {1, 2, 3};
-        System.out.println("Result: " + com.combine(5, 3));
+        // Combinations com = new Combinations();
+        // int[] nums = {1, 2, 3};
+        // System.out.println("Result: " + com.combine(5, 3));
+
+        // 364
+        NumComplement nc = new NumComplement();
+        System.out.println("Result: " + nc.findComplement(5));
     }
 }
