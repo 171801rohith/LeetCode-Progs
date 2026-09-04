@@ -1817,9 +1817,14 @@ public class MainSolution {
         // System.out.println("Result: " + p.permute(nums));
         
         // 366
-        ConstructUniformParityArrII par = new ConstructUniformParityArrII();
+        // ConstructUniformParityArrII par = new ConstructUniformParityArrII();
+        // int[] nums = { 2, 3, 4, 5, 6 };
+        // System.out.println("Result: " + par.uniformArray(nums));
+
+        // 367
+        SmallestStableIdxI s = new SmallestStableIdxI();
         int[] nums = { 2, 3, 4, 5, 6 };
-        System.out.println("Result: " + par.uniformArray(nums));
+        System.out.println("Result: " + s.firstStableIndex(nums, 3));
 
     }
 }
