@@ -1827,12 +1827,18 @@ public class MainSolution {
         // System.out.println("Result: " + s.firstStableIndex(nums, 3));
 
         // 368    
-        MyLinkedList obj = new MyLinkedList();
-        int param_1 = obj.get(0);
-        obj.addAtHead(10);
-        obj.addAtTail(20);
-        obj.addAtIndex(2, 10);
-        obj.deleteAtIndex(1);
+        // MyLinkedList obj = new MyLinkedList();
+        // int param_1 = obj.get(0);
+        // obj.addAtHead(10);
+        // obj.addAtTail(20);
+        // obj.addAtIndex(2, 10);
+        // obj.deleteAtIndex(1);
+        
+        // 369
+        LRUCache obj = new LRUCache(4);
+        obj.put(2, 10);
+        int param_1 = obj.get(2);
+        System.out.println("Result: " + param_1);
         
     }
 }
