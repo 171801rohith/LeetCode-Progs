@@ -1822,9 +1822,17 @@ public class MainSolution {
         // System.out.println("Result: " + par.uniformArray(nums));
 
         // 367
-        SmallestStableIdxI s = new SmallestStableIdxI();
-        int[] nums = { 2, 3, 4, 5, 6 };
-        System.out.println("Result: " + s.firstStableIndex(nums, 3));
+        // SmallestStableIdxI s = new SmallestStableIdxI();
+        // int[] nums = { 2, 3, 4, 5, 6 };
+        // System.out.println("Result: " + s.firstStableIndex(nums, 3));
 
+        // 368    
+        MyLinkedList obj = new MyLinkedList();
+        int param_1 = obj.get(0);
+        obj.addAtHead(10);
+        obj.addAtTail(20);
+        obj.addAtIndex(2, 10);
+        obj.deleteAtIndex(1);
+        
     }
 }
