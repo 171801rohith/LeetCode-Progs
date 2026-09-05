@@ -1835,10 +1835,13 @@ public class MainSolution {
         // obj.deleteAtIndex(1);
         
         // 369
-        LRUCache obj = new LRUCache(4);
-        obj.put(2, 10);
-        int param_1 = obj.get(2);
-        System.out.println("Result: " + param_1);
+        // LRUCache obj = new LRUCache(4);
+        // obj.put(2, 10);
+        // int param_1 = obj.get(2);
+        // System.out.println("Result: " + param_1);
         
+        // 370
+        FlattenMultilevelDoublyLL f = new  FlattenMultilevelDoublyLL();
+        // 430th leetcode problem
     }
 }
