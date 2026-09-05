@@ -1854,8 +1854,12 @@ public class MainSolution {
         // System.out.println("Result: " + no.numRollsToTarget(10, 12, 50));
         
         // 373
-        CombinationSumII sum = new CombinationSumII();
-        int[] nums = {1, 2, 4, 5};
-        System.out.println("Result: " + sum.combinationSum2(nums, 10));
+        // CombinationSumII sum = new CombinationSumII();
+        // int[] nums = {1, 2, 4, 5};
+        // System.out.println("Result: " + sum.combinationSum2(nums, 10));
+        
+        // 374
+        CombinationSumIII sum = new CombinationSumIII();
+        System.out.println("Result: " + sum.combinationSum3(2, 11));
     }
 }
