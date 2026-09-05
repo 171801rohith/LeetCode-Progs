@@ -1848,9 +1848,14 @@ public class MainSolution {
         // TargetSum sum = new TargetSum();
         // int[] nums = {1, 2, 4, 5};
         // System.out.println("Result: " + sum.findTargetSumWays(nums, 10));
-
+        
         // 372
-        NoOfDiceRollsWithTargetSum no = new NoOfDiceRollsWithTargetSum();
-        System.out.println("Result: " + no.numRollsToTarget(10, 12, 50));
+        // NoOfDiceRollsWithTargetSum no = new NoOfDiceRollsWithTargetSum();
+        // System.out.println("Result: " + no.numRollsToTarget(10, 12, 50));
+        
+        // 373
+        CombinationSumII sum = new CombinationSumII();
+        int[] nums = {1, 2, 4, 5};
+        System.out.println("Result: " + sum.combinationSum2(nums, 10));
     }
 }
