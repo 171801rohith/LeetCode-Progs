@@ -1859,7 +1859,12 @@ public class MainSolution {
         // System.out.println("Result: " + sum.combinationSum2(nums, 10));
         
         // 374
-        CombinationSumIII sum = new CombinationSumIII();
-        System.out.println("Result: " + sum.combinationSum3(2, 11));
+        // CombinationSumIII sum = new CombinationSumIII();
+        // System.out.println("Result: " + sum.combinationSum3(2, 11));
+
+        // 375
+        CombinationSumIV sum = new CombinationSumIV();
+        int[] nums = {1, 2, 4, 5};
+        System.out.println("Result: " + sum.combinationSum4(nums, 10));
     }
 }
