@@ -1845,8 +1845,12 @@ public class MainSolution {
         // 430th leetcode problem
 
         // 371
-        TargetSum sum = new TargetSum();
-        int[] nums = {1, 2, 4, 5};
-        System.out.println("Result: " + sum.findTargetSumWays(nums, 10));
+        // TargetSum sum = new TargetSum();
+        // int[] nums = {1, 2, 4, 5};
+        // System.out.println("Result: " + sum.findTargetSumWays(nums, 10));
+
+        // 372
+        NoOfDiceRollsWithTargetSum no = new NoOfDiceRollsWithTargetSum();
+        System.out.println("Result: " + no.numRollsToTarget(10, 12, 50));
     }
 }
