@@ -1841,7 +1841,12 @@ public class MainSolution {
         // System.out.println("Result: " + param_1);
         
         // 370
-        FlattenMultilevelDoublyLL f = new  FlattenMultilevelDoublyLL();
+        // FlattenMultilevelDoublyLL f = new  FlattenMultilevelDoublyLL();
         // 430th leetcode problem
+
+        // 371
+        TargetSum sum = new TargetSum();
+        int[] nums = {1, 2, 4, 5};
+        System.out.println("Result: " + sum.findTargetSumWays(nums, 10));
     }
 }
