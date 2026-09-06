@@ -1866,10 +1866,16 @@ public class MainSolution {
         // CombinationSumIV sum = new CombinationSumIV();
         // int[] nums = {1, 2, 4, 5};
         // System.out.println("Result: " + sum.combinationSum4(nums, 10));
-
+        
         // 376
-        PathWithMaxGold maxGold = new PathWithMaxGold();
-        int[][] grid = { { 1, 0, 7 }, { 2, 0, 6 }, { 3, 4, 5 }, { 0, 3, 0 }, { 9, 0, 20 } };
-        System.out.println("Result: " + maxGold.getMaximumGold(grid));
+        // PathWithMaxGold maxGold = new PathWithMaxGold();
+        // int[][] grid = { { 1, 0, 7 }, { 2, 0, 6 }, { 3, 4, 5 }, { 0, 3, 0 }, { 9, 0, 20 } };
+        // System.out.println("Result: " + maxGold.getMaximumGold(grid));
+        
+        // 376
+        PartitionToKEqualSumSubsets part = new PartitionToKEqualSumSubsets();
+        int[] nums = {7, 2, 4, 5};
+        System.out.println("Result: " + part.canPartitionKSubsets(nums, 2));
+
     }
 }
