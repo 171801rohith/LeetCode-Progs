@@ -1878,9 +1878,17 @@ public class MainSolution {
         // System.out.println("Result: " + part.canPartitionKSubsets(nums, 2));
         
         // 377
-        MaxAlternatingSubseqSum s = new MaxAlternatingSubseqSum();
-        int[] nums = {7, 2, 4, 5};
-        System.out.println("Result: " + s.maxAlternatingSum(nums));
+        // MaxAlternatingSubseqSum s = new MaxAlternatingSubseqSum();
+        // int[] nums = {7, 2, 4, 5};
+        // System.out.println("Result: " + s.maxAlternatingSum(nums));
         
+        // 378
+        Trie obj = new Trie();
+        obj.insert("word");
+        boolean param_2 = obj.search("word");
+        boolean param_3 = obj.startsWith("w");
+        System.out.println("Result: " + param_2);
+        System.out.println("Result: " + param_3);
+            
     }
 }
