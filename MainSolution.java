@@ -1873,9 +1873,14 @@ public class MainSolution {
         // System.out.println("Result: " + maxGold.getMaximumGold(grid));
         
         // 376
-        PartitionToKEqualSumSubsets part = new PartitionToKEqualSumSubsets();
+        // PartitionToKEqualSumSubsets part = new PartitionToKEqualSumSubsets();
+        // int[] nums = {7, 2, 4, 5};
+        // System.out.println("Result: " + part.canPartitionKSubsets(nums, 2));
+        
+        // 377
+        MaxAlternatingSubseqSum s = new MaxAlternatingSubseqSum();
         int[] nums = {7, 2, 4, 5};
-        System.out.println("Result: " + part.canPartitionKSubsets(nums, 2));
-
+        System.out.println("Result: " + s.maxAlternatingSum(nums));
+        
     }
 }
