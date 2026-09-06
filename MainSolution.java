@@ -1883,12 +1883,19 @@ public class MainSolution {
         // System.out.println("Result: " + s.maxAlternatingSum(nums));
         
         // 378
-        Trie obj = new Trie();
-        obj.insert("word");
-        boolean param_2 = obj.search("word");
-        boolean param_3 = obj.startsWith("w");
-        System.out.println("Result: " + param_2);
-        System.out.println("Result: " + param_3);
+        // Trie obj = new Trie();
+        // obj.insert("word");
+        // boolean param_2 = obj.search("word");
+        // boolean param_3 = obj.startsWith("w");
+        // System.out.println("Result: " + param_2);
+        // System.out.println("Result: " + param_3);
+
+        // 379
+        WordSearchII s = new WordSearchII();
+        char[][] board = {{'a','b','c','e'},{'s','f','c','s'},{'a','d','e','e'}};
+        String[] words = {"dee", "bce", "rof", "fc"};
+        System.out.println("Result: " + s.findWords(board, words));
+
             
     }
 }
