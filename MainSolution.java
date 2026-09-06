@@ -1810,12 +1810,12 @@ public class MainSolution {
         // 364
         // NumComplement nc = new NumComplement();
         // System.out.println("Result: " + nc.findComplement(5));
-        
+
         // 365
         // Permutations p = new Permutations();
         // int[] nums = { 2, 3, 4, 5, 6 };
         // System.out.println("Result: " + p.permute(nums));
-        
+
         // 366
         // ConstructUniformParityArrII par = new ConstructUniformParityArrII();
         // int[] nums = { 2, 3, 4, 5, 6 };
@@ -1826,45 +1826,50 @@ public class MainSolution {
         // int[] nums = { 2, 3, 4, 5, 6 };
         // System.out.println("Result: " + s.firstStableIndex(nums, 3));
 
-        // 368    
+        // 368
         // MyLinkedList obj = new MyLinkedList();
         // int param_1 = obj.get(0);
         // obj.addAtHead(10);
         // obj.addAtTail(20);
         // obj.addAtIndex(2, 10);
         // obj.deleteAtIndex(1);
-        
+
         // 369
         // LRUCache obj = new LRUCache(4);
         // obj.put(2, 10);
         // int param_1 = obj.get(2);
         // System.out.println("Result: " + param_1);
-        
+
         // 370
-        // FlattenMultilevelDoublyLL f = new  FlattenMultilevelDoublyLL();
+        // FlattenMultilevelDoublyLL f = new FlattenMultilevelDoublyLL();
         // 430th leetcode problem
 
         // 371
         // TargetSum sum = new TargetSum();
         // int[] nums = {1, 2, 4, 5};
         // System.out.println("Result: " + sum.findTargetSumWays(nums, 10));
-        
+
         // 372
         // NoOfDiceRollsWithTargetSum no = new NoOfDiceRollsWithTargetSum();
         // System.out.println("Result: " + no.numRollsToTarget(10, 12, 50));
-        
+
         // 373
         // CombinationSumII sum = new CombinationSumII();
         // int[] nums = {1, 2, 4, 5};
         // System.out.println("Result: " + sum.combinationSum2(nums, 10));
-        
+
         // 374
         // CombinationSumIII sum = new CombinationSumIII();
         // System.out.println("Result: " + sum.combinationSum3(2, 11));
 
         // 375
-        CombinationSumIV sum = new CombinationSumIV();
-        int[] nums = {1, 2, 4, 5};
-        System.out.println("Result: " + sum.combinationSum4(nums, 10));
+        // CombinationSumIV sum = new CombinationSumIV();
+        // int[] nums = {1, 2, 4, 5};
+        // System.out.println("Result: " + sum.combinationSum4(nums, 10));
+
+        // 376
+        PathWithMaxGold maxGold = new PathWithMaxGold();
+        int[][] grid = { { 1, 0, 7 }, { 2, 0, 6 }, { 3, 4, 5 }, { 0, 3, 0 }, { 9, 0, 20 } };
+        System.out.println("Result: " + maxGold.getMaximumGold(grid));
     }
 }
