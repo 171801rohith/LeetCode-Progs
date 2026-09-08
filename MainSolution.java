@@ -1915,7 +1915,12 @@ public class MainSolution {
         // System.out.println("Result: " + min.minPathSum(grid));
 
         // 385
-        PalindromicSubstrings pal = new PalindromicSubstrings();
-        System.out.println("Result: " + pal.countSubstrings("aaaaad"));
+        // PalindromicSubstrings pal = new PalindromicSubstrings();
+        // System.out.println("Result: " + pal.countSubstrings("aaaaad"));
+
+        // 386
+        LongestIncreasingPathInMat l = new LongestIncreasingPathInMat();
+        int[][]  matrix = {{9,9,4},{6,6,8},{2,1,1}};
+        System.out.println("Result: " + l.longestIncreasingPath(matrix));
     }
 }
