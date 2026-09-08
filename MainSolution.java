@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class MainSolution {
     public static void main(String[] args) {
         // 1
@@ -1872,17 +1870,17 @@ public class MainSolution {
         // int[][] grid = { { 1, 0, 7 }, { 2, 0, 6 }, { 3, 4, 5 }, { 0, 3, 0 }, { 9, 0, 20 } };
         // System.out.println("Result: " + maxGold.getMaximumGold(grid));
         
-        // 376
+        // 377
         // PartitionToKEqualSumSubsets part = new PartitionToKEqualSumSubsets();
         // int[] nums = {7, 2, 4, 5};
         // System.out.println("Result: " + part.canPartitionKSubsets(nums, 2));
         
-        // 377
+        // 378
         // MaxAlternatingSubseqSum s = new MaxAlternatingSubseqSum();
         // int[] nums = {7, 2, 4, 5};
         // System.out.println("Result: " + s.maxAlternatingSum(nums));
         
-        // 378
+        // 379
         // Trie obj = new Trie();
         // obj.insert("word");
         // boolean param_2 = obj.search("word");
@@ -1890,12 +1888,18 @@ public class MainSolution {
         // System.out.println("Result: " + param_2);
         // System.out.println("Result: " + param_3);
 
-        // 379
-        WordSearchII s = new WordSearchII();
-        char[][] board = {{'a','b','c','e'},{'s','f','c','s'},{'a','d','e','e'}};
-        String[] words = {"dee", "bce", "rof", "fc"};
-        System.out.println("Result: " + s.findWords(board, words));
+        // 380
+        // WordSearchII s = new WordSearchII();
+        // char[][] board = {{'a','b','c','e'},{'s','f','c','s'},{'a','d','e','e'}};
+        // String[] words = {"dee", "bce", "rof", "fc"};
+        // System.out.println("Result: " + s.findWords(board, words));
 
-            
+        // 381
+        // TrappingRainWater trap = new TrappingRainWater();
+        // int[] height = {0, 2 ,1 , 0, 2};
+        // System.out.println("Result: " + trap.trap(height));
+
+        // 382
+        
     }
 }
