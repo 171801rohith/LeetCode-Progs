@@ -1864,22 +1864,23 @@ public class MainSolution {
         // CombinationSumIV sum = new CombinationSumIV();
         // int[] nums = {1, 2, 4, 5};
         // System.out.println("Result: " + sum.combinationSum4(nums, 10));
-        
+
         // 376
         // PathWithMaxGold maxGold = new PathWithMaxGold();
-        // int[][] grid = { { 1, 0, 7 }, { 2, 0, 6 }, { 3, 4, 5 }, { 0, 3, 0 }, { 9, 0, 20 } };
+        // int[][] grid = { { 1, 0, 7 }, { 2, 0, 6 }, { 3, 4, 5 }, { 0, 3, 0 }, { 9, 0,
+        // 20 } };
         // System.out.println("Result: " + maxGold.getMaximumGold(grid));
-        
+
         // 377
         // PartitionToKEqualSumSubsets part = new PartitionToKEqualSumSubsets();
         // int[] nums = {7, 2, 4, 5};
         // System.out.println("Result: " + part.canPartitionKSubsets(nums, 2));
-        
+
         // 378
         // MaxAlternatingSubseqSum s = new MaxAlternatingSubseqSum();
         // int[] nums = {7, 2, 4, 5};
         // System.out.println("Result: " + s.maxAlternatingSum(nums));
-        
+
         // 379
         // Trie obj = new Trie();
         // obj.insert("word");
@@ -1905,7 +1906,12 @@ public class MainSolution {
         // System.out.println("Result: " + paths.uniquePaths(m, n));
 
         // 383
-        WordBreak wb = new WordBreak();
+        // WordBreak wb = new WordBreak();
         // 139th leetcode problem
+
+        // 384
+        MinPathSum min = new MinPathSum();
+        int[][] grid = { { 1, 3, 1 }, { 1, 5, 1 }, { 4, 2, 1 } };
+        System.out.println("Result: " + min.minPathSum(grid));
     }
 }
