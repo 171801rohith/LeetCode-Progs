@@ -1900,6 +1900,8 @@ public class MainSolution {
         // System.out.println("Result: " + trap.trap(height));
 
         // 382
-        
+        UniquePaths paths = new UniquePaths();
+        int n = 7, m = 3;
+        System.out.println("Result: " + paths.uniquePaths(m, n));
     }
 }
