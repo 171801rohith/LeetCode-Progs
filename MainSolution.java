@@ -1910,8 +1910,12 @@ public class MainSolution {
         // 139th leetcode problem
 
         // 384
-        MinPathSum min = new MinPathSum();
-        int[][] grid = { { 1, 3, 1 }, { 1, 5, 1 }, { 4, 2, 1 } };
-        System.out.println("Result: " + min.minPathSum(grid));
+        // MinPathSum min = new MinPathSum();
+        // int[][] grid = { { 1, 3, 1 }, { 1, 5, 1 }, { 4, 2, 1 } };
+        // System.out.println("Result: " + min.minPathSum(grid));
+
+        // 385
+        PalindromicSubstrings pal = new PalindromicSubstrings();
+        System.out.println("Result: " + pal.countSubstrings("aaaaad"));
     }
 }
