@@ -1928,7 +1928,11 @@ public class MainSolution {
         // 113rd leetcode problem
 
         // 388
-        PathSumIII path = new PathSumIII();
+        // PathSumIII path = new PathSumIII();
         // 437th leetcode problem
+
+        // 389
+        SecondMinNodeInBT obj = new SecondMinNodeInBT();
+        // 671th leetcode problem
     }
 }
