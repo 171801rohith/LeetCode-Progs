@@ -1949,7 +1949,11 @@ public class MainSolution {
         // boolean param_2 = obj.search("word");
         
         // 393
-        CountCommasInRange c = new CountCommasInRange();
+        // CountCommasInRange c = new CountCommasInRange();
+        // System.out.println("Result: " + c.countCommas(1000000));
+
+        // 394
+        CountCommasInRangeII c = new CountCommasInRangeII();
         System.out.println("Result: " + c.countCommas(1000000));
         
     }
