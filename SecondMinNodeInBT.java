@@ -30,7 +30,7 @@ private long dfs(TreeNode root, int min) {
     }
 
     public int findSecondMinimumValueLazy(TreeNode root) {
-        PriorityQueue<Integer> minHeap = new PriorityQueue();  
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>();  
         Deque<TreeNode> q = new ArrayDeque<>();
         q.offer(root);
 
