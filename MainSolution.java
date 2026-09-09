@@ -1932,7 +1932,11 @@ public class MainSolution {
         // 437th leetcode problem
 
         // 389
-        SecondMinNodeInBT obj = new SecondMinNodeInBT();
+        // SecondMinNodeInBT obj = new SecondMinNodeInBT();
         // 671th leetcode problem
+
+        // 390
+        BinaryTreePaths obj = new BinaryTreePaths();
+        // 257th leetcode problem
     }
 }
