@@ -1944,10 +1944,13 @@ public class MainSolution {
         // 404th leetcode problem
 
         // 392
-        WordDictionary obj = new WordDictionary();
-        obj.addWord("word");
-        boolean param_2 = obj.search("word");
+        // WordDictionary obj = new WordDictionary();
+        // obj.addWord("word");
+        // boolean param_2 = obj.search("word");
         
+        // 393
+        CountCommasInRange c = new CountCommasInRange();
+        System.out.println("Result: " + c.countCommas(1000000));
         
     }
 }
