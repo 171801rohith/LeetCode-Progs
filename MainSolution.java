@@ -1919,8 +1919,12 @@ public class MainSolution {
         // System.out.println("Result: " + pal.countSubstrings("aaaaad"));
 
         // 386
-        LongestIncreasingPathInMat l = new LongestIncreasingPathInMat();
-        int[][]  matrix = {{9,9,4},{6,6,8},{2,1,1}};
-        System.out.println("Result: " + l.longestIncreasingPath(matrix));
+        // LongestIncreasingPathInMat l = new LongestIncreasingPathInMat();
+        // int[][]  matrix = {{9,9,4},{6,6,8},{2,1,1}};
+        // System.out.println("Result: " + l.longestIncreasingPath(matrix));
+
+        // 387
+        PathSumII path = new PathSumII();
+        // 113rd leetcode problem
     }
 }
