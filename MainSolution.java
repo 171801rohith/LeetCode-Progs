@@ -1940,8 +1940,14 @@ public class MainSolution {
         // 257th leetcode problem
         
         // 391
-        SumOfLeftLeaves obj = new SumOfLeftLeaves();
+        // SumOfLeftLeaves obj = new SumOfLeftLeaves();
         // 404th leetcode problem
+
+        // 392
+        WordDictionary obj = new WordDictionary();
+        obj.addWord("word");
+        boolean param_2 = obj.search("word");
+        
         
     }
 }
