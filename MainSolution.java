@@ -1956,8 +1956,12 @@ public class MainSolution {
         // CountCommasInRangeII c = new CountCommasInRangeII();
         // System.out.println("Result: " + c.countCommas(1000000));
         
-        // 391
-        CountNodesEqualToAvgOfSubtree obj = new CountNodesEqualToAvgOfSubtree();
+        // 395
+        // CountNodesEqualToAvgOfSubtree obj = new CountNodesEqualToAvgOfSubtree();
         // 2265th leetcode problem
+
+        // 396
+        AllPathsFromSrcToTarget obj = new AllPathsFromSrcToTarget();
+        // 797th leetcode problem
     }
 }
