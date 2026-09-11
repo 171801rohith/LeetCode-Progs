@@ -1979,8 +1979,13 @@ public class MainSolution {
         // int[] nums = {2, 1, 1, 3, 4};
         
         // 400
-        ContinuousSubarrSum s = new ContinuousSubarrSum();
+        // ContinuousSubarrSum s = new ContinuousSubarrSum();
+        // int[] nums = {2, 1, 1, 3, 4};
+        // System.out.println("Result: " + s.checkSubarraySum(nums, 2));
+        
+        // 401
+        MinSizeSubarrSize min = new MinSizeSubarrSize();
         int[] nums = {2, 1, 1, 3, 4};
-        System.out.println("Result: " + s.checkSubarraySum(nums, 2));
+        System.out.println("Result: " + min.minSubArrayLen(2, nums));
     }
 }
