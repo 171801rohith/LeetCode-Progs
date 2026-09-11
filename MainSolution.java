@@ -1970,8 +1970,14 @@ public class MainSolution {
         // System.out.println("Result: " + uni.uniquePathsWithObstacles(obstacleGrid));
 
         // 398
-        JumpGame jg = new JumpGame();
+        // JumpGame jg = new JumpGame();
+        // int[] nums = {2, 1, 1, 3, 4};
+        // System.out.println("Result: " + jg.canJump(nums));
+        
+        // 399
+        HouseRobberII rob = new HouseRobberII();
         int[] nums = {2, 1, 1, 3, 4};
-        System.out.println("Result: " + jg.canJump(nums));
+        System.out.println("Result: " + rob.rob(nums));
+
     }
 }
