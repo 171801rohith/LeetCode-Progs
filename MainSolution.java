@@ -1965,8 +1965,13 @@ public class MainSolution {
         // 797th leetcode problem
 
         // 397
-        UniquePathsII uni = new UniquePathsII();
-        int[][] obstacleGrid = { { 0, 1 }, { 0, 0 } };
-        System.out.println("Result: " + uni.uniquePathsWithObstacles(obstacleGrid));
+        // UniquePathsII uni = new UniquePathsII();
+        // int[][] obstacleGrid = { { 0, 1 }, { 0, 0 } };
+        // System.out.println("Result: " + uni.uniquePathsWithObstacles(obstacleGrid));
+
+        // 398
+        JumpGame jg = new JumpGame();
+        int[] nums = {2, 1, 1, 3, 4};
+        System.out.println("Result: " + jg.canJump(nums));
     }
 }
