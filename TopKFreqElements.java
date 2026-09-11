@@ -18,9 +18,11 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.PriorityQueue;
 
 public class TopKFreqElements {
-    public int[] topKFrequent(int[] nums, int k) {
+    public int[] topKFrequentLazy(int[] nums, int k) {
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int num: nums) map.put(num, map.getOrDefault(num, 0) + 1);
         
@@ -33,5 +35,25 @@ public class TopKFreqElements {
         for (int i = 0; i < k; i++) arr[i] = list.get(i);
 
         return arr;
+    }
+
+    public int[] topKFrequent(int[] nums, int k) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int num: nums) map.put(num, map.getOrDefault(num, 0) + 1);
+        
+        PriorityQueue<int[]> minHeap = new PriorityQueue<>(
+            (a, b) -> Integer.compare(a[1], b[1])
+        );
+
+        for(Map.Entry<Integer, Integer> entry: map.entrySet()) {
+            minHeap.offer(new int[]{entry.getKey(), entry.getValue()});
+            if (minHeap.size() > k) minHeap.poll();
+        }
+
+        int[] list = new int[minHeap.size()];
+        int i = 0;
+        while (!minHeap.isEmpty()) list[i++] = minHeap.poll()[0]; 
+
+        return list;
     }
 }

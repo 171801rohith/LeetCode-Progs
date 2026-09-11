@@ -1920,7 +1920,7 @@ public class MainSolution {
 
         // 386
         // LongestIncreasingPathInMat l = new LongestIncreasingPathInMat();
-        // int[][]  matrix = {{9,9,4},{6,6,8},{2,1,1}};
+        // int[][] matrix = {{9,9,4},{6,6,8},{2,1,1}};
         // System.out.println("Result: " + l.longestIncreasingPath(matrix));
 
         // 387
@@ -1938,7 +1938,7 @@ public class MainSolution {
         // 390
         // BinaryTreePaths obj = new BinaryTreePaths();
         // 257th leetcode problem
-        
+
         // 391
         // SumOfLeftLeaves obj = new SumOfLeftLeaves();
         // 404th leetcode problem
@@ -1947,7 +1947,7 @@ public class MainSolution {
         // WordDictionary obj = new WordDictionary();
         // obj.addWord("word");
         // boolean param_2 = obj.search("word");
-        
+
         // 393
         // CountCommasInRange c = new CountCommasInRange();
         // System.out.println("Result: " + c.countCommas(1000000));
@@ -1955,13 +1955,18 @@ public class MainSolution {
         // 394
         // CountCommasInRangeII c = new CountCommasInRangeII();
         // System.out.println("Result: " + c.countCommas(1000000));
-        
+
         // 395
         // CountNodesEqualToAvgOfSubtree obj = new CountNodesEqualToAvgOfSubtree();
         // 2265th leetcode problem
 
         // 396
-        AllPathsFromSrcToTarget obj = new AllPathsFromSrcToTarget();
+        // AllPathsFromSrcToTarget obj = new AllPathsFromSrcToTarget();
         // 797th leetcode problem
+
+        // 397
+        UniquePathsII uni = new UniquePathsII();
+        int[][] obstacleGrid = { { 0, 1 }, { 0, 0 } };
+        System.out.println("Result: " + uni.uniquePathsWithObstacles(obstacleGrid));
     }
 }
