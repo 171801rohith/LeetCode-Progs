@@ -1975,9 +1975,12 @@ public class MainSolution {
         // System.out.println("Result: " + jg.canJump(nums));
         
         // 399
-        HouseRobberII rob = new HouseRobberII();
+        // HouseRobberII rob = new HouseRobberII();
+        // int[] nums = {2, 1, 1, 3, 4};
+        
+        // 400
+        ContinuousSubarrSum s = new ContinuousSubarrSum();
         int[] nums = {2, 1, 1, 3, 4};
-        System.out.println("Result: " + rob.rob(nums));
-
+        System.out.println("Result: " + s.checkSubarraySum(nums, 2));
     }
 }
