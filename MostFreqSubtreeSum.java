@@ -31,6 +31,23 @@ public class MostFreqSubtreeSum {
     public int[] findFrequentTreeSum(TreeNode root) {
         Map<Integer, Integer> sumFreq = new HashMap<>();
         dfs(root, sumFreq);
+
+        int maxFreq = Integer.MIN_VALUE;
+
+        for (int i: sumFreq.values()) maxFreq = Math.max(maxFreq, i); 
+
+        int[] ans = new int[sumFreq.size()];
+        int k = 0;
+
+        for(Map.Entry<Integer, Integer> entry: sumFreq.entrySet()) 
+            if (maxFreq == entry.getValue()) ans[k++] = entry.getKey();
+
+        return Arrays.copyOf(ans, k);
+    }
+
+    public int[] findFrequentTreeSumLazy(TreeNode root) {
+        Map<Integer, Integer> sumFreq = new HashMap<>();
+        dfs(root, sumFreq);
         PriorityQueue<int[]> pq = new PriorityQueue<>(
             (a, b) -> Integer.compare(b[1], a[1])
         );
@@ -46,5 +63,5 @@ public class MostFreqSubtreeSum {
         while (!pq.isEmpty() && pq.peek()[1] == most[1]) ans[k++] = pq.poll()[0];
 
         return Arrays.copyOf(ans, k);
-    }    
+    }  
 }
