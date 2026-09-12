@@ -1989,7 +1989,12 @@ public class MainSolution {
         // System.out.println("Result: " + min.minSubArrayLen(2, nums));
 
         // 402
-        MostFreqSubtreeSum obj = new MostFreqSubtreeSum();
+        // MostFreqSubtreeSum obj = new MostFreqSubtreeSum();
         // 508th leetcode problem
+        
+        // 403
+        FirstNumWithUniqueFreq f = new FirstNumWithUniqueFreq();
+        int[] nums = {10, 10, 20, 20, 39};
+        System.out.println("Result: " + f.firstUniqueFreq(nums));
     }
 }
