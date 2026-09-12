@@ -1984,8 +1984,12 @@ public class MainSolution {
         // System.out.println("Result: " + s.checkSubarraySum(nums, 2));
         
         // 401
-        MinSizeSubarrSize min = new MinSizeSubarrSize();
-        int[] nums = {2, 1, 1, 3, 4};
-        System.out.println("Result: " + min.minSubArrayLen(2, nums));
+        // MinSizeSubarrSize min = new MinSizeSubarrSize();
+        // int[] nums = {2, 1, 1, 3, 4};
+        // System.out.println("Result: " + min.minSubArrayLen(2, nums));
+
+        // 402
+        MostFreqSubtreeSum obj = new MostFreqSubtreeSum();
+        // 508th leetcode problem
     }
 }
