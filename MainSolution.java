@@ -1998,8 +1998,13 @@ public class MainSolution {
         // System.out.println("Result: " + f.firstUniqueFreq(nums));
 
         // 404
-        ImageOverlap im = new ImageOverlap();
-        int[][] img1 = {{0}}, img2 = {{0}};
-        System.out.println("Result: " + im.largestOverlap(img1, img2));
+        // ImageOverlap im = new ImageOverlap();
+        // int[][] img1 = {{0}}, img2 = {{0}};
+        // System.out.println("Result: " + im.largestOverlap(img1, img2));
+
+        // 405
+        GasStation g = new GasStation();
+        int[] gas = {1,2,3,4,5}, cost = {3,4,5,1,2};
+        System.out.println("Result: " + g.canCompleteCircuit(gas, cost));
     }
 }
