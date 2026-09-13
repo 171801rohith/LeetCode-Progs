@@ -1993,8 +1993,13 @@ public class MainSolution {
         // 508th leetcode problem
         
         // 403
-        FirstNumWithUniqueFreq f = new FirstNumWithUniqueFreq();
-        int[] nums = {10, 10, 20, 20, 39};
-        System.out.println("Result: " + f.firstUniqueFreq(nums));
+        // FirstNumWithUniqueFreq f = new FirstNumWithUniqueFreq();
+        // int[] nums = {10, 10, 20, 20, 39};
+        // System.out.println("Result: " + f.firstUniqueFreq(nums));
+
+        // 404
+        ImageOverlap im = new ImageOverlap();
+        int[][] img1 = {{0}}, img2 = {{0}};
+        System.out.println("Result: " + im.largestOverlap(img1, img2));
     }
 }
