@@ -2012,8 +2012,14 @@ public class MainSolution {
         // 690th leetcode problem
 
         // 407
-        RectangleOverlap rec = new RectangleOverlap();
-        int[] rec1 = {0,0,2,2}, rec2 = {1,1,3,3};
-        System.out.println("Result: " + rec.isRectangleOverlap(rec1, rec2));
+        // RectangleOverlap rec = new RectangleOverlap();
+        // int[] rec1 = {0,0,2,2}, rec2 = {1,1,3,3};
+        // System.out.println("Result: " + rec.isRectangleOverlap(rec1, rec2));
+
+        // 408
+        RemoveDupicatesFromSortedArrII rm = new RemoveDupicatesFromSortedArrII();
+        int[] nums = {1, 1, 1, 2, 2, 3};
+        System.out.println("Result: " + rm.removeDuplicates(nums));
+
     }
 }
