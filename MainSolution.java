@@ -2003,8 +2003,12 @@ public class MainSolution {
         // System.out.println("Result: " + im.largestOverlap(img1, img2));
 
         // 405
-        GasStation g = new GasStation();
-        int[] gas = {1,2,3,4,5}, cost = {3,4,5,1,2};
-        System.out.println("Result: " + g.canCompleteCircuit(gas, cost));
+        // GasStation g = new GasStation();
+        // int[] gas = {1,2,3,4,5}, cost = {3,4,5,1,2};
+        // System.out.println("Result: " + g.canCompleteCircuit(gas, cost));
+
+        // 406
+        EmployeeImportance imp = new EmployeeImportance();
+        // 690th leetcode problem
     }
 }
