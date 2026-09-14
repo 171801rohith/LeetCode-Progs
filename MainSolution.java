@@ -2008,7 +2008,12 @@ public class MainSolution {
         // System.out.println("Result: " + g.canCompleteCircuit(gas, cost));
 
         // 406
-        EmployeeImportance imp = new EmployeeImportance();
+        // EmployeeImportance imp = new EmployeeImportance();
         // 690th leetcode problem
+
+        // 407
+        RectangleOverlap rec = new RectangleOverlap();
+        int[] rec1 = {0,0,2,2}, rec2 = {1,1,3,3};
+        System.out.println("Result: " + rec.isRectangleOverlap(rec1, rec2));
     }
 }
