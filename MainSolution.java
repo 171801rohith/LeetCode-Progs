@@ -2017,9 +2017,13 @@ public class MainSolution {
         // System.out.println("Result: " + rec.isRectangleOverlap(rec1, rec2));
 
         // 408
-        RemoveDupicatesFromSortedArrII rm = new RemoveDupicatesFromSortedArrII();
-        int[] nums = {1, 1, 1, 2, 2, 3};
-        System.out.println("Result: " + rm.removeDuplicates(nums));
+        // RemoveDupicatesFromSortedArrII rm = new RemoveDupicatesFromSortedArrII();
+        // int[] nums = {1, 1, 1, 2, 2, 3};
+        // System.out.println("Result: " + rm.removeDuplicates(nums));
+
+        // 409
+        DecodeWays ways = new DecodeWays();
+        System.out.println("Result: " + ways.numDecodings("1106"));
 
     }
 }
