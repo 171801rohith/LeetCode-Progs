@@ -2022,8 +2022,12 @@ public class MainSolution {
         // System.out.println("Result: " + rm.removeDuplicates(nums));
 
         // 409
-        DecodeWays ways = new DecodeWays();
-        System.out.println("Result: " + ways.numDecodings("1106"));
+        // DecodeWays ways = new DecodeWays();
+        // System.out.println("Result: " + ways.numDecodings("1106"));
+
+        // 410
+        PopulateNextRightPointerInEachNode pop = new PopulateNextRightPointerInEachNode();
+        // 116th leetcode problemc
 
     }
 }
