@@ -2038,8 +2038,12 @@ public class MainSolution {
         // 129th leetcode problem
 
         // 413
-        BinaryTreeRightSideView obj = new BinaryTreeRightSideView();
+        // BinaryTreeRightSideView obj = new BinaryTreeRightSideView();
         // 199th leetcode problem
+
+        // 414
+        InvertBinaryTree obj = new InvertBinaryTree();
+        // 226th leetcode problem
 
     }
 }
