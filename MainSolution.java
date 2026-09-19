@@ -2055,8 +2055,11 @@ public class MainSolution {
         // System.out.println("Result: " + lo.longestWord(words));
 
         // 417
-        NumOfSetBits no = new NumOfSetBits();
-        System.out.println("Result: " + no.hammingWeight(17));
+        // NumOfSetBits no = new NumOfSetBits();
+        // System.out.println("Result: " + no.hammingWeight(17));
 
+        // 418
+        FindAllAnagramsInStr find = new FindAllAnagramsInStr();
+        System.out.println("Result: " + find.findAnagrams("abdcba", "abc"));
     }
 }
