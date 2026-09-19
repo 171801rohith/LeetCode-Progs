@@ -2059,7 +2059,11 @@ public class MainSolution {
         // System.out.println("Result: " + no.hammingWeight(17));
 
         // 418
-        FindAllAnagramsInStr find = new FindAllAnagramsInStr();
-        System.out.println("Result: " + find.findAnagrams("abdcba", "abc"));
+        // FindAllAnagramsInStr find = new FindAllAnagramsInStr();
+        // System.out.println("Result: " + find.findAnagrams("abdcba", "abc"));
+
+        // 419
+        DetectCapital dc = new DetectCapital();
+        System.out.println("Result: " + dc.detectCapitalUse("null"));
     }
 }
