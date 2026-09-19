@@ -2050,9 +2050,13 @@ public class MainSolution {
         // 513th leetcode problem
 
         // 416
-        LongestWordInDictionary lo = new LongestWordInDictionary();
-        String[] words = {"w","wo","wor","worl","world"};
-        System.out.println("Result: " + lo.longestWord(words));
+        // LongestWordInDictionary lo = new LongestWordInDictionary();
+        // String[] words = {"w","wo","wor","worl","world"};
+        // System.out.println("Result: " + lo.longestWord(words));
+
+        // 417
+        NumOfSetBits no = new NumOfSetBits();
+        System.out.println("Result: " + no.hammingWeight(17));
 
     }
 }
