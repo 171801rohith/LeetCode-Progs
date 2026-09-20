@@ -1973,16 +1973,16 @@ public class MainSolution {
         // JumpGame jg = new JumpGame();
         // int[] nums = {2, 1, 1, 3, 4};
         // System.out.println("Result: " + jg.canJump(nums));
-        
+
         // 399
         // HouseRobberII rob = new HouseRobberII();
         // int[] nums = {2, 1, 1, 3, 4};
-        
+
         // 400
         // ContinuousSubarrSum s = new ContinuousSubarrSum();
         // int[] nums = {2, 1, 1, 3, 4};
         // System.out.println("Result: " + s.checkSubarraySum(nums, 2));
-        
+
         // 401
         // MinSizeSubarrSize min = new MinSizeSubarrSize();
         // int[] nums = {2, 1, 1, 3, 4};
@@ -1991,7 +1991,7 @@ public class MainSolution {
         // 402
         // MostFreqSubtreeSum obj = new MostFreqSubtreeSum();
         // 508th leetcode problem
-        
+
         // 403
         // FirstNumWithUniqueFreq f = new FirstNumWithUniqueFreq();
         // int[] nums = {10, 10, 20, 20, 39};
@@ -2026,11 +2026,13 @@ public class MainSolution {
         // System.out.println("Result: " + ways.numDecodings("1106"));
 
         // 410
-        // PopulateNextRightPointerInEachNode pop = new PopulateNextRightPointerInEachNode();
+        // PopulateNextRightPointerInEachNode pop = new
+        // PopulateNextRightPointerInEachNode();
         // 116th leetcode problemc
 
         // 411
-        // PopulateNextRightPointerInEachNodeII pop = new PopulateNextRightPointerInEachNodeII();
+        // PopulateNextRightPointerInEachNodeII pop = new
+        // PopulateNextRightPointerInEachNodeII();
         // 117th leetcode problem
 
         // 412
@@ -2067,7 +2069,8 @@ public class MainSolution {
         // System.out.println("Result: " + dc.detectCapitalUse("null"));
 
         // 420
-        // LongestSubstringWithAtleastKRepeatingChars l = new LongestSubstringWithAtleastKRepeatingChars();
+        // LongestSubstringWithAtleastKRepeatingChars l = new
+        // LongestSubstringWithAtleastKRepeatingChars();
         // System.out.println("Result: " + l.longestSubstring("null", 1));
 
         // 421
@@ -2076,8 +2079,13 @@ public class MainSolution {
         // System.out.println("Result: " + min.repairCars(arr, 10));
 
         // 422
-        MinTimeToCompleteTrips min = new MinTimeToCompleteTrips();
-        int[] arr = {4, 2, 3, 1};
-        System.out.println("Result: " + min.minimumTime(arr, 10));
+        // MinTimeToCompleteTrips min = new MinTimeToCompleteTrips();
+        // int[] arr = {4, 2, 3, 1};
+        // System.out.println("Result: " + min.minimumTime(arr, 10));
+
+        // 423
+        FindEventualSafeState safe = new FindEventualSafeState();
+        int[][] graph = { { 1, 2 }, { 2, 3 }, { 5 }, { 0 }, { 5 }, {}, {} };
+        System.out.println("Result: " + safe.eventualSafeNodes(graph));
     }
 }
