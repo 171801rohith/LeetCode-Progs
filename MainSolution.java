@@ -2063,7 +2063,11 @@ public class MainSolution {
         // System.out.println("Result: " + find.findAnagrams("abdcba", "abc"));
 
         // 419
-        DetectCapital dc = new DetectCapital();
-        System.out.println("Result: " + dc.detectCapitalUse("null"));
+        // DetectCapital dc = new DetectCapital();
+        // System.out.println("Result: " + dc.detectCapitalUse("null"));
+
+        // 420
+        LongestSubstringWithAtleastKRepeatingChars l = new LongestSubstringWithAtleastKRepeatingChars();
+        System.out.println("Result: " + l.longestSubstring("null", 1));
     }
 }
