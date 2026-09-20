@@ -2084,8 +2084,12 @@ public class MainSolution {
         // System.out.println("Result: " + min.minimumTime(arr, 10));
 
         // 423
-        FindEventualSafeState safe = new FindEventualSafeState();
-        int[][] graph = { { 1, 2 }, { 2, 3 }, { 5 }, { 0 }, { 5 }, {}, {} };
-        System.out.println("Result: " + safe.eventualSafeNodes(graph));
+        // FindEventualSafeState safe = new FindEventualSafeState();
+        // int[][] graph = { { 1, 2 }, { 2, 3 }, { 5 }, { 0 }, { 5 }, {}, {} };
+        // System.out.println("Result: " + safe.eventualSafeNodes(graph));
+        
+        // 424
+        ExclusiveTimeOfFuntions exl = new ExclusiveTimeOfFuntions();
+        // 636th leetcode problem
     }
 }
