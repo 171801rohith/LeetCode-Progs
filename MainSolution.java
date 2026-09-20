@@ -2071,8 +2071,13 @@ public class MainSolution {
         // System.out.println("Result: " + l.longestSubstring("null", 1));
 
         // 421
-        MinTimeToRepairCars min = new MinTimeToRepairCars();
+        // MinTimeToRepairCars min = new MinTimeToRepairCars();
+        // int[] arr = {4, 2, 3, 1};
+        // System.out.println("Result: " + min.repairCars(arr, 10));
+
+        // 422
+        MinTimeToCompleteTrips min = new MinTimeToCompleteTrips();
         int[] arr = {4, 2, 3, 1};
-        System.out.println("Result: " + min.repairCars(arr, 10));
+        System.out.println("Result: " + min.minimumTime(arr, 10));
     }
 }
