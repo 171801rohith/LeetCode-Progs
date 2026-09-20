@@ -2067,7 +2067,12 @@ public class MainSolution {
         // System.out.println("Result: " + dc.detectCapitalUse("null"));
 
         // 420
-        LongestSubstringWithAtleastKRepeatingChars l = new LongestSubstringWithAtleastKRepeatingChars();
-        System.out.println("Result: " + l.longestSubstring("null", 1));
+        // LongestSubstringWithAtleastKRepeatingChars l = new LongestSubstringWithAtleastKRepeatingChars();
+        // System.out.println("Result: " + l.longestSubstring("null", 1));
+
+        // 421
+        MinTimeToRepairCars min = new MinTimeToRepairCars();
+        int[] arr = {4, 2, 3, 1};
+        System.out.println("Result: " + min.repairCars(arr, 10));
     }
 }
