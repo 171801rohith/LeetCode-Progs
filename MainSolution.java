@@ -2100,8 +2100,13 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.toString(fina.finalPrices(arr)));
 
         // 426
-        LargestRectangleInHistogram l = new LargestRectangleInHistogram();
-        int[] heights = {2,1,5,6,2,3};
-        System.out.println("Result: " + l.largestRectangleArea(heights));
+        // LargestRectangleInHistogram l = new LargestRectangleInHistogram();
+        // int[] heights = {2,1,5,6,2,3};
+        // System.out.println("Result: " + l.largestRectangleArea(heights));
+
+        // 427
+        NoOfStudsNotAbleToEatLunch num = new NoOfStudsNotAbleToEatLunch();
+        int[] s = {1, 0, 0, 1}, sand = {1, 0, 1, 0};
+        System.out.println("Result: " + num.countStudents(s, sand));
     }
 }
