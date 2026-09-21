@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MainSolution {
     public static void main(String[] args) {
         // 1
@@ -2089,7 +2091,12 @@ public class MainSolution {
         // System.out.println("Result: " + safe.eventualSafeNodes(graph));
         
         // 424
-        ExclusiveTimeOfFuntions exl = new ExclusiveTimeOfFuntions();
+        // ExclusiveTimeOfFuntions exl = new ExclusiveTimeOfFuntions();
         // 636th leetcode problem
+
+        // 425
+        FinalPricesWithSpecialDiscountsShop fina = new FinalPricesWithSpecialDiscountsShop();
+        int[] arr = {1, 2, 4, 3};
+        System.out.println("Result: " + Arrays.toString(fina.finalPrices(arr)));
     }
 }
