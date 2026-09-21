@@ -2095,8 +2095,13 @@ public class MainSolution {
         // 636th leetcode problem
 
         // 425
-        FinalPricesWithSpecialDiscountsShop fina = new FinalPricesWithSpecialDiscountsShop();
-        int[] arr = {1, 2, 4, 3};
-        System.out.println("Result: " + Arrays.toString(fina.finalPrices(arr)));
+        // FinalPricesWithSpecialDiscountsShop fina = new FinalPricesWithSpecialDiscountsShop();
+        // int[] arr = {1, 2, 4, 3};
+        // System.out.println("Result: " + Arrays.toString(fina.finalPrices(arr)));
+
+        // 426
+        LargestRectangleInHistogram l = new LargestRectangleInHistogram();
+        int[] heights = {2,1,5,6,2,3};
+        System.out.println("Result: " + l.largestRectangleArea(heights));
     }
 }
