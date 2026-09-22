@@ -2125,7 +2125,12 @@ public class MainSolution {
         // System.out.println("Result: " + find.findMin(nums));
 
         // 431
-        HIndexII h = new HIndexII();
+        // HIndexII h = new HIndexII();
+        // int[] arr = {1, 2, 4, 5};
+        // System.out.println("Result: " + h.hIndex(arr));
+
+        // 431
+        HIndex h = new HIndex();
         int[] arr = {1, 2, 4, 5};
         System.out.println("Result: " + h.hIndex(arr));
     }
