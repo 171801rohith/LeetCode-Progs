@@ -2110,8 +2110,13 @@ public class MainSolution {
         // System.out.println("Result: " + num.countStudents(s, sand));
 
         // 428
-        TimeNeededToBuyTickets time = new TimeNeededToBuyTickets();
-        int[] arr = {2, 3, 2};
-        System.out.println("Result: " + time.timeRequiredToBuy(arr, 0));
+        // TimeNeededToBuyTickets time = new TimeNeededToBuyTickets();
+        // int[] arr = {2, 3, 2};
+        // System.out.println("Result: " + time.timeRequiredToBuy(arr, 0));
+
+        // 429
+        FindKPairsWithSmallestNums find = new FindKPairsWithSmallestNums();
+        int[] nums1 = {1, 1, 2}, nums2 = {1, 2, 3, 4};
+        System.out.println("Result: " + find.kSmallestPairs(nums1, nums2, 2));
     }
 }
