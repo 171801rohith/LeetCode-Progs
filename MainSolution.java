@@ -2115,8 +2115,13 @@ public class MainSolution {
         // System.out.println("Result: " + time.timeRequiredToBuy(arr, 0));
 
         // 429
-        FindKPairsWithSmallestNums find = new FindKPairsWithSmallestNums();
-        int[] nums1 = {1, 1, 2}, nums2 = {1, 2, 3, 4};
-        System.out.println("Result: " + find.kSmallestPairs(nums1, nums2, 2));
+        // FindKPairsWithSmallestNums find = new FindKPairsWithSmallestNums();
+        // int[] nums1 = {1, 1, 2}, nums2 = {1, 2, 3, 4};
+        // System.out.println("Result: " + find.kSmallestPairs(nums1, nums2, 2));
+
+        // 430
+        FindMinRotatedSortedArrII find = new FindMinRotatedSortedArrII();
+        int[] nums = {2, 2, 0, 1};
+        System.out.println("Result: " + find.findMin(nums));
     }
 }
