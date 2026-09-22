@@ -2120,8 +2120,13 @@ public class MainSolution {
         // System.out.println("Result: " + find.kSmallestPairs(nums1, nums2, 2));
 
         // 430
-        FindMinRotatedSortedArrII find = new FindMinRotatedSortedArrII();
-        int[] nums = {2, 2, 0, 1};
-        System.out.println("Result: " + find.findMin(nums));
+        // FindMinRotatedSortedArrII find = new FindMinRotatedSortedArrII();
+        // int[] nums = {2, 2, 0, 1};
+        // System.out.println("Result: " + find.findMin(nums));
+
+        // 431
+        HIndexII h = new HIndexII();
+        int[] arr = {1, 2, 4, 5};
+        System.out.println("Result: " + h.hIndex(arr));
     }
 }
