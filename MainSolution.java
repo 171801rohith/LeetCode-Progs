@@ -2105,8 +2105,13 @@ public class MainSolution {
         // System.out.println("Result: " + l.largestRectangleArea(heights));
 
         // 427
-        NoOfStudsNotAbleToEatLunch num = new NoOfStudsNotAbleToEatLunch();
-        int[] s = {1, 0, 0, 1}, sand = {1, 0, 1, 0};
-        System.out.println("Result: " + num.countStudents(s, sand));
+        // NoOfStudsNotAbleToEatLunch num = new NoOfStudsNotAbleToEatLunch();
+        // int[] s = {1, 0, 0, 1}, sand = {1, 0, 1, 0};
+        // System.out.println("Result: " + num.countStudents(s, sand));
+
+        // 428
+        TimeNeededToBuyTickets time = new TimeNeededToBuyTickets();
+        int[] arr = {2, 3, 2};
+        System.out.println("Result: " + time.timeRequiredToBuy(arr, 0));
     }
 }
