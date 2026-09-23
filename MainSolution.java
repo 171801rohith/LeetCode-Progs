@@ -2089,13 +2089,14 @@ public class MainSolution {
         // FindEventualSafeState safe = new FindEventualSafeState();
         // int[][] graph = { { 1, 2 }, { 2, 3 }, { 5 }, { 0 }, { 5 }, {}, {} };
         // System.out.println("Result: " + safe.eventualSafeNodes(graph));
-        
+
         // 424
         // ExclusiveTimeOfFuntions exl = new ExclusiveTimeOfFuntions();
         // 636th leetcode problem
 
         // 425
-        // FinalPricesWithSpecialDiscountsShop fina = new FinalPricesWithSpecialDiscountsShop();
+        // FinalPricesWithSpecialDiscountsShop fina = new
+        // FinalPricesWithSpecialDiscountsShop();
         // int[] arr = {1, 2, 4, 3};
         // System.out.println("Result: " + Arrays.toString(fina.finalPrices(arr)));
 
@@ -2133,7 +2134,7 @@ public class MainSolution {
         // HIndex h = new HIndex();
         // int[] arr = {1, 2, 4, 5};
         // System.out.println("Result: " + h.hIndex(arr));
-        
+
         // 432
         // KDiffPairsInArr k = new KDiffPairsInArr();
         // int[] arr = {1, 2, 4, 5};
@@ -2141,12 +2142,19 @@ public class MainSolution {
 
         // 433
         // MostProfitAssigningWork most = new MostProfitAssigningWork();
-        // int[] difficulty = {2,4,6,8,10}, profit = {10,20,30,40,50}, worker = {4,5,6,7};
-        // System.out.println("Result: " + most.maxProfitAssignment(difficulty, profit, worker));
+        // int[] difficulty = {2,4,6,8,10}, profit = {10,20,30,40,50}, worker =
+        // {4,5,6,7};
+        // System.out.println("Result: " + most.maxProfitAssignment(difficulty, profit,
+        // worker));
 
         // 434
-        KthLargestSumInBinaryTree obj = new KthLargestSumInBinaryTree();
+        // KthLargestSumInBinaryTree obj = new KthLargestSumInBinaryTree();
         // 2583th leetcode problem
+
+        // 435
+        MaxNumOfFishInGrid max = new MaxNumOfFishInGrid();
+        int[][] grid = { { 0, 2, 1, 0 }, { 4, 0, 0, 3 }, { 1, 0, 0, 4 }, { 0, 3, 2, 0 } };
+        System.out.println("Result: " + max.findMaxFish(grid));
 
     }
 }
