@@ -2130,8 +2130,14 @@ public class MainSolution {
         // System.out.println("Result: " + h.hIndex(arr));
 
         // 431
-        HIndex h = new HIndex();
+        // HIndex h = new HIndex();
+        // int[] arr = {1, 2, 4, 5};
+        // System.out.println("Result: " + h.hIndex(arr));
+        
+        // 432
+        KDiffPairsInArr k = new KDiffPairsInArr();
         int[] arr = {1, 2, 4, 5};
-        System.out.println("Result: " + h.hIndex(arr));
+        System.out.println("Result: " + k.findPairs(arr, 2));
+
     }
 }
