@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class MainSolution {
     public static void main(String[] args) {
         // 1
@@ -2152,9 +2150,13 @@ public class MainSolution {
         // 2583th leetcode problem
 
         // 435
-        MaxNumOfFishInGrid max = new MaxNumOfFishInGrid();
-        int[][] grid = { { 0, 2, 1, 0 }, { 4, 0, 0, 3 }, { 1, 0, 0, 4 }, { 0, 3, 2, 0 } };
-        System.out.println("Result: " + max.findMaxFish(grid));
+        // int[][] grid = { { 0, 2, 1, 0 }, { 4, 0, 0, 3 }, { 1, 0, 0, 4 }, { 0, 3, 2, 0 } };
+        // MaxNumOfFishInGrid max = new MaxNumOfFishInGrid();
+        // System.out.println("Result: " + max.findMaxFish(grid));
 
+        // 436
+        SmallestIdxWithDigitSumEqIdx small  = new SmallestIdxWithDigitSumEqIdx();
+        int[] nums = {1,2 ,3};
+        System.out.println("Result: " + small.smallestIndex(nums));
     }
 }
