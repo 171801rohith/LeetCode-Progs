@@ -2165,7 +2165,12 @@ public class MainSolution {
         // System.out.println("Result: " + mul.multiply("123", "456"));
 
         // 438
-        InterleavingStrs in = new InterleavingStrs();
-        System.out.println("Result: " + in.isInterleave("ab", "bd", "abbd"));
+        // InterleavingStrs in = new InterleavingStrs();
+        // System.out.println("Result: " + in.isInterleave("ab", "bd", "abbd"));
+
+        // 439
+        HandOfStraights h = new HandOfStraights();
+        int[] arr = {1, 2, 3, 2, 3, 4}; 
+        System.out.println("Result: " + h.isNStraightHand(arr, 2));
     }
 }
