@@ -2150,13 +2150,18 @@ public class MainSolution {
         // 2583th leetcode problem
 
         // 435
-        // int[][] grid = { { 0, 2, 1, 0 }, { 4, 0, 0, 3 }, { 1, 0, 0, 4 }, { 0, 3, 2, 0 } };
+        // int[][] grid = { { 0, 2, 1, 0 }, { 4, 0, 0, 3 }, { 1, 0, 0, 4 }, { 0, 3, 2, 0
+        // } };
         // MaxNumOfFishInGrid max = new MaxNumOfFishInGrid();
         // System.out.println("Result: " + max.findMaxFish(grid));
 
         // 436
-        SmallestIdxWithDigitSumEqIdx small  = new SmallestIdxWithDigitSumEqIdx();
-        int[] nums = {1,2 ,3};
-        System.out.println("Result: " + small.smallestIndex(nums));
+        // SmallestIdxWithDigitSumEqIdx small = new SmallestIdxWithDigitSumEqIdx();
+        // int[] nums = { 1, 1, 3 };
+        // System.out.println("Result: " + small.smallestIndex(nums));
+
+        // 437
+        MultiplyStrings mul = new MultiplyStrings();
+        System.out.println("Result: " + mul.multiply("123", "456"));
     }
 }
