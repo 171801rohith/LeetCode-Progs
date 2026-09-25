@@ -2169,8 +2169,13 @@ public class MainSolution {
         // System.out.println("Result: " + in.isInterleave("ab", "bd", "abbd"));
 
         // 439
-        HandOfStraights h = new HandOfStraights();
-        int[] arr = {1, 2, 3, 2, 3, 4}; 
-        System.out.println("Result: " + h.isNStraightHand(arr, 2));
+        // HandOfStraights h = new HandOfStraights();
+        // int[] arr = {1, 2, 3, 2, 3, 4}; 
+        // System.out.println("Result: " + h.isNStraightHand(arr, 2));
+
+        // 440
+        FindKClosestElements f = new FindKClosestElements();
+        int[] arr = {1, 2, 3, 4, 5};
+        System.out.println("Result: " + f.findClosestElements(arr, 3, 5));
     }
 }
