@@ -2174,8 +2174,13 @@ public class MainSolution {
         // System.out.println("Result: " + h.isNStraightHand(arr, 2));
 
         // 440
-        FindKClosestElements f = new FindKClosestElements();
-        int[] arr = {1, 2, 3, 4, 5};
-        System.out.println("Result: " + f.findClosestElements(arr, 3, 5));
+        // FindKClosestElements f = new FindKClosestElements();
+        // int[] arr = {1, 2, 3, 4, 5};
+        // System.out.println("Result: " + f.findClosestElements(arr, 3, 5));
+
+        // 441
+        StrCompression st = new StrCompression();
+        char[] chars = {'a', 'a', 'b'};
+        System.out.println("Result: " + st.compress(chars));
     }
 }
