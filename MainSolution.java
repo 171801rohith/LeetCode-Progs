@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MainSolution {
     public static void main(String[] args) {
         // 1
@@ -2179,8 +2181,14 @@ public class MainSolution {
         // System.out.println("Result: " + f.findClosestElements(arr, 3, 5));
 
         // 441
-        StrCompression st = new StrCompression();
-        char[] chars = {'a', 'a', 'b'};
-        System.out.println("Result: " + st.compress(chars));
+        // StrCompression st = new StrCompression();
+        // char[] chars = {'a', 'a', 'b'};
+        // System.out.println("Result: " + st.compress(chars));
+
+        // 442
+        GameOfLife gol = new GameOfLife();
+        int[][] board = {{1,1},{1,0}};
+        gol.gameOfLife(board);
+        System.out.println("Result: " + Arrays.deepToString(board));
     }
 }
