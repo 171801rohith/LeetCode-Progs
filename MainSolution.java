@@ -2186,9 +2186,13 @@ public class MainSolution {
         // System.out.println("Result: " + st.compress(chars));
 
         // 442
-        GameOfLife gol = new GameOfLife();
-        int[][] board = {{1,1},{1,0}};
-        gol.gameOfLife(board);
-        System.out.println("Result: " + Arrays.deepToString(board));
+        // GameOfLife gol = new GameOfLife();
+        // int[][] board = {{1,1},{1,0}};
+        // gol.gameOfLife(board);
+        // System.out.println("Result: " + Arrays.deepToString(board));
+
+        // 443
+        MaxSumOfAlmostUniqueSubarr m = new MaxSumOfAlmostUniqueSubarr();
+        // 2841st leetcode problem
     }
 }
