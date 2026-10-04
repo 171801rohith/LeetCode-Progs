@@ -2192,7 +2192,12 @@ public class MainSolution {
         // System.out.println("Result: " + Arrays.deepToString(board));
 
         // 443
-        MaxSumOfAlmostUniqueSubarr m = new MaxSumOfAlmostUniqueSubarr();
+        // MaxSumOfAlmostUniqueSubarr m = new MaxSumOfAlmostUniqueSubarr();
         // 2841st leetcode problem
+
+        // 444
+        BattleshipsInBoard bb = new BattleshipsInBoard();
+        char[][] board = {{'X','.','.','X'},{'.','.','.','X'},{'.','.','.','X'}};
+        System.out.println("Result: " + bb.countBattleships(board));
     }
 }
